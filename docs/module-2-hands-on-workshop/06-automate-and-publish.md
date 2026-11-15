@@ -61,7 +61,7 @@ Automate **every** test case you chose in [3. Generate Test Cases](03-generate-t
     # Use the manual test case as reference and add the data to all the Type Into activities.
     ```
 
-3. Reload the test case in Studio and check Delegate's changes.
+3. When Delegate finishes, **save** the test case in Studio and check the changes.
 4. **Run** it locally.
 5. Repeat steps 1–4 for each of your other chosen test cases, except the one you kept aside.
 
