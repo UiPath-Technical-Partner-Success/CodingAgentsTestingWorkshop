@@ -50,7 +50,7 @@ Automate **every** test case you chose in [3. Generate Test Cases](03-generate-t
 2. <span class="tool-badge tool-badge--delegate">Delegate</span> Review and fix it with Delegate.
 
     !!! warning "Save first"
-        **Save** the test case in Studio before you paste the prompt. Delegate works on the saved file.
+        **Save** the test case in Studio before you paste the prompt. Until you save, the file doesn't exist, so Delegate can't find it.
 
     Replace `<TEST_CASE_KEY>` (the test case key in Test Manager, such as `TESTWS:3`) and `<YOUR_NAME>`, then paste:
 
