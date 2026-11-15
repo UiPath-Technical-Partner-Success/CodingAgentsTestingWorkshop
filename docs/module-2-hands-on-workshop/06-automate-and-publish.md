@@ -73,7 +73,7 @@ Automate **every** test case you chose in [3. Generate Test Cases](03-generate-t
     1. Replace `<TEST_CASE_KEY>` and `<YOUR_NAME>`, then paste in Delegate:
 
         ```text
-        I've created test case <TEST_CASE_KEY> in the <YOUR_NAME>_UiBank Tests project using Autopilot in Studio. Fix the display names. Provide appropriate names.
+        Rename the activities in test case <TEST_CASE_KEY> in the <YOUR_NAME>_UiBank Tests project in Studio. Give each one a short, clear display name without test data.
         ```
 
     2. When Delegate finishes, **save** the test case in Studio and check the new names.
