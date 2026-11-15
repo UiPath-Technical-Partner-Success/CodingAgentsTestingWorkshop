@@ -56,13 +56,15 @@ Automate **every** test case you chose in [3. Generate Test Cases](03-generate-t
 
         ✅ No empty or extra activities
 
-        ✅ Every **Type Into** has a value. If one is empty, copy the value from the manual test case, in quotes. In [Attach test data](#attach-test-data), the **UiBankTestData** rows replace these values for one test case.
-
         If something's off, ask Delegate to fix it, or fix it yourself.
 
         Best practice: structure each test case in **Given / When / Then** sections.
 
-3. Check the **Use Application/Browser** cards. Each test run should open a fresh instance of the app and close it at the end, so runs don't affect each other. This includes each data row in the next section. Your requirement and test case may not say so.
+3. Fill in each empty **Type Into** with the value from the manual test case, in quotes.
+
+    Keep **one** test case aside for [Attach test data](#attach-test-data), and skip this step for it. It gets its values from **UiBankTestData**.
+
+4. Check the **Use Application/Browser** cards. Each test run should open a fresh instance of the app and close it at the end, so runs don't affect each other. This includes each data row in the next section. Your requirement and test case may not say so.
 
     ✅ **First card:** set **Open** to **Always**.
 
@@ -74,10 +76,10 @@ Automate **every** test case you chose in [3. Generate Test Cases](03-generate-t
 
     ![Open and Close options of the first Use Application/Browser card](../assets/images/Use%20Application%20properties.png)
 
-4. **Run** it locally.
-5. Repeat steps 1–4 for each of your other chosen test cases, so all 3 or more are automated with Autopilot.
+5. **Run** it locally. Skip the test case you kept aside: you run it in [Attach test data](#attach-test-data).
+6. Repeat steps 1–5 for each of your other chosen test cases, so all 3 or more are automated with Autopilot.
 
-**Check it:** each test case passes locally.
+**Check it:** each test case passes locally, except the one you kept aside.
 
 ??? example "Optional: Fix the activity display names"
     Autopilot names each activity after its manual step, including the test data, which makes long, hard-to-read display names.
@@ -98,7 +100,7 @@ Next, you attach test data to one of the test cases you automated, so it runs on
 
 One row expects the loan to be rejected, but UiBank approves it, so this test case fails. Leave it failing: in [8. Run, Triage, and Report](08-run-and-report.md), you find out whether the problem is in UiBank or in the test.
 
-1. In **Test Explorer**, right-click one of your automated test cases, and select **Add Test Data**.
+1. In **Test Explorer**, right-click the test case you kept aside, and select **Add Test Data**.
 2. Choose **Data Service**, and link the **UiBankTestData** entity.
 3. Map the workflow arguments to the entity fields.
 4. Add a **Verify** activity to compare the actual outcome with **ExpectedOutcome**.
