@@ -68,7 +68,8 @@ Automate **every** test case you chose in [3. Generate Test Cases](03-generate-t
 4. **Run** it locally.
 5. Repeat steps 1–4 for each of your other chosen test cases.
 
-**Check it:** each test case passes locally.
+!!! success "Check it"
+    Each test case passes locally.
 
 ## Publish the test cases
 
