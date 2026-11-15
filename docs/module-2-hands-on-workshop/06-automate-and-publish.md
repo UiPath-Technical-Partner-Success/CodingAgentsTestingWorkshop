@@ -44,13 +44,7 @@ Automate **every** test case you chose in [3. Generate Test Cases](03-generate-t
 
     ![Generate Test Case with Autopilot in the Test Explorer right-click menu](../assets/images/testExplorer.png)
 
-2. Fix what Autopilot missed. Your result may differ.
-
-    ✅ **Empty Use Application/Browser card:** if Autopilot added a card with no app indicated and nothing inside, delete it.
-
-    ✅ **Empty Type Into fields:** if **Type this** is empty, enter the value from the manual step, in quotes. For example, `"tester@example.com"`.
-
-3. Review it like a pull request.
+2. Review it like a pull request.
 
     !!! tip "Review checklist"
 
@@ -62,11 +56,13 @@ Automate **every** test case you chose in [3. Generate Test Cases](03-generate-t
 
         ✅ No empty or extra activities
 
+        ✅ Every **Type Into** has the value from its manual step
+
         If something's off, ask Delegate to fix it, or fix it yourself.
 
         Best practice: structure each test case in **Given / When / Then** sections.
 
-4. Check the **Use Application/Browser** cards. Each test run should open a fresh instance of the app and close it at the end, so runs don't affect each other. This includes each data row in the next section. Your requirement and test case may not say so.
+3. Check the **Use Application/Browser** cards. Each test run should open a fresh instance of the app and close it at the end, so runs don't affect each other. This includes each data row in the next section. Your requirement and test case may not say so.
 
     ✅ **First card:** set **Open** to **Always**.
 
@@ -78,8 +74,8 @@ Automate **every** test case you chose in [3. Generate Test Cases](03-generate-t
 
     ![Open and Close options of the first Use Application/Browser card](../assets/images/Use%20Application%20properties.png)
 
-5. **Run** it locally.
-6. Repeat steps 1–5 for each of your other chosen test cases, so all 3 or more are automated with Autopilot.
+4. **Run** it locally.
+5. Repeat steps 1–4 for each of your other chosen test cases, so all 3 or more are automated with Autopilot.
 
 **Check it:** each test case passes locally.
 
