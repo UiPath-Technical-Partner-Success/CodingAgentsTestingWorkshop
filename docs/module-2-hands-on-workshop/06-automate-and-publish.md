@@ -22,7 +22,7 @@ Click a step to jump to it.
     <div class="flow-part-steps">
       <a class="flow-step" href="#automate-the-test-cases-with-studio-desktop">Automate the test cases with Autopilot</a>
       <span class="flow-arrow"></span>
-      <a class="flow-step" href="#attach-test-data">Attach test data</a>
+      <a class="flow-step" href="#data-driven-test-case-using-data-fabric">Data-driven test case</a>
     </div>
   </div>
   <span class="flow-arrow"></span>
@@ -41,7 +41,7 @@ Click a step to jump to it.
 Automate **every** test case you chose in [3. Generate Test Cases](03-generate-test-cases.md), 3 or more. In [7. Add Test Cases to the Smoke Test Set](07-create-test-set.md), you add them to **UiBank Smoke Test Set**, which runs them in [8. Run, Triage, and Report](08-run-and-report.md).
 
 !!! info "Keep one test case aside"
-    Choose **one** of your test cases for [Attach test data](#attach-test-data), and automate it there. Do the steps below for all the others.
+    Choose **one** of your test cases for [Data-driven test case](#data-driven-test-case-using-data-fabric), and automate it there. Do the steps below for all the others.
 
 1. In **Test Explorer**, right-click one of these test cases → **Generate Test Case with Autopilot**.
 
@@ -69,11 +69,11 @@ Automate **every** test case you chose in [3. Generate Test Cases](03-generate-t
 
 3. When Delegate finishes, **save** the test case in Studio and check the changes.
 4. **Run** it locally.
-5. Repeat steps 1–4 for your other chosen test cases, **except one** you keep aside for [Attach test data](#attach-test-data).
+5. Repeat steps 1–4 for your other chosen test cases, **except one** you keep aside for [Data-driven test case](#data-driven-test-case-using-data-fabric).
 
 **Check it:** each test case passes locally.
 
-## Attach test data
+## Data-driven test case using Data Fabric
 
 <span class="tool-badge tool-badge--studio">Studio Desktop</span>
 

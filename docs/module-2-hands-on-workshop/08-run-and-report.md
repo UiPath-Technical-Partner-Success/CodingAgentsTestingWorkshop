@@ -33,7 +33,7 @@ A failed test doesn't always mean a broken app: the test itself can be wrong. Yo
 **Check it:** compare Delegate's totals with **Execution** in Test Manager. Delegate can be wrong, so check its triage against the requirement yourself.
 
 !!! info "What you should find"
-    ✅ Your test case with test data, from [6. Automate and Publish the Test Cases](06-automate-and-publish.md#attach-test-data), fails on the row with age **66**. The requirement rejects applicants over 65, but UiBank approves them. That's a **UiBank defect**.
+    ✅ Your test case with test data, from [6. Automate and Publish the Test Cases](06-automate-and-publish.md#data-driven-test-case-using-data-fabric), fails on the row with age **66**. The requirement rejects applicants over 65, but UiBank approves them. That's a **UiBank defect**.
 
     ✅ Its other rows pass.
 
