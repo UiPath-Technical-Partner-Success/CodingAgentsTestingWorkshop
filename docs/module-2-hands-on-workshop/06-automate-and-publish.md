@@ -63,7 +63,7 @@ Automate **every** test case you chose in [3. Generate Test Cases](03-generate-t
 
 3. When Delegate finishes, **save** the test case in Studio and check the changes.
 4. **Run** it locally.
-5. Repeat steps 1–4 for each of your other chosen test cases, except the one you kept aside.
+5. Repeat steps 1–4 for your other chosen test cases, **except the one** you kept aside for [Attach test data](#attach-test-data).
 
 **Check it:** each test case passes locally.
 
