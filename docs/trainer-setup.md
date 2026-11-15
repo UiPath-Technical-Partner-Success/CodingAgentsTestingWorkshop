@@ -9,7 +9,7 @@ Complete this checklist **before the workshop**, ideally a few days ahead.
 !!! info "Test Cloud only"
     **Run autonomously** and **Autonomous Exploration** are only available in Test Cloud.
 
-✅ Make sure the tenant has **Test Manager**, **Orchestrator**, and **Data Fabric** enabled.
+✅ Make sure the tenant has **Test Manager** and **Orchestrator** enabled.
 
 ✅ Make sure **Autopilot for Testers** is allowed for the tenant, in Test Manager and in Studio. Check that no AI Trust Layer or governance policy blocks it.
 
@@ -54,14 +54,6 @@ Use the column for your organization type.
 
 ✅ For the Prerequisites **folder and robot** setup, give the group the Orchestrator rights to configure unattended automation settings for their machine using machine domain name and password.
 
-## Data Fabric
-
-✅ Create the **UiBankTestData** entity from <a href="../assets/Files/Data%20Fabric%20files/Schema.json" download>Schema.json</a>.
-
-✅ Import the test data from <a href="../assets/Files/Data%20Fabric%20files/UiBankLoanData.csv" download>UiBankLoanData.csv</a> into the entity.
-
-✅ Give the group the **Data Reader** role.
-
 ## Send learners the prerequisites
 
 ✅ Copy and share these prerequisites with learners.
@@ -95,4 +87,4 @@ Use the column for your organization type.
 
 ## After the workshop
 
-✅ Clean up the imported projects, learner folders, the Data Fabric entity, and robot runtime assignments. Remove learners from the group, or delete the tenant.
+✅ Clean up the imported projects, learner folders, and robot runtime assignments. Remove learners from the group, or delete the tenant.

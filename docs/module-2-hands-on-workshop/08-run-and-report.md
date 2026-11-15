@@ -18,7 +18,7 @@ A failed test doesn't always mean a broken app: the test itself can be wrong. Yo
         ```text
         Trigger the UiBank Smoke Test Set of my project in Test Manager and wait for it to finish. Then, for this run only, not earlier executions:
         - Give me the totals: passed, failed, none, and restricted.
-        - For each failed test case and data row, compare its input data and expected outcome with the acceptance criteria of the Submit Loan Request requirement. Classify it as a UiBank defect (the app breaks the requirement) or a test defect (the test expects the wrong result), and quote the criterion you used.
+        - For each failed test case, compare its input data and expected outcome with the acceptance criteria of the Submit Loan Request requirement. Classify it as a UiBank defect (the app breaks the requirement) or a test defect (the test expects the wrong result), and quote the criterion you used.
         - List any manual test cases in the set separately as not run, not as failures.
         ```
 
@@ -33,15 +33,13 @@ A failed test doesn't always mean a broken app: the test itself can be wrong. Yo
 **Check it:** compare Delegate's totals with **Execution** in Test Manager. Delegate can be wrong, so check its triage against the requirement yourself.
 
 !!! info "What you should find"
-    ✅ Your test case with test data, from [6. Automate and Publish the Test Cases](06-automate-and-publish.md#data-driven-test-case-using-data-fabric), fails on the row with age **66**. The requirement rejects applicants over 65, but UiBank approves them. That's a **UiBank defect**.
-
-    ✅ Its other rows pass.
+    ✅ Your over-65 test case, from [3. Generate Test Cases](03-generate-test-cases.md), fails. The requirement rejects applicants over 65, but UiBank approves them. That's a **UiBank defect**.
 
     ✅ Any other failure comes from your own test cases. Check how Delegate classified it.
 
-    Delegate calls the age-66 row a test defect? Ask it to check the row against the over-65 criterion, and share what happened in the workshop chat.
+    Delegate calls the over-65 failure a test defect? Ask it to check the test case against the over-65 criterion, and share what happened in the workshop chat.
 
-    The age-66 row passed? See [Troubleshooting](../module-3-troubleshooting-and-next-steps/02-troubleshooting.md#execution).
+    The over-65 test case passed? See [Troubleshooting](../module-3-troubleshooting-and-next-steps/02-troubleshooting.md#execution).
 
 ## Prove it
 
@@ -52,12 +50,12 @@ A defect report needs evidence a developer can reproduce. Delegate repeats the f
     2. Paste:
 
         ```text
-        Reproduce the UiBank defect in the browser. Open https://uibank.uipath.com, apply for a loan with the data from the failed row, and take a screenshot of the result. Note the loan ID. Then look up that loan ID on the Loan Lookup page, and take a screenshot. Save both screenshots on my Desktop.
+        Reproduce the UiBank defect in the browser. Open https://uibank.uipath.com, apply for a loan with the data from the failed over-65 test case, and take a screenshot of the result. Note the loan ID. Then look up that loan ID on the Loan Lookup page, and take a screenshot. Save both screenshots on my Desktop.
         ```
 
     3. Approve Delegate's requests. Don't use your browser while it works.
 
-**Check it:** UiBank approves the age-66 application and shows a loan ID, Loan Lookup finds that loan, and both screenshots are on your Desktop.
+**Check it:** UiBank approves the over-65 application and shows a loan ID, Loan Lookup finds that loan, and both screenshots are on your Desktop.
 
 ## Write the report
 

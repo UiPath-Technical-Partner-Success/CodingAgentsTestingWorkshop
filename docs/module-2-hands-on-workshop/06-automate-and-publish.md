@@ -17,12 +17,10 @@ You switch between **two tools** on this page. Each step is labelled with the on
 Click a step to jump to it.
 
 <div class="flow">
-  <div class="flow-part flow-part--studio" style="--steps: 2">
+  <div class="flow-part flow-part--studio" style="--steps: 1">
     <span class="flow-part-label">Studio Desktop</span>
     <div class="flow-part-steps">
       <a class="flow-step" href="#automate-the-test-cases-with-studio-desktop">Automate the test cases with Autopilot</a>
-      <span class="flow-arrow"></span>
-      <a class="flow-step" href="#data-driven-test-case-using-data-fabric">Data-driven test case</a>
     </div>
   </div>
   <span class="flow-arrow"></span>
@@ -39,9 +37,6 @@ Click a step to jump to it.
 <span class="tool-badge tool-badge--studio">Studio Desktop</span>
 
 Automate **every** test case you chose in [3. Generate Test Cases](03-generate-test-cases.md), 3 or more. In [7. Add Test Cases to the Smoke Test Set](07-create-test-set.md), you add them to **UiBank Smoke Test Set**, which runs them in [8. Run, Triage, and Report](08-run-and-report.md).
-
-!!! info "Keep one test case aside"
-    Choose **one** of your test cases for [Data-driven test case](#data-driven-test-case-using-data-fabric), and automate it there. Do the steps below for all the others.
 
 1. In **Test Explorer**, right-click one of these test cases → **Generate Test Case with Autopilot**.
 
@@ -63,30 +58,16 @@ Automate **every** test case you chose in [3. Generate Test Cases](03-generate-t
         - First card: set 'Open' property to Always.
         - Last card: set 'Close' property to Always.
         - Cards in between: keep Open and Close property as Never.
-    # Use the manual test case as reference and add the data to all the Type Into activities.
     # Give each activity a short, clear display name without test data.
+    # Use the manual test case as reference and add the data to all the Type Into activities.
+   
     ```
 
 3. When Delegate finishes, **save** the test case in Studio and check the changes.
 4. **Run** it locally.
-5. Repeat steps 1–4 for your other chosen test cases, **except one** you keep aside for [Data-driven test case](#data-driven-test-case-using-data-fabric).
+5. Repeat steps 1–4 for each of your other chosen test cases.
 
-**Check it:** each test case passes locally.
-
-## Data-driven test case using Data Fabric
-
-<span class="tool-badge tool-badge--studio">Studio Desktop</span>
-
-Next, you automate the test case you kept aside and attach test data to it, so it runs once for each set of values in the **UiBankTestData** entity.
-
-One row expects the loan to be rejected, but UiBank approves it, so this test case fails. Leave it failing: in [8. Run, Triage, and Report](08-run-and-report.md), you find out whether the problem is in UiBank or in the test.
-
-1. Automate the test case you kept aside, with steps 1–3 of [Automate the test cases](#automate-the-test-cases-with-studio-desktop). Delete the last line of the Delegate prompt: the values come from **UiBankTestData**.
-2. In **Test Explorer**, right-click the test case, and select **Add Test Data**.
-3. Choose **Data Service**, and link the **UiBankTestData** entity.
-4. Map the workflow arguments to the entity fields.
-5. Add a **Verify** activity to compare the actual outcome with **ExpectedOutcome**.
-6. Run the test case and check that it runs once for each data variation, and fails on the row with **ExpectedOutcome** set to **FALSE**.
+**Check it:** each test case passes locally, except your over-65 test case. It fails because UiBank approves the loan. Leave it failing: in [8. Run, Triage, and Report](08-run-and-report.md), you find out whether the problem is in UiBank or in the test.
 
 ## Publish the test cases
 
@@ -140,7 +121,7 @@ Set the test cases I generated with Autopilot in <YOUR_NAME>_UiBank Tests (<TEST
 
 ## Nice work!
 
-Your test cases are automated, data-driven, and published, ready to run from Test Manager.
+Your test cases are automated and published, ready to run from Test Manager.
 
 ---
 

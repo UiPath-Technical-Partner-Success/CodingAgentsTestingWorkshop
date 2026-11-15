@@ -12,8 +12,6 @@
 
 ✅ Built the Object Repository with Delegate, and automated test cases with Autopilot in Studio
 
-✅ Attached test data
-
 ✅ Published your automated test cases and added them to the smoke test set
 
 ✅ Triaged a failed run with Delegate, proved a real UiBank defect in the browser, and made the go/no-go call

@@ -49,7 +49,7 @@ You'll walk through the full testing lifecycle in UiPath Test Cloud, with AI at 
       <a class="wf-step" href="module-2-hands-on-workshop/05-build-object-repository/"><span class="wf-num">5</span>Build the Object Repository</a>
       <a class="wf-step" href="module-2-hands-on-workshop/06-automate-and-publish/"><span class="wf-num">6</span>Automate and publish</a>
     </div>
-    <div class="wf-phase-foot">Project, Object Repository, automation, test data, and publishing</div>
+    <div class="wf-phase-foot">Project, Object Repository, automation, and publishing</div>
   </div>
   <div class="wf-arrow" aria-hidden="true"></div>
   <div class="wf-phase wf-phase--outcome">
