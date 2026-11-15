@@ -63,23 +63,21 @@ Automate **every** test case you chose in [3. Generate Test Cases](03-generate-t
 
 3. When Delegate finishes, **save** the test case in Studio and check the changes.
 4. **Run** it locally.
-5. Repeat steps 1–4 for your other chosen test cases, **except the one** you kept aside for [Attach test data](#attach-test-data).
+5. Repeat steps 1–4 for your other chosen test cases, **except one** you keep aside for [Attach test data](#attach-test-data).
 
 **Check it:** each test case passes locally.
 
 ??? example "Optional: Fix the activity display names"
     Autopilot names each activity after its manual step, including the test data, which makes long, hard-to-read display names.
 
-    1. Replace **Submit Short-Term Request** with the name of the test case you generated, then paste in Delegate:
+    1. Replace `<TEST_CASE_KEY>` and `<YOUR_NAME>`, then paste in Delegate:
 
         ```text
-        I've created test case Submit Short-Term Request using autopilot feature in Studio. Fix the Display names. Provide appropriate names.
+        I've created test case <TEST_CASE_KEY> in the <YOUR_NAME>_UiBank Tests project using Autopilot in Studio. Fix the display names. Provide appropriate names.
         ```
 
-    2. Reload the test case in Studio and check the new names.
+    2. When Delegate finishes, **save** the test case in Studio and check the new names.
 
-??? example "Optional: Structure the test case in Given / When / Then sections"
-    Best practice: structure each test case in **Given / When / Then** sections.
 
 ## Attach test data
 
