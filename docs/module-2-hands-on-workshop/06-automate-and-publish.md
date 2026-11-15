@@ -62,9 +62,6 @@ Automate **every** test case you chose in [3. Generate Test Cases](03-generate-t
     ```
 
 3. Reload the test case in Studio and check Delegate's changes.
-
-    Best practice: structure each test case in **Given / When / Then** sections.
-
 4. **Run** it locally.
 5. Repeat steps 1–4 for each of your other chosen test cases, except the one you kept aside.
 
@@ -80,6 +77,9 @@ Automate **every** test case you chose in [3. Generate Test Cases](03-generate-t
         ```
 
     2. Reload the test case in Studio and check the new names.
+
+??? example "Optional: Structure the test case in Given / When / Then sections"
+    Best practice: structure each test case in **Given / When / Then** sections.
 
 ## Attach test data
 
