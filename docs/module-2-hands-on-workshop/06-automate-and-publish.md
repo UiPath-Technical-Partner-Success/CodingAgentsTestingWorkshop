@@ -50,7 +50,7 @@ Automate **every** test case you chose in [3. Generate Test Cases](03-generate-t
 2. <span class="tool-badge tool-badge--delegate">Delegate</span> Review and fix it with Delegate. Replace `<TEST_CASE_KEY>` (the test case key in Test Manager, such as `TESTWS:3`) and `<YOUR_NAME>`, then paste:
 
     ```text
-    I have automated the manual test case <TEST_CASE_KEY> in the <YOUR_NAME>_UiBank Tests project in Studio.
+    Review and fix the automated test case <TEST_CASE_KEY> in the <YOUR_NAME>_UiBank Tests project in Studio.
     # Ensure all UI activities use Object Repository elements only
     # No fixed Delay activities
     # No empty or extra activities
