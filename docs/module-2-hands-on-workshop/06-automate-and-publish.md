@@ -56,7 +56,7 @@ Automate **every** test case you chose in [3. Generate Test Cases](03-generate-t
 
         ✅ No empty or extra activities
 
-        ✅ Every **Type Into** has the value from its manual step
+        ✅ Every **Type Into** has a value. If one is empty, copy the value from the manual test case, in quotes. In [Attach test data](#attach-test-data), the **UiBankTestData** rows replace these values for one test case.
 
         If something's off, ask Delegate to fix it, or fix it yourself.
 
