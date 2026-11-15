@@ -40,14 +40,17 @@ Click a step to jump to it.
 
 Automate **every** test case you chose in [3. Generate Test Cases](03-generate-test-cases.md), 3 or more. In [7. Add Test Cases to the Smoke Test Set](07-create-test-set.md), you add them to **UiBank Smoke Test Set**, which runs them in [8. Run, Triage, and Report](08-run-and-report.md).
 
+!!! info "Keep one test case aside"
+    Choose **one** of your test cases for [Attach test data](#attach-test-data), and automate it there. Do the steps below for all the others.
+
 1. In **Test Explorer**, right-click one of these test cases → **Generate Test Case with Autopilot**.
 
     ![Generate Test Case with Autopilot in the Test Explorer right-click menu](../assets/images/testExplorer.png)
 
-2. <span class="tool-badge tool-badge--delegate">Delegate</span> Review and fix it with Delegate. Replace `<TEST_CASE_KEY>` (the test case key in Test Manager, such as `TESTWS:3`), `<TEST_CASE_NAME>`, and `<YOUR_NAME>`, then paste:
+2. <span class="tool-badge tool-badge--delegate">Delegate</span> Review and fix it with Delegate. Replace `<TEST_CASE_KEY>` (the test case key in Test Manager, such as `TESTWS:3`) and `<YOUR_NAME>`, then paste:
 
     ```text
-    I have automated the manual <TEST_CASE_KEY> test case <TEST_CASE_NAME> in the <YOUR_NAME>_UiBank Tests project in Studio.
+    I have automated the manual test case <TEST_CASE_KEY> in the <YOUR_NAME>_UiBank Tests project in Studio.
     # Ensure all UI activities use Object Repository elements only
     # No fixed Delay activities
     # No empty or extra activities
@@ -58,16 +61,14 @@ Automate **every** test case you chose in [3. Generate Test Cases](03-generate-t
     # Use the manual test case as reference and add the data to all the Type Into activities.
     ```
 
-    Keep **one** test case aside for [Attach test data](#attach-test-data). For it, delete the last line of the prompt: it gets its values from **UiBankTestData**.
-
 3. Reload the test case in Studio and check Delegate's changes.
 
     Best practice: structure each test case in **Given / When / Then** sections.
 
-4. **Run** it locally. Skip the test case you kept aside: you run it in [Attach test data](#attach-test-data).
-5. Repeat steps 1–4 for each of your other chosen test cases, so all 3 or more are automated with Autopilot.
+4. **Run** it locally.
+5. Repeat steps 1–4 for each of your other chosen test cases, except the one you kept aside.
 
-**Check it:** each test case passes locally, except the one you kept aside.
+**Check it:** each test case passes locally.
 
 ??? example "Optional: Fix the activity display names"
     Autopilot names each activity after its manual step, including the test data, which makes long, hard-to-read display names.
@@ -84,15 +85,16 @@ Automate **every** test case you chose in [3. Generate Test Cases](03-generate-t
 
 <span class="tool-badge tool-badge--studio">Studio Desktop</span>
 
-Next, you attach test data to one of the test cases you automated, so it runs once for each set of values in the **UiBankTestData** entity.
+Next, you automate the test case you kept aside and attach test data to it, so it runs once for each set of values in the **UiBankTestData** entity.
 
 One row expects the loan to be rejected, but UiBank approves it, so this test case fails. Leave it failing: in [8. Run, Triage, and Report](08-run-and-report.md), you find out whether the problem is in UiBank or in the test.
 
-1. In **Test Explorer**, right-click the test case you kept aside, and select **Add Test Data**.
-2. Choose **Data Service**, and link the **UiBankTestData** entity.
-3. Map the workflow arguments to the entity fields.
-4. Add a **Verify** activity to compare the actual outcome with **ExpectedOutcome**.
-5. Run the test case and check that it runs once for each data variation, and fails on the row with **ExpectedOutcome** set to **FALSE**.
+1. Automate the test case you kept aside, with steps 1–3 of [Automate the test cases](#automate-the-test-cases-with-studio-desktop). Delete the last line of the Delegate prompt: the values come from **UiBankTestData**.
+2. In **Test Explorer**, right-click the test case, and select **Add Test Data**.
+3. Choose **Data Service**, and link the **UiBankTestData** entity.
+4. Map the workflow arguments to the entity fields.
+5. Add a **Verify** activity to compare the actual outcome with **ExpectedOutcome**.
+6. Run the test case and check that it runs once for each data variation, and fails on the row with **ExpectedOutcome** set to **FALSE**.
 
 ## Publish the test cases
 
