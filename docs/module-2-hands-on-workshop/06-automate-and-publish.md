@@ -47,7 +47,12 @@ Automate **every** test case you chose in [3. Generate Test Cases](03-generate-t
 
     ![Generate Test Case with Autopilot in the Test Explorer right-click menu](../assets/images/testExplorer.png)
 
-2. <span class="tool-badge tool-badge--delegate">Delegate</span> Review and fix it with Delegate. Replace `<TEST_CASE_KEY>` (the test case key in Test Manager, such as `TESTWS:3`) and `<YOUR_NAME>`, then paste:
+2. <span class="tool-badge tool-badge--delegate">Delegate</span> Review and fix it with Delegate.
+
+    !!! warning "Save first"
+        **Save** the test case in Studio before you paste the prompt. Delegate works on the saved file.
+
+    Replace `<TEST_CASE_KEY>` (the test case key in Test Manager, such as `TESTWS:3`) and `<YOUR_NAME>`, then paste:
 
     ```text
     Review and fix the automated test case <TEST_CASE_KEY> in the <YOUR_NAME>_UiBank Tests project in Studio.
