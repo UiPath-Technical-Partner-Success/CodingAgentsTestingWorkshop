@@ -31,7 +31,8 @@ A failed test doesn't always mean a broken app: the test itself can be wrong. An
     Run test case <YOUR_TEST_CASE_KEY> in my project in Test Manager, wait for it to finish, and tell me whether it passed. If it failed, explain why.
     ```
 
-**Check it:** compare Delegate's totals with **Execution** in Test Manager. Delegate can be wrong, so check its triage against the requirement yourself.
+!!! success "Check it"
+    Compare Delegate's totals with **Execution** in Test Manager. Delegate can be wrong, so check its triage against the requirement yourself.
 
 !!! info "What you should find"
     ✅ Your over-65 test case, from [3. Generate Test Cases](03-generate-test-cases.md), **passes**, because UiBank approves the loan. But the requirement says applicants over 65 must not be approved. That's a **UiBank defect**, hidden behind a passing test.
@@ -56,7 +57,8 @@ A defect report needs evidence a developer can reproduce. Delegate repeats the o
 
     3. Approve Delegate's requests. Don't use your browser while it works.
 
-**Check it:** UiBank approves the over-65 application and shows a loan ID, Loan Lookup finds that loan, and both screenshots are on your Desktop.
+!!! success "Check it"
+    UiBank approves the over-65 application and shows a loan ID, Loan Lookup finds that loan, and both screenshots are on your Desktop.
 
 ## Write the report
 
@@ -83,7 +85,8 @@ Delegate gives the path to the saved report and summarizes it in the chat. Alway
 
 ✅ **Recommendation** — GO or NO-GO, and why
 
-**Check it:** the right call is **NO-GO**, because UiBank breaks the age rule, not because of the success rate. Delegate recommends GO? Ask it why, against the over-65 criterion.
+!!! success "Check it"
+    The right call is **NO-GO**, because UiBank breaks the age rule, not because of the success rate. Delegate recommends GO? Ask it why, against the over-65 criterion.
 
 ??? tip "Saved as .md instead of PDF?"
     Ask Delegate:

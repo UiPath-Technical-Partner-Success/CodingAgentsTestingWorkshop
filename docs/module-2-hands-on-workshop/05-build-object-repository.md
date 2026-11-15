@@ -36,7 +36,8 @@ Replace `<YOUR_NAME>` with your name, for example `AlexS`, so your package is un
 Create a blank Studio Test Automation project named <YOUR_NAME>_UiBank Tests, with Windows compatibility and VB as the language, in Documents\UiPath.
 ```
 
-**Check it:** Delegate reports the project in `Documents\UiPath\<YOUR_NAME>_UiBank Tests`. It works in the background, so Studio doesn't open the project yet. It opens when you link it to Test Manager.
+!!! success "Check it"
+    Delegate reports the project in `Documents\UiPath\<YOUR_NAME>_UiBank Tests`. It works in the background, so Studio doesn't open the project yet. It opens when you link it to Test Manager.
 
 ??? tip "Do it by hand in Studio"
     1. In Studio, go to **Home → New Project → Test Automation**.
@@ -53,7 +54,8 @@ Create a blank Studio Test Automation project named <YOUR_NAME>_UiBank Tests, wi
 Install the latest stable UI Automation activities package in <YOUR_NAME>_UiBank Tests.
 ```
 
-**Check it:** Delegate reports that **UiPath.UIAutomation.Activities** is installed. Once the project opens in Studio in the next section, **Manage Packages → Project Dependencies** lists it.
+!!! success "Check it"
+    Delegate reports that **UiPath.UIAutomation.Activities** is installed. Once the project opens in Studio in the next section, **Manage Packages → Project Dependencies** lists it.
 
 ??? tip "Do it by hand in Studio"
     1. Select **Manage Packages** in the Studio ribbon.
@@ -76,7 +78,8 @@ Paste:
 Connect this project to my Test Manager project, then open Test Explorer to show its test cases.
 ```
 
-**Check it:** in **Test Manager Settings**, the status is **Connected** and **Default Project** is your project. **Test Explorer** lists your test cases.
+!!! success "Check it"
+    In **Test Manager Settings**, the status is **Connected** and **Default Project** is your project. **Test Explorer** lists your test cases.
 
 ??? tip "Do it by hand in Studio"
     1. Select **Test Manager** in the Studio ribbon.

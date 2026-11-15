@@ -50,7 +50,8 @@ Vague or incomplete requirements lead to gaps in testing. The **Evaluate Require
 
 8. Set the status of each suggestion you used to **Done**, from its status drop-down.
 
-**Check it:** each title you added has a rule under it, not the suggestion.
+!!! success "Check it"
+    Each title you added has a rule under it, not the suggestion.
 
 ## Fix the requirement
 

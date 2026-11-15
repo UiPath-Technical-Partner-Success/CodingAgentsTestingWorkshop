@@ -81,7 +81,8 @@ Go back to your Delegate session.
     3. If Delegate asks for permission to push the result, approve it. It records the result in a test set execution, which you'll find under **Execution**.
     4. For any failure, decide: **defect in UiBank**, or **problem with the test case**?
 
-**Check it:** **Execution** → open the execution named **Delegate-** followed by your test case name and the date. It shows the test case result and each step's result, with a Delegate trace file attached to every step, saved locally under Appdata.
+!!! success "Check it"
+    **Execution** → open the execution named **Delegate-** followed by your test case name and the date. It shows the test case result and each step's result, with a Delegate trace file attached to every step, saved locally under Appdata.
 
 !!! question "Think about it"
     Did Delegate stumble on a step? Autopilot automates these same steps in [6. Automate and Publish the Test Cases](06-automate-and-publish.md), so fix them now:
@@ -110,7 +111,8 @@ The business has documented a new process, **Loan lookup**, in a Process Design 
 
     3. Ask Delegate to apply for a loan in UiBank to get a new loan ID, then run the new test case with it.
 
-**Check it:** a new **Loan Lookup** requirement, with a linked test case that has manual steps and a result in **Execution**.
+!!! success "Check it"
+    A new **Loan Lookup** requirement, with a linked test case that has manual steps and a result in **Execution**.
 
 ??? example "Not quite right? Talk to Delegate"
     Open the new requirement and test case in Test Manager. Check the title, description, acceptance criteria, steps, and expected results.
@@ -145,7 +147,8 @@ The business has documented a new process, **Loan lookup**, in a Process Design 
         Then, for every test case with the label "Delegate", set Test Tier to "Smoke".
         ```
 
-    **Check it:** open a labeled test case. Its **Details** tab shows the **Test Tier** dropdown set to **Smoke** (not a second Test Tier line).
+    !!! success "Check it"
+        Open a labeled test case. Its **Details** tab shows the **Test Tier** dropdown set to **Smoke** (not a second Test Tier line).
 
     **Test Tier** is only a field. It doesn't add test cases to **UiBank Smoke Test Set**.
 

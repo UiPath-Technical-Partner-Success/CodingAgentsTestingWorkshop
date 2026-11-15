@@ -26,7 +26,8 @@ A **test set** groups test cases that run together. Your project already has one
 
 See <a href="https://docs.uipath.com/test-manager/automation-cloud/latest/user-guide/quickstart-assigning-test-cases-to-test-sets" target="_blank">Assigning test cases to test sets</a>.
 
-**Check it:** **UiBank Smoke Test Set** lists every test case you automated.
+!!! success "Check it"
+    **UiBank Smoke Test Set** lists every test case you automated.
 
 !!! warning "Do a test run"
     This is the first time Test Manager runs a test on your machine. It checks your robot setup from [Prerequisites](../module-0-prerequisites/index.md#orchestrator-folder-and-robot), not just the test set, so a problem shows up here, not in step 8.

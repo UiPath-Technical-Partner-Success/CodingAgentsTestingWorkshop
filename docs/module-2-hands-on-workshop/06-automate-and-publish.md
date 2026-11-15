@@ -99,7 +99,8 @@ Set the test cases I generated with Autopilot in <YOUR_NAME>_UiBank Tests (<TEST
 
     4. In **Publish options**, choose the **Orchestrator Tenant Processes Feed**, then select **Publish**.
 
-**Check it:** in Test Manager, open **Test Cases**. Each one you automated shows as **Automated**. Open one and check that its **Automation** tab shows your package, named after your project.
+!!! success "Check it"
+    In Test Manager, open **Test Cases**. Each one you automated shows as **Automated**. Open one and check that its **Automation** tab shows your package, named after your project.
 
 !!! warning "Don't continue until every test case you chose is automated"
     The test set runs only automated test cases. A test case you chose that isn't linked to your automation is left out of the run and the report.
