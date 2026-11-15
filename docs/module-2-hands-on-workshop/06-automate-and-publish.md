@@ -59,6 +59,7 @@ Automate **every** test case you chose in [3. Generate Test Cases](03-generate-t
         - Last card: set 'Close' property to Always.
         - Cards in between: keep Open and Close property as Never.
     # Use the manual test case as reference and add the data to all the Type Into activities.
+    # Give each activity a short, clear display name without test data.
     ```
 
 3. When Delegate finishes, **save** the test case in Studio and check the changes.
@@ -66,18 +67,6 @@ Automate **every** test case you chose in [3. Generate Test Cases](03-generate-t
 5. Repeat steps 1–4 for your other chosen test cases, **except one** you keep aside for [Attach test data](#attach-test-data).
 
 **Check it:** each test case passes locally.
-
-??? example "Optional: Fix the activity display names"
-    Autopilot names each activity after its manual step, including the test data, which makes long, hard-to-read display names.
-
-    1. Replace `<TEST_CASE_KEY>` and `<YOUR_NAME>`, then paste in Delegate:
-
-        ```text
-        Rename the activities in test case <TEST_CASE_KEY> in the <YOUR_NAME>_UiBank Tests project in Studio. Give each one a short, clear display name without test data.
-        ```
-
-    2. When Delegate finishes, **save** the test case in Studio and check the new names.
-
 
 ## Attach test data
 
