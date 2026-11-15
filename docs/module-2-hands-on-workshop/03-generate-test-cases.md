@@ -51,7 +51,8 @@ The **Generate Test Cases** built-in agent reads a requirement and proposes test
 
 7. Choose **at least 3** test cases on the requirement to use for the rest of the workshop: new ones, existing ones, or a mix. Note their names. You automate them in [6. Automate and Publish the Test Cases](06-automate-and-publish.md).
 
-    Include **one** test case for an applicant **over 65**, such as age 66, that expects the rejection the requirement describes. If none of yours does, regenerate with that instruction, or create one.
+    !!! warning "You'll need this in step 8"
+        Include **one** test case for an applicant **over 65**, such as age 66, that expects the rejection the requirement describes. If none of yours does, regenerate with that instruction, or create one.
 
 ## Nice work!
 
