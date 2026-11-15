@@ -44,40 +44,28 @@ Automate **every** test case you chose in [3. Generate Test Cases](03-generate-t
 
     ![Generate Test Case with Autopilot in the Test Explorer right-click menu](../assets/images/testExplorer.png)
 
-2. Review it like a pull request.
+2. <span class="tool-badge tool-badge--delegate">Delegate</span> Review and fix it with Delegate. Replace `<TEST_CASE_KEY>` (the test case key in Test Manager, such as `TESTWS:3`), `<TEST_CASE_NAME>`, and `<YOUR_NAME>`, then paste:
 
-    !!! tip "Review checklist"
+    ```text
+    I have automated the manual <TEST_CASE_KEY> test case <TEST_CASE_NAME> in the <YOUR_NAME>_UiBank Tests project in Studio.
+    # Ensure all UI activities use Object Repository elements only
+    # No fixed Delay activities
+    # No empty or extra activities
+    # Check the Use Application/Browser activity cards. Ensure
+        - First card: set 'Open' property to Always.
+        - Last card: set 'Close' property to Always.
+        - Cards in between: keep Open and Close property as Never.
+    # Use the manual test case as reference and add the data to all the Type Into activities.
+    ```
 
-        ✅ One verification for the expected result
+    Keep **one** test case aside for [Attach test data](#attach-test-data). For it, delete the last line of the prompt: it gets its values from **UiBankTestData**.
 
-        ✅ **Object Repository** elements only
+3. Reload the test case in Studio and check Delegate's changes.
 
-        ✅ No fixed **Delay** activities
+    Best practice: structure each test case in **Given / When / Then** sections.
 
-        ✅ No empty or extra activities
-
-        If something's off, ask Delegate to fix it, or fix it yourself.
-
-        Best practice: structure each test case in **Given / When / Then** sections.
-
-3. Fill in each empty **Type Into** with the value from the manual test case, in quotes.
-
-    Keep **one** test case aside for [Attach test data](#attach-test-data), and skip this step for it. It gets its values from **UiBankTestData**.
-
-4. Check the **Use Application/Browser** cards. Each test run should open a fresh instance of the app and close it at the end, so runs don't affect each other. This includes each data row in the next section. Your requirement and test case may not say so.
-
-    ✅ **First card:** set **Open** to **Always**.
-
-    ✅ **Last card:** set **Close** to **Always**.
-
-    ✅ **Cards in between:** keep **Open** and **Close** as **Never**.
-
-    Select a card, then set **Open** and **Close** under **Properties → Options**. Here, the first card opens the app and leaves it open:
-
-    ![Open and Close options of the first Use Application/Browser card](../assets/images/Use%20Application%20properties.png)
-
-5. **Run** it locally. Skip the test case you kept aside: you run it in [Attach test data](#attach-test-data).
-6. Repeat steps 1–5 for each of your other chosen test cases, so all 3 or more are automated with Autopilot.
+4. **Run** it locally. Skip the test case you kept aside: you run it in [Attach test data](#attach-test-data).
+5. Repeat steps 1–4 for each of your other chosen test cases, so all 3 or more are automated with Autopilot.
 
 **Check it:** each test case passes locally, except the one you kept aside.
 
