@@ -20,7 +20,7 @@
 | Test cases are skipped with no result | They're manual — not linked to a published automation. Complete [Publish the test cases](../module-2-hands-on-workshop/06-automate-and-publish.md#publish-the-test-cases) and check each test case shows an automation. |
 | The run fails to start, or the robot can't sign in | The Windows credentials in your folder setup don't match your machine. Check the username (run `whoami`) and password in [Prerequisites](../module-0-prerequisites/index.md#orchestrator-folder-and-robot). Signed in with a PIN or no password? Ask your trainer. |
 | The run stays pending or hangs | The robot is busy or disconnected. In Orchestrator, check the machine in your folder is connected and has an **App Testing** or **Testing** runtime. |
-| The over-65 test case passes | UiBank now rejects applicants over 65, so the test case no longer fails. Step 8 has no UiBank defect to triage, so expect **GO**. Tell your trainer. |
+| UiBank rejects the over-65 application | UiBank now rejects applicants over 65, so the age defect is fixed. Step 8 has no UiBank defect to triage, so expect **GO**. Tell your trainer. |
 | Tests fail with "Cannot communicate with the browser" | A robot-side problem with the UiPath browser extension, not a product defect. Check the extension is installed and enabled on the robot machine. |
 
 ## Report

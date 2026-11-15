@@ -1,6 +1,6 @@
 # 8. Run, Triage, and Report
 
-It's release night, and the release manager wants to know: **can we ship?** Run the test set, find out why anything failed, prove it, and write the go/no-go report.
+It's release night, and the release manager wants to know: **can we ship?** Run the test set, check the results against the requirement, prove what's wrong, and write the go/no-go report.
 
 !!! info "Check these first"
     ✅ **Your robot is available** — connected and not busy, in your Orchestrator folder.
@@ -9,7 +9,7 @@ It's release night, and the release manager wants to know: **can we ship?** Run 
 
 ## Run and triage
 
-A failed test doesn't always mean a broken app: the test itself can be wrong. You made this call by hand in [4. Run Manual Tests](04-run-manual-tests.md#1-run-a-test-case). Now Delegate checks each failure against the requirement.
+A failed test doesn't always mean a broken app: the test itself can be wrong. And a passed test doesn't always mean a working app: the test can expect what the app does, not what the requirement says. You made this call by hand in [4. Run Manual Tests](04-run-manual-tests.md#1-run-a-test-case). Now Delegate checks every result against the requirement.
 
 !!! example "It's your turn now!"
     1. Go back to your Delegate session.
@@ -19,11 +19,12 @@ A failed test doesn't always mean a broken app: the test itself can be wrong. Yo
         Trigger the UiBank Smoke Test Set of my project in Test Manager and wait for it to finish. Then, for this run only, not earlier executions:
         - Give me the totals: passed, failed, none, and restricted.
         - For each failed test case, compare its input data and expected outcome with the acceptance criteria of the Submit Loan Request requirement. Classify it as a UiBank defect (the app breaks the requirement) or a test defect (the test expects the wrong result), and quote the criterion you used.
+        - For each passed test case, compare its input data and the app's actual result with the same acceptance criteria. Flag any passed test case where the app's result breaks a criterion as a UiBank defect, and quote the criterion.
         - List any manual test cases in the set separately as not run, not as failures.
         ```
 
     3. Approve Delegate's requests. The important one is the run itself, a **real execution** on your robot.
-    4. Wait a few minutes while it runs the set and checks each failure.
+    4. Wait a few minutes while it runs the set and checks each result.
 
 ??? tip "Run a single test case instead"
     ```text
@@ -33,24 +34,24 @@ A failed test doesn't always mean a broken app: the test itself can be wrong. Yo
 **Check it:** compare Delegate's totals with **Execution** in Test Manager. Delegate can be wrong, so check its triage against the requirement yourself.
 
 !!! info "What you should find"
-    ✅ Your over-65 test case, from [3. Generate Test Cases](03-generate-test-cases.md), fails. The requirement rejects applicants over 65, but UiBank approves them. That's a **UiBank defect**.
+    ✅ Your over-65 test case, from [3. Generate Test Cases](03-generate-test-cases.md), **passes**, because UiBank approves the loan. But the requirement says applicants over 65 must not be approved. That's a **UiBank defect**, hidden behind a passing test.
 
-    ✅ Any other failure comes from your own test cases. Check how Delegate classified it.
+    ✅ Any failure comes from your own test cases. Check how Delegate classified it.
 
-    Delegate calls the over-65 failure a test defect? Ask it to check the test case against the over-65 criterion, and share what happened in the workshop chat.
+    Delegate doesn't flag the over-65 test case? Ask it to check that test case's result against the age criterion, and share what happened in the workshop chat.
 
-    The over-65 test case passed? See [Troubleshooting](../module-3-troubleshooting-and-next-steps/02-troubleshooting.md#execution).
+    UiBank rejected the over-65 application? See [Troubleshooting](../module-3-troubleshooting-and-next-steps/02-troubleshooting.md#execution).
 
 ## Prove it
 
-A defect report needs evidence a developer can reproduce. Delegate repeats the failed application in the browser.
+A defect report needs evidence a developer can reproduce. Delegate repeats the over-65 application in the browser.
 
 !!! example "It's your turn now!"
     1. Keep only one UiBank tab open.
     2. Paste:
 
         ```text
-        Reproduce the UiBank defect in the browser. Open https://uibank.uipath.com, apply for a loan with the data from the failed over-65 test case, and take a screenshot of the result. Note the loan ID. Then look up that loan ID on the Loan Lookup page, and take a screenshot. Save both screenshots on my Desktop.
+        Reproduce the UiBank defect in the browser. Open https://uibank.uipath.com, apply for a loan with the data from the over-65 test case, and take a screenshot of the result. Note the loan ID. Then look up that loan ID on the Loan Lookup page, and take a screenshot. Save both screenshots on my Desktop.
         ```
 
     3. Approve Delegate's requests. Don't use your browser while it works.
@@ -76,7 +77,7 @@ Delegate gives the path to the saved report and summarizes it in the chat. Alway
 
 ✅ **Success rate**
 
-✅ **Triage** — each failure, whether it's a UiBank or a test defect, and the criterion it breaks
+✅ **Triage** — each failure and each flagged pass, whether it's a UiBank or a test defect, and the criterion it breaks
 
 ✅ **Evidence** — the screenshots and loan ID
 
@@ -92,7 +93,7 @@ Delegate gives the path to the saved report and summarizes it in the chat. Alway
     ```
 
 !!! question "Think about it"
-    How did you know the failure was UiBank's, not the test's? Would the success rate alone have told you to stop the release? What does a developer need to fix it? How long would this take you by hand?
+    How did you find a defect when the test passed? Would the success rate alone have told you to stop the release? What does a developer need to fix it? How long would this take you by hand?
 
 ??? example "Optional: Draft the defect"
     ```text
