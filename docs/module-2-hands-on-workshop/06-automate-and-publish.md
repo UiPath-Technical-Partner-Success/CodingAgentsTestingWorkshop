@@ -61,7 +61,7 @@ Automate **every** test case you chose in [3. Generate Test Cases](03-generate-t
         - Cards in between: keep Open and Close property as Never.
     # Give each activity a short, clear display name without test data.
     # Use the manual test case as reference and add the data to all the Type Into activities.
-    # End with a Verify activity that checks the expected result from the manual test case.
+    # End with a Verify activity that checks the expected result from the manual test case, and takes a screenshot if the check fails.
     ```
 
 3. When Delegate finishes, open the test case again and check the changes.
@@ -127,7 +127,6 @@ Set the test cases <TEST_CASE_1>, <TEST_CASE_2>, <TEST_CASE_3> in <YOUR_NAME>_Ui
             !!! warning "Don't pick &lt;new test case&gt;"
                 It creates a duplicate test case in Test Manager instead of linking the one you have.
 
-        Or, in Test Manager, open the test case → **Automation** tab → **Configure Automation**, select the automation from your **<YOUR_NAME>_UiBank Tests** package, and select **Save**.
 
 ## Nice work!
 

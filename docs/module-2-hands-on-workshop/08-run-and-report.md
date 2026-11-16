@@ -19,7 +19,7 @@ A failed test doesn't always mean a broken app: the test itself can be wrong. Yo
         Trigger the UiBank Smoke Test Set of my project in Test Manager and wait for it to finish. Then, for this run only, not earlier executions:
         - Give me the totals: passed, failed, none, and restricted.
         - For each failed test case, compare its input data and expected outcome with the acceptance criteria of the Submit Loan Request requirement. Classify it as a UiBank defect (the app breaks the requirement) or a test defect (the test expects the wrong result), and quote the criterion you used.
-        - List any manual test cases in the set separately as not run, not as failures.
+        - For each failed test case, show what UiBank actually returned: the actual value from the failed check, and the screenshot from the run.
         ```
 
     3. Approve Delegate's requests. The important one is the run itself, a **real execution** on your robot.
