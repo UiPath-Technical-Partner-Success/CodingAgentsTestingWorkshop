@@ -47,14 +47,13 @@ A failed test doesn't always mean a broken app: the test itself can be wrong. Yo
 A defect report needs evidence a developer can reproduce. Delegate repeats the over-65 application in the browser.
 
 !!! example "It's your turn now!"
-    1. Keep only one UiBank tab open.
-    2. Paste:
+    1. Paste:
 
         ```text
         Reproduce the UiBank defect in the browser. Open https://uibank.uipath.com, apply for a loan with the data from the over-65 test case, and take a screenshot of the result. Note the loan ID. Then look up that loan ID on the Loan Lookup page, and take a screenshot. Save both screenshots on my Desktop.
         ```
 
-    3. Approve Delegate's requests. Don't use your browser while it works.
+    2. Approve Delegate's requests. Don't use your browser while it works.
 
 !!! success "Check it"
     UiBank approves the over-65 application and shows a loan ID, Loan Lookup finds that loan, and both screenshots are on your Desktop.
