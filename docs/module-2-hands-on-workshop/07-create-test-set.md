@@ -25,6 +25,8 @@ A **test set** groups test cases that run together. Your project already has one
 ## Configure the automation
 
 1. On the **Test Cases** tab, click **Configure Automation**.
+
+    ![Configure Automation on the test set's Test Cases tab](../assets/images/TM%20Test%20Set%20Configure%20Automation.png)
 2. Check that the execution is set to your personal folder, the one you set as **Default Folder** in [1. Import and Link the Test Manager Project](01-import-tm-project.md#link-the-project-to-your-folder).
 3. Set **Runtime Type** to the runtime you set on your machine: **App Testing** or **Testing**. The panel shows **1 Runtimes Available, 1 Connected**.
 4. Under **Automation Packages**, select **Autoselect Packages**. Check that it lists your `<YOUR_NAME>_UiBank Tests` package, and click **Save**.
