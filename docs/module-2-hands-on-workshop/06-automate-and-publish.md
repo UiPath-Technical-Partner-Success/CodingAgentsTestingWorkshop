@@ -118,9 +118,14 @@ Set the test cases <TEST_CASE_1>, <TEST_CASE_2>, <TEST_CASE_3> in <YOUR_NAME>_Ui
 
             ![Link to Test Manager in the Explorer panel's right-click menu](../assets/images/Studio%20Link%20to%20Test%20Manager.png){ width="350" }
 
-        2. Check **Project** shows your project. In **Test**, search for the test case and select it, not **&lt;new test case&gt;**. Select **OK**.
+        2. Check **Project** shows your project. In **Test**, search for the test case by name and select it. Select **OK**.
 
-            ![Link to Test Manager dialog with a test case found in the Test field](../assets/images/Studio%20Link%20to%20Test%20Manager%20dialog.png){ width="500" }
+            The screenshot shows a sample test case selected. Yours has its own key and name.
+
+            ![Link to Test Manager dialog with a sample test case selected in the Test field](../assets/images/Studio%20Link%20to%20Test%20Manager%20dialog.png){ width="500" }
+
+            !!! warning "Don't pick &lt;new test case&gt;"
+                It creates a duplicate test case in Test Manager instead of linking the one you have.
 
         Or, in Test Manager, open the test case → **Automation** tab → **Configure Automation**, select the automation from your **<YOUR_NAME>_UiBank Tests** package, and select **Save**.
 
