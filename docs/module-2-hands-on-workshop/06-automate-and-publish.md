@@ -99,18 +99,17 @@ Set the test cases <TEST_CASE_1>, <TEST_CASE_2>, <TEST_CASE_3> in <YOUR_NAME>_Ui
 !!! success "Check it"
     In Test Manager, open **Test Cases**. Each one you automated shows as **Automated**. Open one and check that its **Automation** tab shows your package, named after your project.
 
-!!! warning "Don't continue until every test case you chose is automated"
-    The test set runs only automated test cases. A test case you chose that isn't linked to your automation is left out of the run and the report.
-
+??? tip "Optional: confirm the links with Delegate"
     Replace `<TEST_CASE_1>`, `<TEST_CASE_2>`, `<TEST_CASE_3>` as before, then paste in Delegate:
 
     ```text
-    For each of these test cases in my Test Manager project: <TEST_CASE_1>, <TEST_CASE_2>, <TEST_CASE_3>, tell me whether it's linked to a Studio project named '<YOUR_NAME>_UiBank Tests'. List the ones that aren't.
+    Confirm that test cases <TEST_CASE_1>, <TEST_CASE_2>, <TEST_CASE_3> in my Test Manager project are linked to automations in the <YOUR_NAME>_UiBank Tests package. List any that aren't.
     ```
 
-    Automate any test case on that list, publish again, then ask again. Continue only when the list is empty.
+!!! warning "Don't continue until every test case you chose is automated"
+    The test set runs only automated test cases. A test case that isn't linked to your automation is left out of the run and the report.
 
-    ??? tip "Automated in Studio, but still not linked?"
+    ??? tip "Automated in Studio, but not shown as Automated?"
         Ask Delegate to link it:
 
         ```text
