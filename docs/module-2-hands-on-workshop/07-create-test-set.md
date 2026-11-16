@@ -45,7 +45,9 @@ A **test set** groups test cases that run together. Your project already has one
     ![Execute menu on the test set with Automated selected](../assets/images/TM%20Test%20Set%20Execute%20Automated.png)
 
 !!! success "Check it"
-    In **Execution**, every test case you automated has a result. The over-65 test case fails. That's expected: you triage it in [8. Run, Triage, and Report](08-run-and-report.md).
+    In **Execution**, every test case you automated has a result. The over-65 test case fails. That's expected: you triage it in [8. Run, Triage, and Report](08-run-and-report.md). The set's manual test cases count as **not executed**.
+
+    ![Automated execution of UiBank Smoke Test Set: the over-65 test case failed, the others passed](../assets/images/TM%20Smoke%20Set%20Execution%20Result.png)
 
 ## Nice work!
 
