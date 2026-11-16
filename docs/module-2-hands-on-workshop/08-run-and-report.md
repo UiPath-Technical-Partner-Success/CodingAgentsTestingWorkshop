@@ -9,7 +9,7 @@ It's release night, and the release manager wants to know: **can we ship?** Run 
 
 ## Run and triage
 
-A failed test doesn't always mean a broken app: the test itself can be wrong. And a passed test doesn't always mean a working app: the test can expect what the app does, not what the requirement says. You made this call by hand in [4. Run Manual Tests](04-run-manual-tests.md#1-run-a-test-case). Now Delegate checks every result against the requirement.
+A failed test doesn't always mean a broken app: the test itself can be wrong. You made this call by hand in [4. Run Manual Tests](04-run-manual-tests.md#1-run-a-test-case). Now Delegate checks every result against the requirement.
 
 !!! example "It's your turn now!"
     1. Go back to your Delegate session.
@@ -19,7 +19,6 @@ A failed test doesn't always mean a broken app: the test itself can be wrong. An
         Trigger the UiBank Smoke Test Set of my project in Test Manager and wait for it to finish. Then, for this run only, not earlier executions:
         - Give me the totals: passed, failed, none, and restricted.
         - For each failed test case, compare its input data and expected outcome with the acceptance criteria of the Submit Loan Request requirement. Classify it as a UiBank defect (the app breaks the requirement) or a test defect (the test expects the wrong result), and quote the criterion you used.
-        - For each passed test case, compare its input data and the app's actual result with the same acceptance criteria. Flag any passed test case where the app's result breaks a criterion as a UiBank defect, and quote the criterion.
         - List any manual test cases in the set separately as not run, not as failures.
         ```
 
@@ -35,11 +34,11 @@ A failed test doesn't always mean a broken app: the test itself can be wrong. An
     Compare Delegate's totals with **Execution** in Test Manager. Delegate can be wrong, so check its triage against the requirement yourself.
 
 !!! info "What you should find"
-    ✅ Your over-65 test case, from [3. Generate Test Cases](03-generate-test-cases.md), **passes**, because UiBank approves the loan. But the requirement says applicants over 65 must not be approved. That's a **UiBank defect**, hidden behind a passing test.
+    ✅ Your over-65 test case, from [3. Generate Test Cases](03-generate-test-cases.md), **fails**, because UiBank approves the loan. The requirement says applicants over 65 must not be approved, so the test is right and the app is wrong. That's a **UiBank defect**.
 
-    ✅ Any failure comes from your own test cases. Check how Delegate classified it.
+    ✅ Any other failure comes from your own test cases. Check how Delegate classified it.
 
-    Delegate doesn't flag the over-65 test case? Ask it to check that test case's result against the age criterion, and share what happened in the workshop chat.
+    Delegate calls the over-65 failure a test defect? Ask it to check that test case against the age criterion again, and share what happened in the workshop chat.
 
     UiBank rejected the over-65 application? See [Troubleshooting](../module-3-troubleshooting-and-next-steps/02-troubleshooting.md#execution).
 
@@ -79,7 +78,7 @@ Delegate gives the path to the saved report and summarizes it in the chat. Alway
 
 ✅ **Success rate**
 
-✅ **Triage** — each failure and each flagged pass, whether it's a UiBank or a test defect, and the criterion it breaks
+✅ **Triage** — each failure, whether it's a UiBank or a test defect, and the criterion it breaks
 
 ✅ **Evidence** — the screenshots and loan ID
 
@@ -96,7 +95,7 @@ Delegate gives the path to the saved report and summarizes it in the chat. Alway
     ```
 
 !!! question "Think about it"
-    How did you find a defect when the test passed? Would the success rate alone have told you to stop the release? What does a developer need to fix it? How long would this take you by hand?
+    How did you tell a UiBank defect from a test defect? Would the success rate alone have told you to stop the release? What does a developer need to fix it? How long would this take you by hand?
 
 ??? example "Optional: Draft the defect"
     ```text

@@ -45,8 +45,8 @@ Automate **every** test case you chose in [3. Generate Test Cases](03-generate-t
 
 2. <span class="tool-badge tool-badge--delegate">Delegate</span> Review and fix it with Delegate.
 
-    !!! warning "Save first"
-        **Save** the test case in Studio before you paste the prompt. Until you save, the file doesn't exist, so Delegate can't find it.
+    !!! warning "Save and close first"
+        **Save** the test case in Studio, then **close its tab**. Until you save, the file doesn't exist, so Delegate can't find it. If the tab stays open, Studio can save over Delegate's changes.
 
     Replace `<TEST_CASE_KEY>` (the test case key in Test Manager, such as `TESTWS:3`) and `<YOUR_NAME>`, then paste:
 
@@ -61,22 +61,19 @@ Automate **every** test case you chose in [3. Generate Test Cases](03-generate-t
         - Cards in between: keep Open and Close property as Never.
     # Give each activity a short, clear display name without test data.
     # Use the manual test case as reference and add the data to all the Type Into activities.
-   
+    # End with a Verify activity that checks the expected result from the manual test case.
     ```
 
-3. When Delegate finishes, **save** the test case in Studio and check the changes.
+3. When Delegate finishes, open the test case again and check the changes.
 4. **Run** it locally.
 5. Repeat steps 1–4 for each of your other chosen test cases.
 
 !!! success "Check it"
-    Each test case passes locally.
+    Each test case passes locally, except the over-65 one. It **fails** on its Verify activity. Keep it: you triage it in [8. Run, Triage, and Report](08-run-and-report.md).
 
 ## Publish the test cases
 
 <span class="tool-badge tool-badge--delegate">Delegate</span>
-
-!!! info "Switch back to Delegate"
-    Your test cases are automated. Go back to Delegate to publish them.
 
 Replace `<TEST_CASE_1>`, `<TEST_CASE_2>`, `<TEST_CASE_3>` with the names of the test cases you automated (add more if you have them), then paste:
 

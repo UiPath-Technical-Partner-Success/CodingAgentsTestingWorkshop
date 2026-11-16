@@ -156,19 +156,10 @@ Building it by hand is usually one of the slowest parts of test automation: you 
            - Rate: only the number shown below "With a fantastic rate of:", without the "%" sign
            - Loan ID: the value shown below "Your new loan ID is:"
            Anchor these elements to their label text, not to the changing values, so the selectors work for any result.
-           To reach this screen, submit the form with sample valid values. Save the Loan ID for screen 6.
-
-        5. Screen: Loan Lookup (https://uibank.uipath.com/loans/lookup)
-           - Loan ID (input)
-           - Retrieve Loan Details (button)
-
-        6. Screen: Loan Lookup Result (the results view shown after you look up a Loan ID)
-           - Result Text: the full text block of the response
-           - Loan ID: the value shown beside its label, anchored to the label text
-           To reach this screen, look up the Loan ID you saved from screen 4.
+           To reach this screen, submit the form with sample valid values.
 
         Acceptance criteria
-        - All 6 screens and 20 elements exist under UiPath Banking App, named as above
+        - All 4 screens and 16 elements exist under UiPath Banking App, named as above
         - Every selector validates (highlights the correct element) on its live screen
         - Report any element you could not capture reliably, and why
         ```
@@ -181,7 +172,7 @@ Building it by hand is usually one of the slowest parts of test automation: you 
     Describe what you need in plain language, such as the app, its screens, and the elements to capture. Delegate can also review and fine-tune your prompt, or fix it when something's missed.
 
 ??? tip "Check it"
-    1. In Studio's **Object Repository** panel, expand **UiPath Banking App**. It lists all 6 screens and their elements. If it's empty, reload the project.
+    1. In Studio's **Object Repository** panel, expand **UiPath Banking App**. It lists all 4 screens and their elements. If it's empty, reload the project.
 
         ![Object Repository panel](../assets/images/Object%20Repo.png){ width="300" }
 
@@ -199,9 +190,9 @@ Building it by hand is usually one of the slowest parts of test automation: you 
     1. On your Desktop, create a folder named **Custom Library**.
     2. Download the library for your browser and move it into **Custom Library**:
 
-        ✅ Chrome: <a href="../../assets/Files/Object%20Repository/UiBankORForChrome.1.0.1.nupkg" target="_blank">UiBankORForChrome.1.0.1.nupkg</a>
+        ✅ Chrome: <a href="../../assets/Files/Object%20Repository/UiBankORForChrome.Descriptors.1.0.3.nupkg" target="_blank">UiBankORForChrome.Descriptors.1.0.3.nupkg</a>
 
-        ✅ Edge: <a href="../../assets/Files/Object%20Repository/UiBankORForEdge.1.0.1.nupkg" target="_blank">UiBankORForEdge.1.0.1.nupkg</a>
+        ✅ Edge: <a href="../../assets/Files/Object%20Repository/UiPathBankingORForEdge.1.0.2.nupkg" target="_blank">UiPathBankingORForEdge.1.0.2.nupkg</a>
 
     3. In Studio, click **Manage Packages** from the top ribbon.
     4. Go to **Settings**.
@@ -210,11 +201,11 @@ Building it by hand is usually one of the slowest parts of test automation: you 
 
         ![Manage Packages Settings](../assets/images/Manage%20packges%20settings.png)
 
-    7. Select the new source in the left panel, select **UiBankORForChrome** or **UiBankORForEdge**, click **Install**, then click **Save**.
+    7. Select the new source in the left panel, select **UiBankORForChrome.Descriptors** or **UiPathBankingORForEdge**, click **Install**, then click **Save**.
 
         ![Custom Library Listing](../assets/images/custom%20library%20listing.png)
 
-    In the **Object Repository** panel, find it under **UI Libraries → UiBankORForChrome** (or **UiBankORForEdge**) **→ UiPath Banking App**.
+    In the **Object Repository** panel, find it under **UI Libraries → UiBankORForChrome.Descriptors** (or **UiPathBankingORForEdge**) **→ UiPath Banking App**.
 
 !!! warning "Complete this step before you continue"
     **Autopilot for Testers** builds your test cases from the Object Repository elements. Without them, it can't automate the test cases in the next step.
