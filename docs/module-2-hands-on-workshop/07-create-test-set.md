@@ -14,6 +14,8 @@ A **test set** groups test cases that run together. Your project already has one
 
         ✅ **Dynamic Assignment** — add labels. The set includes every test case with at least one of them.
 
+        See <a href="https://docs.uipath.com/test-manager/automation-cloud/latest/user-guide/quickstart-assigning-test-cases-to-test-sets" target="_blank">Assigning test cases to test sets</a>.
+
 3. Click **Add Test Cases** to see all the test cases in the project.
 4. Add the test cases you automated in [6. Automate and Publish the Test Cases](06-automate-and-publish.md). They show your project in the **Studio Project** column. Test cases already in the set are ticked in grey.
 
@@ -31,8 +33,6 @@ A **test set** groups test cases that run together. Your project already has one
 2. Check that the execution is set to your personal folder, the one you set as **Default Folder** in [1. Import and Link the Test Manager Project](01-import-tm-project.md#link-the-project-to-your-folder).
 3. Set **Runtime Type** to the runtime you set on your machine: **App Testing** or **Testing**. The panel shows **1 Runtimes Available, 1 Connected**.
 4. Under **Automation Packages**, select **Autoselect Packages**. Check that it lists your `<YOUR_NAME>_UiBank Tests` package, and click **Save**.
-
-See <a href="https://docs.uipath.com/test-manager/automation-cloud/latest/user-guide/quickstart-assigning-test-cases-to-test-sets" target="_blank">Assigning test cases to test sets</a>.
 
 !!! success "Check it"
     **UiBank Smoke Test Set** lists every test case you automated.
