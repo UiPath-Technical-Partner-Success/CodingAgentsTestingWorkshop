@@ -78,7 +78,7 @@ Automate **every** test case you chose in [3. Generate Test Cases](03-generate-t
 Replace `<TEST_CASE_1>`, `<TEST_CASE_2>`, `<TEST_CASE_3>` with the names of the test cases you automated (add more if you have them), then paste:
 
 ```text
-Set the test cases I generated with Autopilot in <YOUR_NAME>_UiBank Tests (<TEST_CASE_1>, <TEST_CASE_2>, <TEST_CASE_3>) as publishable, and publish the project to the Orchestrator Tenant Processes Feed, not my Personal Workspace.
+Set the test cases <TEST_CASE_1>, <TEST_CASE_2>, <TEST_CASE_3> in <YOUR_NAME>_UiBank Tests as publishable, and publish the project to the Orchestrator Tenant Processes Feed, not my Personal Workspace.
 ```
 
 ??? tip "Do it by hand in Studio"
