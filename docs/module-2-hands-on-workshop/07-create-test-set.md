@@ -24,7 +24,7 @@ A **test set** groups test cases that run together. Your project already has one
 
 ## Configure the automation
 
-1. On the **Test Cases** tab, click **Configure Automation**.
+1. Still on the set's **Test Cases** tab, click **Configure Automation**.
 
     ![Configure Automation on the test set's Test Cases tab](../assets/images/TM%20Test%20Set%20Configure%20Automation.png)
 2. Check that the execution is set to your personal folder, the one you set as **Default Folder** in [1. Import and Link the Test Manager Project](01-import-tm-project.md#link-the-project-to-your-folder).
