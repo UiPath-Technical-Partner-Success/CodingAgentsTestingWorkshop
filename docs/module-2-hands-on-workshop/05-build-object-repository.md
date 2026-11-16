@@ -171,26 +171,6 @@ Building it by hand is usually one of the slowest parts of test automation: you 
 ??? tip "Write your own Object Repository prompt"
     Describe what you need in plain language, such as the app, its screens, and the elements to capture. Delegate can also review and fine-tune your prompt, or fix it when something's missed.
 
-??? tip "Check it"
-    1. In Studio's **Object Repository** panel, expand **UiPath Banking App**. It lists all 4 screens and their elements. If it's empty, reload the project.
-
-        ![Object Repository panel](../assets/images/Object%20Repo.png){ width="300" }
-
-        ??? info "Built by Delegate? Look under Project UI Descriptors"
-            Delegate builds the Object Repository in your project, so **UiPath Banking App** is under **Project UI Descriptors**. An imported backup library is under **UI Libraries**.
-
-            ![Object Repository built by Delegate, under Project UI Descriptors](../assets/images/Object%20Repo%20Project%20Descriptors.png){ width="300" }
-
-    2. Open UiBank in your browser on the Home screen. Right-click an element, such as **Username**, and select **Highlight**.
-
-        ![Highlight an element](../assets/images/Studio%20OR%20Highlight.png){ width="300" }
-
-    3. In the browser, the element is outlined in **green**, and its label anchor in **blue**. Repeat for a few elements on each screen.
-
-        ![Highlighted element in UiBank](../assets/images/UiBank%20Highlight.png)
-
-    If an element doesn't highlight, ask Delegate to recapture it.
-
 ??? tip "Backup: import a ready-made Object Repository"
     1. On your Desktop, create a folder named **Custom Library**.
     2. Download the library for your browser and move it into **Custom Library**:
@@ -211,6 +191,26 @@ Building it by hand is usually one of the slowest parts of test automation: you 
         ![Custom Library Listing](../assets/images/custom%20library%20listing.png)
 
     In the **Object Repository** panel, find it under **UI Libraries → UiBankORForChrome.Descriptors** (or **UiPathBankingORForEdge**) **→ UiPath Banking App**.
+
+??? tip "Check it"
+    1. In Studio's **Object Repository** panel, expand **UiPath Banking App**. It lists all 4 screens and their elements. If it's empty, reload the project.
+
+        ![Object Repository panel](../assets/images/Object%20Repo.png){ width="300" }
+
+        ??? info "Built by Delegate? Look under Project UI Descriptors"
+            Delegate builds the Object Repository in your project, so **UiPath Banking App** is under **Project UI Descriptors**. An imported backup library is under **UI Libraries**.
+
+            ![Object Repository built by Delegate, under Project UI Descriptors](../assets/images/Object%20Repo%20Project%20Descriptors.png){ width="300" }
+
+    2. Open UiBank in your browser on the Home screen. Right-click an element, such as **Username**, and select **Highlight**.
+
+        ![Highlight an element](../assets/images/Studio%20OR%20Highlight.png){ width="300" }
+
+    3. In the browser, the element is outlined in **green**, and its label anchor in **blue**. Repeat for a few elements on each screen.
+
+        ![Highlighted element in UiBank](../assets/images/UiBank%20Highlight.png)
+
+    If an element doesn't highlight, ask Delegate to recapture it.
 
 !!! warning "Complete this step before you continue"
     **Autopilot for Testers** builds your test cases from the Object Repository elements. Without them, it can't automate the test cases in the next step.
