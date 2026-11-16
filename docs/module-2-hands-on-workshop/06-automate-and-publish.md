@@ -118,7 +118,9 @@ Set the test cases <TEST_CASE_1>, <TEST_CASE_2>, <TEST_CASE_3> in <YOUR_NAME>_Ui
 
             ![Link to Test Manager in the Explorer panel's right-click menu](../assets/images/Studio%20Link%20to%20Test%20Manager.png){ width="350" }
 
-        2. Choose your project and, in **Test**, the test case in Test Manager. Select **OK**.
+        2. Check **Project** shows your project. In **Test**, search for the test case and select it, not **&lt;new test case&gt;**. Select **OK**.
+
+            ![Link to Test Manager dialog with a test case found in the Test field](../assets/images/Studio%20Link%20to%20Test%20Manager%20dialog.png){ width="500" }
 
         Or, in Test Manager, open the test case → **Automation** tab → **Configure Automation**, select the automation from your **<YOUR_NAME>_UiBank Tests** package, and select **Save**.
 
