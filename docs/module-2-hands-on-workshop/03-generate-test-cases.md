@@ -35,7 +35,7 @@ The **Generate Test Cases** built-in agent reads a requirement and proposes test
     2. Below the prompt, add these instructions:
 
         ```text
-        Generate 5 test cases. Give every step one action and an expected result, and add preconditions and postconditions.
+        Generate 5 test cases. Give every step one action and an expected result, and add preconditions and postconditions. Include 2 test cases for applicants over 65.
         ```
 
     3. Choose a model.
