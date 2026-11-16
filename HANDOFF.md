@@ -1,6 +1,6 @@
 # Handoff: Coding Agents for Test Workshop Guide
 
-**Owner:** Meera Kannan · **Last updated:** 2026-11-16 · **Status:** On `main`. The owner's end-to-end rehearsal is under way: notes up to step 03 are handled (see Log, 2026-11-11). **Resume here:** continue the rehearsal from step 04, with notes in the local `Rehearsal Checklist.md` (not committed); then the Rehearse items and timings under Open items.
+**Owner:** Meera Kannan · **Last updated:** 2026-11-16 · **Status:** On `main`. The owner's end-to-end rehearsal is under way: steps 6–8 rehearsed on 2026-11-16 (see Log). **Resume here:** decide the step 2 sample fix (the $150,000 / $400,000 rule duplicates the existing >$100,000 criterion with a different message; proposed: change that rule's message instead of adding one); then the remaining Rehearse items and timings under Open items. Notes in the local `Rehearsal Checklist.md` (not committed).
 
 ## What this is
 
