@@ -1,6 +1,6 @@
 # 8. Run, Triage, and Report
 
-It's release night, and the release manager wants to know: **can we ship?** Run the test set, check the results against the requirement, prove what's wrong, and write the go/no-go report.
+It's release night, and the release manager wants to know: **can we ship?** Run the test set, check the results against the requirement, and write the go/no-go report, with evidence.
 
 !!! info "Check these first"
     ✅ **Your robot is available** — connected and not busy, in your Orchestrator folder.
@@ -42,32 +42,19 @@ A failed test doesn't always mean a broken app: the test itself can be wrong. Yo
 
     UiBank rejected the over-65 application? See [Troubleshooting](../module-3-troubleshooting-and-next-steps/02-troubleshooting.md#execution).
 
-## Prove it
-
-A defect report needs evidence a developer can reproduce. Delegate repeats the over-65 application in the browser.
-
-!!! example "It's your turn now!"
-    1. Paste:
-
-        ```text
-        Reproduce the UiBank defect in the browser. Open https://uibank.uipath.com, apply for a loan with the data from the over-65 test case, and take a screenshot of the result. Note the loan ID. Then look up that loan ID on the Loan Lookup page, and take a screenshot. Save both screenshots on my Desktop.
-        ```
-
-    2. Approve Delegate's requests. Don't use your browser while it works.
-
-!!! success "Check it"
-    UiBank approves the over-65 application and shows a loan ID, Loan Lookup finds that loan, and both screenshots are on your Desktop.
-
 ## Write the report
 
+A go/no-go call needs evidence. Delegate repeats the over-65 application in the browser, captures it, and puts it in the report.
+
 !!! example "It's your turn now!"
     1. Paste:
 
         ```text
-        Create a release manager report in PDF for this run, and save it on my Desktop. I need a go/no-go recommendation before tonight's sign-off meeting. Base it on UiBank defects only, and list test defects as follow-ups. Include the triage, and add the screenshots and loan ID as evidence for each UiBank defect.
+        Reproduce the UiBank defect in the browser: open https://uibank.uipath.com, apply for a loan with the data from the over-65 test case, and take a screenshot of the result. Then look up its loan ID on the Loan Lookup page, and take a screenshot. Then create a release manager report in PDF for this run, and save it on my Desktop. I need a go/no-go recommendation before tonight's sign-off meeting. Base it on UiBank defects only, and list test defects as follow-ups. Include the triage, and add both screenshots and the loan ID as evidence. Under each screenshot, add one line on what it proves against the requirement.
         ```
 
-    2. If Delegate asks where to save the report, choose your Desktop. Keep the default file name, and select **Submit**.
+    2. Approve Delegate's requests. Don't use your browser while it reproduces the defect.
+    3. If Delegate asks where to save the report, choose your Desktop. Keep the default file name, and select **Submit**.
 
 Delegate gives the path to the saved report and summarizes it in the chat. Always review its output before sharing. The report shows:
 
@@ -79,7 +66,7 @@ Delegate gives the path to the saved report and summarizes it in the chat. Alway
 
 ✅ **Triage** — each failure, whether it's a UiBank or a test defect, and the criterion it breaks
 
-✅ **Evidence** — the screenshots and loan ID
+✅ **Evidence** — the approval and Loan Lookup screenshots, each with what it proves, and the loan ID
 
 ✅ **Recommendation** — GO or NO-GO, and why
 
