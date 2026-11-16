@@ -61,7 +61,9 @@ Automate **every** test case you chose in [3. Generate Test Cases](03-generate-t
         - Cards in between: keep Open and Close property as Never.
     # Give each activity a short, clear display name without test data.
     # Use the manual test case as reference and add the data to all the Type Into activities.
-    # End with a Verify activity that checks the expected result from the manual test case, and takes a screenshot if the check fails.
+    # End with a Verify activity that checks the expected result from the manual test case.
+    # Before the Verify activity, add a Log Message that writes the text it checks.
+    # On the Verify activity, turn on Take screenshot if failed.
     ```
 
 3. When Delegate finishes, open the test case again and check the changes.
