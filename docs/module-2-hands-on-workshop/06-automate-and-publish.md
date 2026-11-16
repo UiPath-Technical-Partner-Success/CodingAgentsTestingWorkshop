@@ -97,7 +97,9 @@ Set the test cases <TEST_CASE_1>, <TEST_CASE_2>, <TEST_CASE_3> in <YOUR_NAME>_Ui
     4. In **Publish options**, choose the **Orchestrator Tenant Processes Feed**, then select **Publish**.
 
 !!! success "Check it"
-    In Test Manager, open **Test Cases**. Each one you automated shows as **Automated**. Open one and check that its **Automation** tab shows your package, named after your project.
+    In Test Manager, open **Test Cases**. Each test case you automated shows your Studio project in the **Studio Project** column.
+
+    ![Test Cases list with the Studio Project column filled in for automated test cases](../assets/images/TM%20Test%20Cases%20Studio%20Project.png)
 
 ??? tip "Optional: confirm the links with Delegate"
     Replace `<TEST_CASE_1>`, `<TEST_CASE_2>`, `<TEST_CASE_3>` as before, then paste in Delegate:
@@ -109,7 +111,7 @@ Set the test cases <TEST_CASE_1>, <TEST_CASE_2>, <TEST_CASE_3> in <YOUR_NAME>_Ui
 !!! warning "Don't continue until every test case you chose is automated"
     The test set runs only automated test cases. A test case that isn't linked to your automation is left out of the run and the report.
 
-    ??? tip "Automated in Studio, but not shown as Automated?"
+    ??? tip "Automated in Studio, but the Studio Project column is empty?"
         Ask Delegate to link it:
 
         ```text
