@@ -112,17 +112,15 @@ Set the test cases <TEST_CASE_1>, <TEST_CASE_2>, <TEST_CASE_3> in <YOUR_NAME>_Ui
     The test set runs only automated test cases. A test case that isn't linked to your automation is left out of the run and the report.
 
     ??? tip "Automated in Studio, but the Studio Project column is empty?"
-        Link it yourself in Test Manager. Publish the project first.
+        Link it yourself in Studio:
 
-        1. Open the test case, and select the **Automation** tab.
-        2. Select **Configure Automation**.
-        3. In **Package Source**, keep **Tenant Package Feed**.
-        4. Select the automation for this test case from your **<YOUR_NAME>_UiBank Tests** package.
-        5. Select **Save**.
+        1. In the **Explorer** panel, right-click the test case → **Link to Test Manager**.
 
-        The package and test case name appear under **Automation Assigned**.
+            ![Link to Test Manager in the Explorer panel's right-click menu](../assets/images/Studio%20Link%20to%20Test%20Manager.png){ width="350" }
 
-        Or link it from Studio: in the **Project** panel, right-click the test case → **Link to Test Manager**. Choose your project and the test case, then select **OK**.
+        2. Choose your project and, in **Test**, the test case in Test Manager. Select **OK**.
+
+        Or, in Test Manager, open the test case → **Automation** tab → **Configure Automation**, select the automation from your **<YOUR_NAME>_UiBank Tests** package, and select **Save**.
 
 ## Nice work!
 
