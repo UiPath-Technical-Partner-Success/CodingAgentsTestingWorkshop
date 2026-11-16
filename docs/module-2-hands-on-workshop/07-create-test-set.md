@@ -40,11 +40,12 @@ A **test set** groups test cases that run together. Your project already has one
 !!! warning "Do a test run"
     This is the first time Test Manager runs a test on your machine. It checks your robot setup from [Prerequisites](../module-0-prerequisites/index.md#orchestrator-folder-and-robot), not just the test set, so a problem shows up here, not in step 8.
 
-    Click **Execute → Automated**, then check **Execution**.
+    Click **Execute → Automated**.
 
     ![Execute menu on the test set with Automated selected](../assets/images/TM%20Test%20Set%20Execute%20Automated.png)
 
-    Every test case you automated should have a result. A failure is fine — you triage it in step 8.
+!!! success "Check it"
+    In **Execution**, every test case you automated has a result. The over-65 test case fails. That's expected: you triage it in [8. Run, Triage, and Report](08-run-and-report.md).
 
 ## Nice work!
 
