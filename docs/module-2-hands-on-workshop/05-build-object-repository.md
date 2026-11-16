@@ -176,6 +176,11 @@ Building it by hand is usually one of the slowest parts of test automation: you 
 
         ![Object Repository panel](../assets/images/Object%20Repo.png){ width="300" }
 
+        ??? info "Built by Delegate? Look under Project UI Descriptors"
+            Delegate builds the Object Repository in your project, so **UiPath Banking App** is under **Project UI Descriptors**. An imported backup library is under **UI Libraries**.
+
+            ![Object Repository built by Delegate, under Project UI Descriptors](../assets/images/Object%20Repo%20Project%20Descriptors.png){ width="300" }
+
     2. Open UiBank in your browser on the Home screen. Right-click an element, such as **Username**, and select **Highlight**.
 
         ![Highlight an element](../assets/images/Studio%20OR%20Highlight.png){ width="300" }
