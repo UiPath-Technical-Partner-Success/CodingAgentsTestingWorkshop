@@ -19,7 +19,7 @@ A **test set** groups test cases that run together. Your project already has one
 
     ![Add Test Cases with automated test cases showing a Studio Project and Package Name](../assets/images/TM%20Add%20Test%20Cases%20Static.png)
 
-    !!! info "What about the other test cases in the set?"
+    ??? info "What about the other test cases in the set?"
         They stay. They're manual, so the automated run skips them.
 
 ## Configure the automation
