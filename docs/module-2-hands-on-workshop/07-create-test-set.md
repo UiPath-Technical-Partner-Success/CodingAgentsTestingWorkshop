@@ -15,7 +15,9 @@ A **test set** groups test cases that run together. Your project already has one
         ✅ **Dynamic Assignment** — add labels. The set includes every test case with at least one of them.
 
 3. Click **Add Test Cases** to see all the test cases in the project.
-4. Add the test cases you automated in [6. Automate and Publish the Test Cases](06-automate-and-publish.md).
+4. Add the test cases you automated in [6. Automate and Publish the Test Cases](06-automate-and-publish.md). They show your project in the **Studio Project** column. Test cases already in the set are ticked in grey.
+
+    ![Add Test Cases with automated test cases showing a Studio Project and Package Name](../assets/images/TM%20Add%20Test%20Cases%20Static.png)
 
     !!! info "What about the other test cases in the set?"
         They stay. They're manual, so the automated run skips them.
