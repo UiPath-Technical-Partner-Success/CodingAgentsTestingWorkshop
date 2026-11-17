@@ -161,7 +161,7 @@ The business has documented a new process, **Loan lookup**, in a Process Design 
 
 ## Nice work!
 
-Your test cases are proven against the real application, with results in Test Manager. Next, you'll connect Studio to automate them.
+You ran a test case against the real application, with its result in Test Manager. Next, you'll connect Studio to automate your test cases.
 
 ---
 
