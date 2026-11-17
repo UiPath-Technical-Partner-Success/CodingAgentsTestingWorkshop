@@ -40,7 +40,12 @@ To run tests automatically, Test Manager needs to know which **Orchestrator fold
 List the Test Manager projects created by me, with their details. If there's more than one, ask me which one to use for this workshop. Remember that project, and use it whenever I ask about my project in this session.
 ```
 
-✅ Delegate lists the Test Manager projects you created, including the one you just imported. If you have more than one, it asks which one to use.
+!!! success "Check it"
+    Delegate lists the Test Manager projects you created, including the one you just imported. If you have more than one, it asks which one to use.
+
+## Nice work!
+
+Your project is imported and linked to your folder, and Delegate knows which project is yours.
 
 ---
 

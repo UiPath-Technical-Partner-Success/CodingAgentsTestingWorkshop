@@ -115,6 +115,10 @@ Stay in the same session — it remembers the run:
 
 More ideas in **[More Prompts to Try](../module-3-troubleshooting-and-next-steps/01-more-agent-prompts.md)**.
 
+## Nice work!
+
+You ran the smoke test set, proved a real UiBank defect, and made the go/no-go call with evidence.
+
 ---
 
 [Next → You did it!](you-did-it.md){: .md-button .md-button--primary}
