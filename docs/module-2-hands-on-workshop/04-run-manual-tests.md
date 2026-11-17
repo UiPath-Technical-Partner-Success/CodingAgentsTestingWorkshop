@@ -70,7 +70,7 @@ Go back to your Delegate session.
 
 !!! example "It's your turn now!"
     1. Keep only one UiBank tab open. Delegate finds the window by its title, and the prompt names UiBank.
-    2. Replace `<YOUR_TEST_CASE_KEY>` with the key of one of the test cases you chose in [3. Generate Test Cases](03-generate-test-cases.md). A key is your project prefix, a colon and a number, for example `UIBAS:43`. Then paste:
+    2. Replace `<YOUR_TEST_CASE_KEY>` with the key of one of the test cases you chose in [3. Generate Test Cases](03-generate-test-cases.md), not the over-65 one. A key is your project prefix, a colon and a number, for example `UIBAS:43`. Then paste:
 
         ```text
         Run the manual test case <YOUR_TEST_CASE_KEY>. Open UiBank at https://uibank.uipath.com, follow the test case's manual steps in the browser, and check every expected result. Take a screenshot at the final validation step and save it to my Desktop. Push the results to Test Manager. If any step failed, explain the reason.

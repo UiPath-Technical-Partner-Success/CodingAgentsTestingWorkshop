@@ -67,7 +67,7 @@ Automate **every** test case you chose in [3. Generate Test Cases](03-generate-t
     ```
 
 3. When Delegate finishes, open the test case again and check the changes.
-4. **Run** it locally.
+4. **Run** it locally. Don't use your mouse or keyboard until the run finishes.
 5. Repeat steps 1–4 for each of your other chosen test cases.
 
 !!! success "Check it"

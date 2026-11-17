@@ -23,7 +23,7 @@ A failed test doesn't always mean a broken app: the test itself can be wrong. Yo
         ```
 
     3. Approve each request when Delegate asks. The important one is the run itself, a **real execution** on your robot.
-    4. Wait a few minutes while it runs the set and checks each result.
+    4. Wait a few minutes while it runs the set and checks each result. The robot uses your desktop and browser, so don't use your mouse or keyboard until Delegate reports back.
 
 ??? tip "Run a single test case instead"
     ```text

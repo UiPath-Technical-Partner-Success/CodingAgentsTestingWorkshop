@@ -40,7 +40,7 @@ A **test set** groups test cases that run together. Your project already has one
 !!! warning "Do a test run"
     This is the first time Test Manager runs a test on your machine. It checks your robot setup from [Prerequisites](../module-0-prerequisites/index.md#orchestrator-folder-and-robot), not just the test set, so a problem shows up here, not in step 8.
 
-    Click **Execute → Automated**.
+    Click **Execute → Automated**. The robot uses your desktop and browser, so don't use your mouse or keyboard until the run finishes.
 
     ![Execute menu on the test set with Automated selected](../assets/images/TM%20Test%20Set%20Execute%20Automated.png)
 
