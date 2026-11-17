@@ -122,39 +122,7 @@ Signing in to Automation Cloud lets you open Test Manager, but not run tests. Te
 ??? info "Trainer-led setup: your folder and machine"
     Do this with your trainer, before or at the start of the workshop, as they tell you.
 
-    **Create your folder**
-
-    1. Create a personal folder, as your trainer guides you. You'll assign your machine to it.
-
-        1. In Orchestrator, at the **Tenant** level, go to **Folders**.
-
-            ![Folders tab at the tenant level](../assets/images/OC%20Tenant%20Folders.png)
-
-        2. Click the new folder icon next to **Manage Folders**.
-
-            ![New folder icon next to Manage Folders](../assets/images/OC%20New%20Folder%20icon.png){ width="400" }
-
-        3. Enter a unique **Name**, such as your own name, and click **Create**.
-
-            ![New Folder dialog with Name and Create](../assets/images/OC%20New%20Folder%20dialog.png){ width="400" }
-
-    2. You get your permissions through a group your trainer sets up. You don't need to set them yourself.
-    3. In the Enterprise setup, use **Custom Windows credentials**:
-
-        ✅ **Username:** open a command prompt, run `whoami`, and enter exactly what it returns.
-
-        ✅ **Password:** your Windows sign-in password. Sign in with a Windows Hello PIN? Set **Credential type** to **Smart Card** and enter the PIN as the password.
-
-        ✅ No password, or not sure? Tell your trainer before the workshop.
-
-        See <a href="https://docs.uipath.com/orchestrator/automation-cloud/latest/user-guide/configuring-automation-capabilities" target="_blank">Configuring automation capabilities</a> (username formats) and <a href="https://docs.uipath.com/robot/standalone/2025.10/admin-guide/using-entraid-users-with-multifactor-authentication-mfa-with-robots" target="_blank">Using Entra ID users with MFA</a> (Windows Hello PIN).
-
-        ![Personal automation and Enterprise robot setup settings](../assets/images/OC%20Settings%20Enterprize%20setup.png){ width="400" }
-
-    !!! tip "Workshop shortcut"
-        Your own user runs the tests. In production, an admin assigns a dedicated **robot account** and a machine template to the folder.
-
-    **Allocate a runtime to your machine**
+    **1. Machines: allocate a runtime to your machine**
 
     1. In Orchestrator, at the **Tenant** level, go to **Machines**.
 
@@ -168,13 +136,44 @@ Signing in to Automation Cloud lets you open Test Manager, but not run tests. Te
 
         ![Testing runtime set to 1](../assets/images/OC%20Runtime%20Testing.png){ width="300" } ![App Testing runtime set to 1](../assets/images/OC%20Runtime%20App%20Testing.png){ width="300" }
 
-    **Add your machine to your folder**
+    **2. Manage access: set your robot credentials**
 
-    1. Still at the **Tenant** level, go to **Folders** and open your personal folder. In the **Manage access** tab, check that your username is listed, with **Attended, Unattended** under **Robot Type**.
+    1. At the **Tenant** level, go to **Manage access** and open your user. In the **Enterprise setup**, use **Custom Windows credentials**:
+
+        ✅ **Username:** open a command prompt, run `whoami`, and enter exactly what it returns.
+
+        ✅ **Password:** your Windows sign-in password. Sign in with a Windows Hello PIN? Set **Credential type** to **Smart Card** and enter the PIN as the password.
+
+        ✅ No password, or not sure? Tell your trainer before the workshop.
+
+        See <a href="https://docs.uipath.com/orchestrator/automation-cloud/latest/user-guide/configuring-automation-capabilities" target="_blank">Configuring automation capabilities</a> (username formats) and <a href="https://docs.uipath.com/robot/standalone/2025.10/admin-guide/using-entraid-users-with-multifactor-authentication-mfa-with-robots" target="_blank">Using Entra ID users with MFA</a> (Windows Hello PIN).
+
+        ![Personal automation and Enterprise robot setup settings](../assets/images/OC%20Settings%20Enterprize%20setup.png){ width="400" }
+
+    2. You get your permissions through a group your trainer sets up. You don't need to set them yourself.
+
+    !!! tip "Workshop shortcut"
+        Your own user runs the tests. In production, an admin assigns a dedicated **robot account** and a machine template to the folder.
+
+    **3. Folders: create your folder and add your machine**
+
+    1. In Orchestrator, at the **Tenant** level, go to **Folders**.
+
+        ![Folders tab at the tenant level](../assets/images/OC%20Tenant%20Folders.png)
+
+    2. Click the new folder icon next to **Manage Folders**.
+
+        ![New folder icon next to Manage Folders](../assets/images/OC%20New%20Folder%20icon.png){ width="400" }
+
+    3. Enter a unique **Name**, such as your own name, and click **Create**.
+
+        ![New Folder dialog with Name and Create](../assets/images/OC%20New%20Folder%20dialog.png){ width="400" }
+
+    4. Open your folder. In its **Manage access** tab, check that your username is listed, with **Attended, Unattended** under **Robot Type**.
 
         ![Manage access tab of the folder](../assets/images/OC%20Settings%20Folder%20Admin.png)
 
-    2. Open the **Machines** tab, next to **Manage access**. Click **Manage Machines in Folder**, select your machine, then click **Update** to add it to the folder.
+    5. Open the **Machines** tab, next to **Manage access**. Click **Manage Machines in Folder**, select your machine, then click **Update** to add it to the folder.
 
         ![Manage Machines in Folder button](../assets/images/OC%20Manage%20machine.png)
 
