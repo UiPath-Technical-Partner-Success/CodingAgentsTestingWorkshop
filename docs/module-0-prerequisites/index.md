@@ -128,7 +128,7 @@ Signing in to Automation Cloud lets you open Test Manager, but not run tests. Te
 
         ✅ No password, or not sure? Tell your trainer before the workshop.
 
-        See <a href="https://docs.uipath.com/orchestrator/standalone/2023.4/user-guide/configuring-robot-accounts-to-run-unattended-automation" target="_blank">Configuring robot accounts</a> (username formats) and <a href="https://docs.uipath.com/robot/standalone/2025.10/admin-guide/using-entraid-users-with-multifactor-authentication-mfa-with-robots" target="_blank">Using Entra ID users with MFA</a> (Windows Hello PIN).
+        See <a href="https://docs.uipath.com/orchestrator/automation-cloud/latest/user-guide/configuring-automation-capabilities" target="_blank">Configuring automation capabilities</a> (username formats) and <a href="https://docs.uipath.com/robot/standalone/2025.10/admin-guide/using-entraid-users-with-multifactor-authentication-mfa-with-robots" target="_blank">Using Entra ID users with MFA</a> (Windows Hello PIN).
 
         ![Personal automation and Enterprise robot setup settings](../assets/images/OC%20Settings%20Enterprize%20setup.png){ width="400" }
 
