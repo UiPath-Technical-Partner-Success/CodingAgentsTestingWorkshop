@@ -62,7 +62,6 @@ Confirm that you can:
 ```mermaid
 flowchart LR
     A["Delegate a task<br/>(prompt, voice, or recording)"] --> B["Delegate does it<br/>(web, desktop, files, systems)"]
-    B --> C["Save it as a routine<br/>(re-run anytime)"]
 ```
 
 For testing, Delegate is fully integrated with **Test Manager**, so you can hand it testing work across the whole cycle, from planning and authoring tests to running them and reporting on the results.

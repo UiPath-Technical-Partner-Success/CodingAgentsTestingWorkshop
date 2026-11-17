@@ -47,8 +47,6 @@ Delegate connects to Test Manager through the **Test Cloud** plugin, which comes
 
 ✅ **Report** on results, and triage failures
 
-✅ **Schedule** recurring test runs as routines
-
 !!! tip "Rule for today"
     Treat everything Autopilot and Delegate produce as a draft. Review generated test cases before you create them, and read what Delegate is about to write before you approve it.
 

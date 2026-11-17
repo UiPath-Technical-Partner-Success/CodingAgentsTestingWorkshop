@@ -92,20 +92,16 @@ Delegate gives the path to the saved report and summarizes it in the chat. Alway
 
     In a real project, log it in your defect tracker.
 
-## Schedule it as a routine
+??? example "Optional: Schedule the report as a routine"
+    Schedule the test set run itself in Test Manager. A routine can fetch and summarize the results for you.
 
-A report you run once is useful. One that arrives every morning is better. You don't need to set this up today, but here's how it works.
+    **Save it as a routine.** Ask Delegate, for example: *"Save the triage and report part of this task as a routine called UiBank Release Report. Include my Test Manager project in the routine, so it works when it runs on a schedule."* The routine appears under **Routines** in Delegate's left panel.
 
-**Save it as a routine.** Once Delegate has run a task, you can ask it to save the task as a reusable routine. For example: *"Save this run, triage, and report task as a routine called UiBank Release Report. Include my Test Manager project in the routine, so it works when it runs on a schedule."* The routine appears under **Routines** in Delegate's left panel, ready to run again on demand.
+    **Put it on a schedule.** Under **Scheduled routines**, a Day / Week / Month calendar shows every routine with a time slot. New routines wait in the **Not scheduled** list below it. Drop one onto a time slot or set it to recur, for example weekdays at 8:00 AM.
 
-**Put it on a schedule.** Under **Scheduled routines**, a Day / Week / Month calendar shows every routine with a time slot. New routines wait in the **Not scheduled** list below it. Drop one onto a time slot or set it to recur, for example weekdays at 8:00 AM.
+    **Start from a ready-made routine.** The Test Cloud plugin includes **Summarize last night's execution of a test set**, already waiting in the **Not scheduled** list.
 
-**Start from a ready-made routine.** The Test Cloud plugin includes **Summarize last night's execution of a test set**, already waiting in the **Not scheduled** list.
-
-!!! warning "The machine must be on"
-    A scheduled routine runs only if the machine it runs on is powered on and signed in at the scheduled time.
-
-A routine suits a personal report. For the test set run itself, schedule the test set in Test Manager so it runs on the unattended robot, or trigger it from your CI/CD pipeline. Let the routine only fetch and summarise the results.
+    A scheduled routine runs only if its machine is powered on and signed in at the scheduled time.
 
 ## Go further
 
