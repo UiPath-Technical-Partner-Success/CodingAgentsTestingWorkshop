@@ -8,13 +8,13 @@
 
 ✅ Evaluated a requirement and generated test cases with Autopilot for Testers
 
-✅ Ran manual test cases and wrote new steps with Delegate
+✅ Ran a manual test case with Delegate and pushed the result to Test Manager
 
 ✅ Built the Object Repository with Delegate, and automated test cases with Autopilot in Studio
 
-✅ Published your automated test cases and added them to the smoke test set
+✅ Published your automated test cases and added them to **UiBank Smoke Test Set**
 
-✅ Triaged a failed run with Delegate, proved a real UiBank defect in the browser, and made the go/no-go call
+✅ Ran the set, triaged the over-65 failure as a UiBank defect, proved it in the browser, and wrote the go/no-go report with Delegate
 
 ---
 
