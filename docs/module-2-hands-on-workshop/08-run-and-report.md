@@ -73,6 +73,8 @@ Delegate gives the path to the saved report and summarizes it in the chat. Alway
 !!! success "Check it"
     The right call is **NO-GO**, because UiBank breaks the age rule, not because of the success rate. Delegate recommends GO? Ask it why, against the over-65 criterion.
 
+    Delegate may also list gaps in the requirement or other observations as follow-ups. Check its reasoning against the requirement before you pass them on.
+
 ??? tip "Saved as .md instead of PDF?"
     Ask Delegate:
 

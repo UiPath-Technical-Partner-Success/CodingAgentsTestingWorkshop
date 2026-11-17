@@ -42,10 +42,11 @@ Vague or incomplete requirements lead to gaps in testing. The **Evaluate Require
 
         ![An enhancement suggestion: Add Rejection Criteria and Messages](../assets/images/TM%20Enhancement%20suggestion.png)
 
-        Applying with its second example in <a href="https://uibank.uipath.com" target="_blank">UiBank</a> gives the exact text for the rule:
+        Applying with its second example in <a href="https://uibank.uipath.com" target="_blank">UiBank</a> gives the exact text. The acceptance criteria already have a rule for this case, with a different message, so update that rule instead of adding one:
 
         ```text
-        Applicants requesting $150,000 for 3 years with $400,000 income: Rejected with "You must be at least 18 years old for a loan and the loan must not exceed 100k."
+        Applicants 18-65 years old, requesting >$100,000 without income >3x loan amount:
+        Reject with "You must be at least 18 years old for a loan and the loan must not exceed 100k."
         ```
 
 8. Set the status of each suggestion you used to **Done**, from its status drop-down.
