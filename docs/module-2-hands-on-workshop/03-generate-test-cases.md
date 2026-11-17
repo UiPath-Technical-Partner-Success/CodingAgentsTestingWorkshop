@@ -35,7 +35,7 @@ The **Generate Test Cases** built-in agent reads a requirement and proposes test
     2. Below the prompt, add these instructions:
 
         ```text
-        Generate 5 test cases. Give every step one action and an expected result, and add preconditions and postconditions. Include 2 test cases for applicants over 65.
+        Generate 5 test cases. Give every step one action and an expected result, and add preconditions and postconditions. Include at least 1 test case for applicants over 65.
         ```
 
     3. Choose a model.
@@ -52,7 +52,7 @@ The **Generate Test Cases** built-in agent reads a requirement and proposes test
 7. Choose **at least 3** test cases on the requirement to use for the rest of the workshop: new ones, existing ones, or a mix. Note their names. You automate them in [6. Automate and Publish the Test Cases](06-automate-and-publish.md).
 
     !!! warning "You'll need this in step 8"
-        Include **one** test case that submits a loan request for an applicant **over 65**, such as age 66, and expects it to be **rejected**. If none of yours does, regenerate with that instruction, or create one.
+        Include **at least one** test case that submits a loan request for an applicant **over 65**, such as age 66, and expects it to be **rejected**. If none of yours does, regenerate with that instruction, or create one.
 
 ## Nice work!
 
