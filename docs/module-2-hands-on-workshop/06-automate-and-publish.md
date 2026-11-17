@@ -85,9 +85,9 @@ Set the test cases <TEST_CASE_1>, <TEST_CASE_2>, <TEST_CASE_3> in <YOUR_NAME>_Ui
 ```
 
 ??? tip "Do it by hand in Studio"
-    1. In the **Project** panel, right-click each automated test case → **Set as Publishable**.
+    1. In the **Project Explorer**, right-click each automated test case → **Set as Publishable**.
 
-        ![Set as Publishable in the Project panel's right-click menu](../assets/images/Studio%20Set%20As%20Publishable.png)
+        ![Set as Publishable in the Project Explorer's right-click menu](../assets/images/Studio%20Set%20As%20Publishable.png)
 
     2. Select **Publish** in the Studio ribbon.
 
@@ -117,9 +117,9 @@ Set the test cases <TEST_CASE_1>, <TEST_CASE_2>, <TEST_CASE_3> in <YOUR_NAME>_Ui
     ??? tip "Automated in Studio, but the Studio Project column is empty?"
         Link it yourself in Studio:
 
-        1. In the **Explorer** panel, right-click the test case → **Link to Test Manager**.
+        1. In the **Project Explorer**, right-click the test case → **Link to Test Manager**.
 
-            ![Link to Test Manager in the Explorer panel's right-click menu](../assets/images/Studio%20Link%20to%20Test%20Manager.png){ width="350" }
+            ![Link to Test Manager in the Project Explorer's right-click menu](../assets/images/Studio%20Link%20to%20Test%20Manager.png){ width="350" }
 
         2. Check **Project** shows your project. In **Test**, search for the test case by name and select it. Select **OK**.
 
