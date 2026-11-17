@@ -4,10 +4,10 @@
 
 ## What this is
 
-An MkDocs (Material) site for the hands-on **Coding Agents for Test** workshop. Its theme and conventions are copied from <a href="https://uipath-practice.github.io/SoftwareTestingCourse/" target="_blank">software-testing-ilt-guide</a>. See [CLAUDE.md](CLAUDE.md) for the content standards.
+An MkDocs (Material) site for the hands-on **Coding Agents for Test** workshop. Its theme and conventions are copied from <a href="https://uipath-technical-partner-success.github.io/SoftwareTestingCourse/" target="_blank">software-testing-ilt-guide</a>. See [CLAUDE.md](CLAUDE.md) for the content standards.
 
-- **Publishes to:** `https://uipath-practice.github.io/CodingAgentsTestingWorkshop/`, through `.github/workflows/deploy.yml` on every push to `main`. Push to `origin` (uipath-practice) only.
-- **Old site:** `https://meera-uipath.github.io/Coding-Agents-For-Test-Workshop/` now redirects to the new URL, keeping the page path. Its repo is the `meera` remote. Don't push to it, or the redirect is overwritten.
+- **Publishes to:** `https://uipath-technical-partner-success.github.io/CodingAgentsTestingWorkshop/`, from `.github/workflows/deploy.yml` (`mkdocs gh-deploy` to the `gh-pages` branch of `UiPath-Technical-Partner-Success/CodingAgentsTestingWorkshop`, the `origin` remote). Moved there from uipath-practice on 2026-11-17. Push to `origin` only.
+- **Old sites:** `https://uipath-practice.github.io/CodingAgentsTestingWorkshop/` (remote `practice`) and `https://meera-uipath.github.io/Coding-Agents-For-Test-Workshop/` (remote `meera`, archived; it forwards to uipath-practice) redirect to the new URL, keeping the page path. Never push to `practice` or `meera`: a push to `practice`'s `main` rebuilds the old guide over the redirect.
 - **Preview locally:** `start-guide.bat` (uses `.venv`, which has `mkdocs-material` installed), then open http://127.0.0.1:8000
 
 ## Structure

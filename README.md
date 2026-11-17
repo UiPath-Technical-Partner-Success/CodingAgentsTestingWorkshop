@@ -25,7 +25,7 @@ By the end, learners have:
 
 ## Trainer setup
 
-The trainer checklist is in the guide, so trainers who only get the site URL can find it: [Trainer Setup](docs/trainer-setup.md) (`https://uipath-practice.github.io/CodingAgentsTestingWorkshop/trainer-setup/`).
+The trainer checklist is in the guide, so trainers who only get the site URL can find it: [Trainer Setup](docs/trainer-setup.md) (`https://uipath-technical-partner-success.github.io/CodingAgentsTestingWorkshop/trainer-setup/`).
 
 ## How the guide is organized
 

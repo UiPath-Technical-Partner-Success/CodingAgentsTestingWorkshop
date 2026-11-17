@@ -1,4 +1,5 @@
 site_name: Coding Agents for Test - Hands-On Workshop Guide
+site_url: https://uipath-technical-partner-success.github.io/CodingAgentsTestingWorkshop/
 site_description: UiPath Test Cloud & Coding Agents for Test - Instructor-Led Workshop
 docs_dir: docs
 theme:
