@@ -27,7 +27,7 @@
 
 ## Autopilot for Testers
 
-AI agents built into Test Manager and Studio. Today you'll use:
+AI agents built into Test Manager and Studio. Today you'll use two **built-in agents** in Test Manager, and Autopilot in Studio:
 
 ✅ **Evaluate Requirement Quality** — finds gaps in requirements, such as undefined thresholds and missing edge cases, and suggests fixes
 
@@ -37,7 +37,7 @@ AI agents built into Test Manager and Studio. Today you'll use:
 
 ![Built-in agent type](../assets/images/Agent%20type%20OOTB.png)
 
-## Delegate for Test
+## Delegate for Testing
 
 Delegate connects to Test Manager through the **Test Cloud** plugin, which comes on with the **QA / Testing** work profile. It uses the `uip` CLI behind the scenes, so you just ask in plain language. Delegate can:
 
