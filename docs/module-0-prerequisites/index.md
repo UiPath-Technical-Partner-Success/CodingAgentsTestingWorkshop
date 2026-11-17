@@ -40,6 +40,15 @@ Confirm that you can:
 
 ## Connect Studio and Delegate
 
+**UiPath Delegate** is UiPath's productivity agent, and the evolution of UiPath Assistant. You give it a task, and it completes the task end to end on your real machine, in your browsers and desktop apps.
+
+```mermaid
+flowchart LR
+    A["Delegate a task<br/>(prompt, voice, or recording)"] --> B["Delegate does it<br/>(web, desktop, files, systems)"]
+```
+
+For testing, Delegate is fully integrated with **Test Manager**, so you can hand it testing work across the whole cycle, from planning and authoring tests to running them and reporting on the results.
+
 1. Launch Studio and **sign in** to the workshop organization and tenant.
 2. Open **UiPath Assistant**, click the person icon or your initials (top right) → **Preferences** → **Orchestrator connection**, sign in with your UiPath account, and select the workshop tenant.
 
@@ -62,15 +71,6 @@ Confirm that you can:
     ✅ Delegate opens from Assistant's top ribbon, with **QA / Testing** selected in **Behavior preferences**.
 
 ## Set up Delegate
-
-**UiPath Delegate** is UiPath's productivity agent, and the evolution of UiPath Assistant. You give it a task, and it completes the task end to end on your real machine, in your browsers and desktop apps.
-
-```mermaid
-flowchart LR
-    A["Delegate a task<br/>(prompt, voice, or recording)"] --> B["Delegate does it<br/>(web, desktop, files, systems)"]
-```
-
-For testing, Delegate is fully integrated with **Test Manager**, so you can hand it testing work across the whole cycle, from planning and authoring tests to running them and reporting on the results.
 
 ### Choose how much Delegate does on its own
 
