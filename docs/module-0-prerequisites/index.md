@@ -145,11 +145,11 @@ Signing in to Automation Cloud lets you open Test Manager, but not run tests. Te
 
         ![App Testing runtime in the machine template](../assets/images/OC%20App%20testing%20license.png)
 
-    3. Still at the **Tenant** level, go to **Folders** and open your personal folder. In the **Manage Access** tab, check that your username is listed, with **Attended, Unattended** under **Robot Type**.
+    3. Still at the **Tenant** level, go to **Folders** and open your personal folder. In the **Manage access** tab, check that your username is listed, with **Attended, Unattended** under **Robot Type**.
 
-        ![Manage Access tab of the folder](../assets/images/OC%20Settings%20Folder%20Admin.png)
+        ![Manage access tab of the folder](../assets/images/OC%20Settings%20Folder%20Admin.png)
 
-    4. Open the **Machines** tab, next to **Manage Access**. Click **Manage Machines in Folder**, select your machine, then click **Update** to add it to the folder.
+    4. Open the **Machines** tab, next to **Manage access**. Click **Manage Machines in Folder**, select your machine, then click **Update** to add it to the folder.
 
         ![Manage Machines in Folder button](../assets/images/OC%20Manage%20machine.png)
 
