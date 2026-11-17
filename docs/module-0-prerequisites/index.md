@@ -15,7 +15,7 @@ Use this checklist to confirm you're ready **before the workshop starts**.
 ✅ **UiPath Studio**, latest STS version: download and run <a href="https://download.uipath.com/connected-installer/latest/sts/UiPathPlatformSTS.msi" target="_blank">UiPathPlatformSTS.msi</a>
 
 !!! warning "Install the latest STS version"
-    Delegate is only in **Short Term Support (STS)** versions of Studio. Install the latest one, even if you already have Studio.
+    Delegate comes with the latest **Short Term Support (STS)** installer. Install it even if you already have Studio. In the installer, select **Studio** and **Assistant, Delegate & Cartographer**.
 
 ✅ Access to <a href="https://cloud.uipath.com" target="_blank">cloud.uipath.com</a> and <a href="https://uibank.uipath.com" target="_blank">uibank.uipath.com</a>, with no proxy or firewall blocking them
 
