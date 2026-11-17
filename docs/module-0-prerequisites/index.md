@@ -44,19 +44,19 @@ Signing in to Automation Cloud lets you open Test Manager, but not run tests. Te
 
 ✅ **Your permissions**, which let you run tests in that folder
 
-✅ **Your machine**, with a testing runtime, where the robot runs your tests
+✅ **Your machine template**, with a testing runtime, which connects the robot on your laptop
 
 
 ??? info "Trainer-led setup: your folder and machine"
     Do this with your trainer, before or at the start of the workshop, as they tell you.
 
-    **1. Machines: allocate a runtime to your machine**
+    **1. Machines: allocate a runtime to your machine template**
 
     1. In Orchestrator, at the **Tenant** level, go to **Machines**.
 
         ![Machines tab at the tenant level](../assets/images/OC%20Tenant%20Machines%20tab.png)
 
-    2. Search for your machine by your name, click the three dots (**⋮**) at the end of its row, and select **Edit Machine**.
+    2. Search for your machine template by your name, click the three dots (**⋮**) at the end of its row, and select **Edit Machine**.
 
         ![More actions on the machine row](../assets/images/OC%20Machine%20more%20actions.png)
 
@@ -88,7 +88,7 @@ Signing in to Automation Cloud lets you open Test Manager, but not run tests. Te
     !!! tip "Workshop shortcut"
         Your own user runs the tests. In production, an admin assigns a dedicated **robot account** and a machine template to the folder.
 
-    **3. Folders: create your folder and add your machine**
+    **3. Folders: create your folder and add your machine template**
 
     1. In Orchestrator, at the **Tenant** level, go to **Folders**.
 
@@ -106,12 +106,12 @@ Signing in to Automation Cloud lets you open Test Manager, but not run tests. Te
 
         ![Manage access tab of the folder](../assets/images/OC%20Settings%20Folder%20Admin.png)
 
-    5. Open the **Machines** tab, next to **Manage access**. Click **Manage Machines in Folder**, select your machine, then click **Update** to add it to the folder.
+    5. Open the **Machines** tab, next to **Manage access**. Click **Manage Machines in Folder**, select your machine template, then click **Update** to add it to the folder.
 
         ![Manage Machines in Folder button](../assets/images/OC%20Manage%20machine.png)
 
     !!! success "Check it"
-        In your folder, **Machines** lists your machine with **1** under **App Testing** or **Testing**.
+        In your folder, **Machines** lists your machine template with **1** under **App Testing** or **Testing**.
 
     **Check it later:** your robot setup is only proven when Test Manager runs a test on your machine. You do that in [7. Add Test Cases to the Smoke Test Set](../module-2-hands-on-workshop/07-create-test-set.md), once you have an automated, published test case. If the run fails to start or sign in, check the Windows username and password here.
 
