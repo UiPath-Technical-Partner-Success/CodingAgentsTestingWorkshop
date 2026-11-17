@@ -78,7 +78,7 @@ Go back to your Delegate session.
 
         It takes about 10 minutes. Delegate uses your mouse and keyboard, so don't touch them until it reports back. Follow its progress in the task list. If your screen locks, unlock it, and Delegate carries on.
 
-    3. If Delegate asks for permission to push the result, click **Allow**. It records the result in a test set execution, which you'll find under **Execution**.
+    3. If Delegate asks for permission to push the result, approve it. It records the result in a test set execution, which you'll find under **Execution**.
     4. For any failure, decide: **defect in UiBank**, or **problem with the test case**?
 
 !!! success "Check it"
