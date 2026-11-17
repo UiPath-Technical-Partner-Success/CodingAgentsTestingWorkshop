@@ -8,9 +8,9 @@ Learners work on a ready-made **UiBank** Test Manager project. In eight hands-on
 
 | Phase | Steps | What learners do | Tools |
 |---|---|---|---|
-| **1 · Set up** | 1–2 | Import the project, and configure the Orchestrator folder and robot | Test Manager, Orchestrator |
-| **2 · Plan & test** | 3–5 | Evaluate the requirement, generate test cases, and run them manually | Test Manager, Autopilot for Testers, Delegate |
-| **3 · Build** | 6 | Connect Studio, build the Object Repository, automate the test cases, and publish | Studio, Autopilot, Delegate |
+| **1 · Set up** | Prerequisites, 1 | Configure the Orchestrator folder and robot (trainer-led), import the project, and link it to the folder | Orchestrator, Test Manager |
+| **2 · Plan & test** | 2–4 | Evaluate the requirement, generate test cases, and run one manually | Test Manager, Autopilot for Testers, Delegate |
+| **3 · Build** | 5–6 | Connect Studio, build the Object Repository, automate the test cases, and publish | Studio, Autopilot, Delegate |
 | **4 · Run & report** | 7–8 | Add test cases to the smoke test set, run it, triage the failure against the requirement, and get a go/no-go PDF with evidence | Test Manager, Delegate |
 
 By the end, learners have:

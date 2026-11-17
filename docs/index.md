@@ -76,17 +76,18 @@ By the end of this workshop, you will:
 
 ✅ Use Delegate to run manual tests, build the Object Repository, triage failures against the requirement, and write a go/no-go release report
 
-✅ Turn manual test cases into automations with Autopilot for Testers in Studio
+✅ Turn manual test cases into automations with Autopilot for Testers in Studio, and run them from Test Manager in **UiBank Smoke Test Set**
 
 
 ## How this guide is organized
 
 | Section | What's inside |
 |---|---|
-| **[Prerequisites](module-0-prerequisites/index.md)** | Accounts, Delegate, and installation |
+| **[Prerequisites](module-0-prerequisites/index.md)** | Your laptop, accounts, Orchestrator folder and robot, and Delegate |
 | **[Introduction](module-1-introduction/index.md)** | A short tour of Test Cloud, Test Manager, and Delegate |
 | **[Hands-On Workshop](module-2-hands-on-workshop/01-import-tm-project.md)** | The eight hands-on steps, from import to the go/no-go report |
 | **[Troubleshooting & Next Steps](module-3-troubleshooting-and-next-steps/index.md)** | More prompts to try and fixes for common problems |
+| **[Trainer Setup](trainer-setup.md)** | The trainer's checklist before the workshop |
 
 !!! quote "Here's something worth holding onto as you work through this workshop"
     AI agents don't replace testers — they give testers a new way to work. Instead of clicking through dashboards to find out what failed and why, you ask a question in plain English and get an answer grounded in your real test data.

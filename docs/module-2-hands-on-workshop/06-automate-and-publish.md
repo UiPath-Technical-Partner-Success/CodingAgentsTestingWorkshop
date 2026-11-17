@@ -78,7 +78,7 @@ Automate **every** test case you chose in [3. Generate Test Cases](03-generate-t
 
 <span class="tool-badge tool-badge--delegate">Delegate</span>
 
-Replace `<TEST_CASE_1>`, `<TEST_CASE_2>`, `<TEST_CASE_3>` with the names of the test cases you automated (add more if you have them), then paste:
+Replace `<TEST_CASE_1>`, `<TEST_CASE_2>`, `<TEST_CASE_3>` with the names of the test cases you automated (add more if you have them), and `<YOUR_NAME>` with your name, then paste:
 
 ```text
 Set the test cases <TEST_CASE_1>, <TEST_CASE_2>, <TEST_CASE_3> in <YOUR_NAME>_UiBank Tests as publishable, and publish the project to the Orchestrator Tenant Processes Feed, not my Personal Workspace.
@@ -105,7 +105,7 @@ Set the test cases <TEST_CASE_1>, <TEST_CASE_2>, <TEST_CASE_3> in <YOUR_NAME>_Ui
     ![Test Cases list with the Studio Project column filled in for automated test cases](../assets/images/TM%20Test%20Cases%20Studio%20Project.png)
 
 ??? tip "Optional: confirm the links with Delegate"
-    Replace `<TEST_CASE_1>`, `<TEST_CASE_2>`, `<TEST_CASE_3>` as before, then paste in Delegate:
+    Replace `<TEST_CASE_1>`, `<TEST_CASE_2>`, `<TEST_CASE_3>` and `<YOUR_NAME>` as before, then paste in Delegate:
 
     ```text
     Confirm that test cases <TEST_CASE_1>, <TEST_CASE_2>, <TEST_CASE_3> in my Test Manager project are linked to automations in the <YOUR_NAME>_UiBank Tests package. List any that aren't.
