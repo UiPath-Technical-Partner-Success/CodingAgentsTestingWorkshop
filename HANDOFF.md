@@ -29,7 +29,7 @@ An MkDocs (Material) site for the hands-on **Coding Agents for Test** workshop. 
 
 ## Decisions
 
-- **The trainer provides a dedicated, new tenant and the group permissions.** Learners need the **Project Creator** tenant role to import the `.tmh` (step 1); the importer becomes **Project owner** automatically, which covers the Default Folder (step 1) and the Test Tier custom field (step 4).
+- **The trainer provides a dedicated, new tenant and the group permissions.** Learners need the **Project Creator** tenant role to import the `.tmh` (step 1; owner confirmed 2026-11-17); the importer becomes **Project owner** automatically, which covers the Default Folder (step 1) and the Test Tier custom field (step 4).
 - **Each learner creates a personal folder in step 2**, as the trainer guides them, and assigns their machine (with an **App Testing** or **Testing** runtime) to it. It's set as the project's **Default Folder** (Project Settings → Automation tab). Which folder Studio publishes to doesn't matter.
 - **Delegate is the only agent.** It ships with the latest Studio STS, with the `uip` CLI and the `uipath-testcloud` skill built in. Its consumption is included in the UiPath user license. The Claude Code / Codex section was removed on 2026-10-29; it's in git history before that date.
 - **Delegate setup (Prerequisites → Connect Studio and Delegate / Set up Delegate):** open it from the top ribbon, set **Work profile** to **QA / Testing** (Settings → Behavior preferences), then **+ New**. Approval mode is in **Settings → Security**: Cautious / Adaptive (recommended, with a Smart approvals toggle) / Full access.
