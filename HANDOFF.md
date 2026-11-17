@@ -1,6 +1,6 @@
 # Handoff: Coding Agents for Test Workshop Guide
 
-**Owner:** Meera Kannan · **Last updated:** 2026-11-17 · **Status:** On `main`. The owner's end-to-end rehearsal is under way: steps 6–8 rehearsed on 2026-11-16, step 8 report again on 2026-11-17 (see Log). **Resume here:** all Open items are closed (2026-11-17). Still to check in UiBank: one more amount over $100,000 without income >3x (for example $120,000 / 3 years / $300,000) gives the step 2 sample's message. Timings are tracked by the owner, not here. Notes in the local `Rehearsal Checklist.md` (not committed).
+**Owner:** Meera Kannan · **Last updated:** 2026-11-17 · **Status:** On `main`. The owner's end-to-end rehearsal is under way: steps 6–8 rehearsed on 2026-11-16, step 8 report again on 2026-11-17 (see Log). **Resume here:** the 2026-11-17 full review is done (all items fixed or closed by the owner). Owner checks left: the Orchestrator ⋮ labels (**Edit Machine** vs **Edit**; the save button when editing a user under Manage access); rehearse the step 4 Test Tier prompt on UiBank Smoke Test Set; one more UiBank amount over $100,000 without income >3x for the step 2 sample; remove the old suggestions from TESTWS's Submit Loan Request before rehearsing step 8 again. Timings are tracked by the owner, not here. Notes in the local `Rehearsal Checklist.md` (not committed).
 
 ## What this is
 
