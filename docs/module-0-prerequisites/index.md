@@ -134,7 +134,7 @@ Signing in to Automation Cloud lets you open Test Manager, but not run tests. Te
 
     3. Under **Runtime licenses**, enter **1** in **App Testing** or **Testing**, whichever you see, and click **Update**.
 
-        ![Testing runtime set to 1](../assets/images/OC%20Runtime%20Testing.png){ .img-side width="300" } ![App Testing runtime set to 1](../assets/images/OC%20Runtime%20App%20Testing.png){ .img-side width="300" }
+        ![Testing runtime set to 1](../assets/images/OC%20Runtime%20Testing.png){ .img-side .img-same-height } ![App Testing runtime set to 1](../assets/images/OC%20Runtime%20App%20Testing.png){ .img-side .img-same-height }
 
     **2. Manage access: configure your automation capabilities**
 

@@ -167,6 +167,13 @@ th {
   margin: 20px 1%;
 }
 
+/* Same height for a side-by-side pair: add { .img-side .img-same-height } */
+.md-typeset img.img-side.img-same-height {
+  height: 150px;
+  width: auto;
+  object-fit: contain;
+}
+
 /* Dark mode image shadow adjustment */
 [data-md-color-scheme="dark"] .md-typeset img {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4), 0 4px 12px rgba(0, 0, 0, 0.3);
