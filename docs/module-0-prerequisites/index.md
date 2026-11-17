@@ -83,7 +83,7 @@ Signing in to Automation Cloud lets you open Test Manager, but not run tests. Te
 
         See <a href="https://docs.uipath.com/orchestrator/automation-cloud/latest/user-guide/configuring-automation-capabilities" target="_blank">Configuring automation capabilities</a> (username formats) and <a href="https://docs.uipath.com/robot/standalone/2025.10/admin-guide/using-entraid-users-with-multifactor-authentication-mfa-with-robots" target="_blank">Using Entra ID users with MFA</a> (Windows Hello PIN).
 
-    4. Save your changes.
+    4. Click **Update**.
 
     !!! tip "Workshop shortcut"
         Your own user runs the tests. In production, an admin assigns a dedicated **robot account** and a machine template to the folder.
