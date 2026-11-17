@@ -24,9 +24,10 @@ Click a step to jump to it.
     </div>
   </div>
   <span class="flow-arrow"></span>
-  <div class="flow-part flow-part--delegate" style="--steps: 1">
+  <div class="flow-part flow-part--delegate" style="--steps: 2">
     <span class="flow-part-label">Delegate</span>
     <div class="flow-part-steps">
+      <a class="flow-step" href="#automate-the-test-cases-with-studio-desktop">Review each test case</a>
       <a class="flow-step" href="#publish-the-test-cases">Publish the test cases</a>
     </div>
   </div>
