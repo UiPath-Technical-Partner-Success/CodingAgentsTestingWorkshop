@@ -64,11 +64,16 @@ Use the column for your organization type.
     - A Windows 10 or 11 laptop with local admin rights
     - Google Chrome or Microsoft Edge
     - UiPath Studio, latest STS version, installed. Install it even if
-      you already have Studio:
+      you already have Studio, and select Studio and Assistant, Delegate
+      & Cartographer in the installer:
       https://download.uipath.com/connected-installer/latest/sts/UiPathPlatformSTS.msi
     - Access to https://cloud.uipath.com and https://uibank.uipath.com,
       with no proxy or firewall blocking them. On a company laptop,
       check with your IT team first.
+    - Your Windows sign-in password. Sign in with only a PIN, or no
+      password? Tell your trainer before the workshop.
+    - On the day: set your screen to never turn off and your laptop to
+      never sleep while plugged in.
 
     ACCESS AND SETUP
     1. Sign in at https://cloud.uipath.com, and open the organization
