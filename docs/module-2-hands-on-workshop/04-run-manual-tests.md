@@ -33,7 +33,7 @@ Go back to your Delegate session.
     4. For any failure, decide: **defect in UiBank**, or **problem with the test case**?
 
 !!! success "Check it"
-    **Execution** → open the execution named **Delegate-** followed by your test case name and the date. It shows the test case result and each step's result, with a Delegate trace file attached to every step, saved locally under Appdata.
+    **Execution** → open the execution named **Delegate-** followed by your test case name and the date. It shows the test case result and each step's result, with a Delegate trace file attached to every step. The final screenshot is on your Desktop.
 
 !!! question "Think about it"
     Did Delegate stumble on a step? Autopilot automates these same steps in [6. Automate and Publish the Test Cases](06-automate-and-publish.md), so fix them now:
