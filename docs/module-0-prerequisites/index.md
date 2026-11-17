@@ -136,21 +136,26 @@ Signing in to Automation Cloud lets you open Test Manager, but not run tests. Te
 
         ![Testing runtime set to 1](../assets/images/OC%20Runtime%20Testing.png){ width="300" } ![App Testing runtime set to 1](../assets/images/OC%20Runtime%20App%20Testing.png){ width="300" }
 
-    **2. Manage access: set your robot credentials**
+    **2. Manage access: configure your automation capabilities**
 
-    1. At the **Tenant** level, go to **Manage access** and open your user. In the **Enterprise setup**, use **Custom Windows credentials**:
+    1. At the **Tenant** level, go to **Manage access**, search for your name, click the three dots (**⋮**) at the end of your row, and edit your user.
 
-        ✅ **Username:** open a command prompt, run `whoami`, and enter exactly what it returns.
+        ![Manage access with the search box and the row's three dots](../assets/images/OC%20Manage%20access%20user.png)
 
-        ✅ **Password:** your Windows sign-in password. Sign in with a Windows Hello PIN? Set **Credential type** to **Smart Card** and enter the PIN as the password.
+    2. Leave your roles as they are. Your permissions come from a group your trainer sets up.
+    3. Expand **Enterprise setup (not recommended for users)**. Under **Enterprise robot setup**, select **Custom Windows credentials**, then fill in:
+
+        ✅ **Domain\Username:** open a command prompt, run `whoami`, and enter exactly what it returns.
+
+        ✅ **Password:** your Windows sign-in password. Sign in with a Windows Hello PIN? Set **Credential Type** to **Smart Card** and enter the PIN as the password.
 
         ✅ No password, or not sure? Tell your trainer before the workshop.
 
+        ![Enterprise setup with Custom Windows credentials](../assets/images/OC%20Enterprise%20setup.png){ width="400" }
+
         See <a href="https://docs.uipath.com/orchestrator/automation-cloud/latest/user-guide/configuring-automation-capabilities" target="_blank">Configuring automation capabilities</a> (username formats) and <a href="https://docs.uipath.com/robot/standalone/2025.10/admin-guide/using-entraid-users-with-multifactor-authentication-mfa-with-robots" target="_blank">Using Entra ID users with MFA</a> (Windows Hello PIN).
 
-        ![Personal automation and Enterprise robot setup settings](../assets/images/OC%20Settings%20Enterprize%20setup.png){ width="400" }
-
-    2. You get your permissions through a group your trainer sets up. You don't need to set them yourself.
+    4. Save your changes.
 
     !!! tip "Workshop shortcut"
         Your own user runs the tests. In production, an admin assigns a dedicated **robot account** and a machine template to the folder.
