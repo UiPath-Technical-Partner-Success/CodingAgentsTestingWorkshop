@@ -11,55 +11,6 @@ There are three ways to run a manual test case. Each records its results in Test
 
 See <a href="https://docs.uipath.com/test-manager/automation-cloud/latest/user-guide/executing-manual-tests" target="_blank">Executing manual tests</a>.
 
-??? tip "Manual execution assistant"
-    You run every test case in a test set yourself, one after another.
-
-    1. Go to **Test Sets**, open **UiBank Smoke Test Set**, and select **Execute → Manually**.
-
-        !!! info "Allow pop-ups for Test Manager"
-            The manual execution assistant opens in a new window.
-
-    2. If the test case has a precondition, the state the app must be in before the test, set up the app as it says.
-    3. Perform each step, then select **Set Passed** or **Set Failed** (comment on failures).
-    4. At any step, capture a screenshot or upload related files as attachments.
-
-        !!! info "Pass several steps at once"
-            Select **Set Passed Until Here**.
-
-    5. If the test case has a postcondition, the state the app must be in after the test, check it. Select **Condition Met** if it holds.
-    6. Select **Next** to run the next test case. After the last one, select **Done**.
-    7. Check the results in the project's **Execution** section.
-
-    See <a href="https://docs.uipath.com/test-manager/automation-cloud/latest/user-guide/executing-test-sets-manually" target="_blank">Executing test sets manually</a>.
-
-??? tip "Run autonomously (Test Cloud only)"
-    **Autonomous Test Execution** runs one manual test case with Autopilot, in one click, on a robot. You start it from the test case, not from a test set.
-
-    1. Go to **Test Cases**, open a manual test case, and go to the **Manual Steps** tab. In the right-hand panel, select **Run Autonomously**.
-
-        ![Run Autonomously in the Manual Steps tab](../assets/images/TM%20Run%20autonomously.png)
-
-    2. Enter the **Target Application URL**, `https://uibank.uipath.com`. **Run** stays disabled until you do. Turn on **Live Streaming** to watch Autopilot drive the browser, and take over if needed. Select an **AI Model**, or keep the default.
-
-        **Run** still disabled? Open **Configure** and set **Runtime type** to your machine's runtime, **App Testing** or **Testing**.
-    3. Select **Run**.
-    4. When it finishes, open the execution:
-
-        ✅ **Logs** — each step's result, expected behavior, and screenshots. Expand a step to see what Autopilot did.
-
-        ✅ **Execution Log** — Autopilot's reasoning, such as how it found an element or compared a result.
-
-    See <a href="https://docs.uipath.com/test-manager/automation-cloud/latest/user-guide/running-autonomous-test-execution" target="_blank">Running Autonomous Test Execution</a>.
-
-??? tip "No test case yet? Explore the requirement autonomously (Test Cloud only)"
-    **Autonomous Exploration** is exploratory testing with Autopilot: it learns the app, designs tests, and runs them within a time-box.
-
-    1. Open a **requirement** → **Autonomous Exploration**.
-    2. Enter the app URL, set a **time-box**, and select an AI model. Enable **Live Streaming** to watch it explore.
-    3. Select **Start**. When it's **Completed**, select **Show report**.
-
-    Needs a Windows robot in the project's default folder (set up in [Prerequisites](../module-0-prerequisites/index.md#orchestrator-folder-and-robot)), with the UiPath browser extension set to **Allow in Incognito**. See <a href="https://docs.uipath.com/test-manager/automation-cloud/latest/user-guide/running-autonomous-exploration" target="_blank">Running Autonomous Exploration</a>.
-
 ## Run manual tests with Delegate
 
 With Delegate, you can run a test case or create a new one from a business document. You review the work and decide what to save in Test Manager.
@@ -162,6 +113,57 @@ The business has documented a new process, **Loan lookup**, in a Process Design 
     ✅ **Run them with you** — Delegate runs the steps and stops to ask when it needs a decision from you. Don't paste passwords into the chat: keep test logins in an Orchestrator Credential asset and give Delegate the asset name.
 
     ✅ **Record the results** — create test results with screenshots of failed steps, and upload them to Test Manager.
+
+## Other ways to run manual tests
+
+??? tip "Manual execution assistant"
+    You run every test case in a test set yourself, one after another.
+
+    1. Go to **Test Sets**, open **UiBank Smoke Test Set**, and select **Execute → Manually**.
+
+        !!! info "Allow pop-ups for Test Manager"
+            The manual execution assistant opens in a new window.
+
+    2. If the test case has a precondition, the state the app must be in before the test, set up the app as it says.
+    3. Perform each step, then select **Set Passed** or **Set Failed** (comment on failures).
+    4. At any step, capture a screenshot or upload related files as attachments.
+
+        !!! info "Pass several steps at once"
+            Select **Set Passed Until Here**.
+
+    5. If the test case has a postcondition, the state the app must be in after the test, check it. Select **Condition Met** if it holds.
+    6. Select **Next** to run the next test case. After the last one, select **Done**.
+    7. Check the results in the project's **Execution** section.
+
+    See <a href="https://docs.uipath.com/test-manager/automation-cloud/latest/user-guide/executing-test-sets-manually" target="_blank">Executing test sets manually</a>.
+
+??? tip "Run autonomously (Test Cloud only)"
+    **Autonomous Test Execution** runs one manual test case with Autopilot, in one click, on a robot. You start it from the test case, not from a test set.
+
+    1. Go to **Test Cases**, open a manual test case, and go to the **Manual Steps** tab. In the right-hand panel, select **Run Autonomously**.
+
+        ![Run Autonomously in the Manual Steps tab](../assets/images/TM%20Run%20autonomously.png)
+
+    2. Enter the **Target Application URL**, `https://uibank.uipath.com`. **Run** stays disabled until you do. Turn on **Live Streaming** to watch Autopilot drive the browser, and take over if needed. Select an **AI Model**, or keep the default.
+
+        **Run** still disabled? Open **Configure** and set **Runtime type** to your machine's runtime, **App Testing** or **Testing**.
+    3. Select **Run**.
+    4. When it finishes, open the execution:
+
+        ✅ **Logs** — each step's result, expected behavior, and screenshots. Expand a step to see what Autopilot did.
+
+        ✅ **Execution Log** — Autopilot's reasoning, such as how it found an element or compared a result.
+
+    See <a href="https://docs.uipath.com/test-manager/automation-cloud/latest/user-guide/running-autonomous-test-execution" target="_blank">Running Autonomous Test Execution</a>.
+
+??? tip "No test case yet? Explore the requirement autonomously (Test Cloud only)"
+    **Autonomous Exploration** is exploratory testing with Autopilot: it learns the app, designs tests, and runs them within a time-box.
+
+    1. Open a **requirement** → **Autonomous Exploration**.
+    2. Enter the app URL, set a **time-box**, and select an AI model. Enable **Live Streaming** to watch it explore.
+    3. Select **Start**. When it's **Completed**, select **Show report**.
+
+    Needs a Windows robot in the project's default folder (set up in [Prerequisites](../module-0-prerequisites/index.md#orchestrator-folder-and-robot)), with the UiPath browser extension set to **Allow in Incognito**. See <a href="https://docs.uipath.com/test-manager/automation-cloud/latest/user-guide/running-autonomous-exploration" target="_blank">Running Autonomous Exploration</a>.
 
 ## Nice work!
 
