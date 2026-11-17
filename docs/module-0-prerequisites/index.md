@@ -43,7 +43,7 @@ Confirm that you can:
         3. Go back to Assistant, click **Sign in**, and follow step 2.
 
 3. Select **Delegate** in the top ribbon. It shows only once Assistant is connected.
-4. Set the work profile: click the person icon or your initials (top right) → **Settings** → **Behavior preferences**, and set **Work profile** to **QA / Testing**.
+4. Set the work profile: click the person icon or your initials (top right) → **Settings** → **Behavior preferences** → **QA / Testing**.
 5. Click **+ New** in the left panel to start your session. Use this one session for the whole workshop.
 
 !!! success "Check it"
@@ -53,7 +53,7 @@ Confirm that you can:
 
     ✅ The UiPath extension is enabled in your browser.
 
-    ✅ Delegate opens from Assistant's top ribbon, with **Work profile** set to **QA / Testing**.
+    ✅ Delegate opens from Assistant's top ribbon, with **QA / Testing** selected in **Behavior preferences**.
 
 ## Set up Delegate
 
