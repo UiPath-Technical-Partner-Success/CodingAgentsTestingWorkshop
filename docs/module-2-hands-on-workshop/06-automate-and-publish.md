@@ -48,7 +48,7 @@ Automate **every** test case you chose in [3. Generate Test Cases](03-generate-t
     !!! warning "Save and close first"
         **Save** the test case in Studio, then **close its tab**. Until you save, the file doesn't exist, so Delegate can't find it. If the tab stays open, Studio can save over Delegate's changes.
 
-    Replace `<TEST_CASE_KEY>` (the test case key in Test Manager, such as `TESTWS:3`) and `<YOUR_NAME>`, then paste:
+    Replace `<TEST_CASE_KEY>` (the test case key in Test Manager, such as `UIBAS:3`) and `<YOUR_NAME>`, then paste:
 
     ```text
     Review and fix the automated test case <TEST_CASE_KEY> in the <YOUR_NAME>_UiBank Tests project in Studio.
