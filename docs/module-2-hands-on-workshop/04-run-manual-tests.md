@@ -7,7 +7,7 @@ There are three ways to run a manual test case. Each records its results in Test
 |---|---|---|---|---|
 | **Delegate** *(used in this workshop)* | One test case | Delegate, on your machine | Web and desktop apps | None |
 | **Manual execution assistant** | A whole test set | You | Any | None |
-| **Run autonomously** | One test case | Autopilot, on a robot | Web apps | A robot in the project's default folder (set up in [Prerequisites](../module-0-prerequisites/index.md#orchestrator-folder-and-robot)) |
+| **Run autonomously** | One test case | Autopilot, on a robot | Web apps | Test Cloud only. A robot in the project's default folder (set up in [Prerequisites](../module-0-prerequisites/index.md#orchestrator-folder-and-robot)) |
 
 See <a href="https://docs.uipath.com/test-manager/automation-cloud/latest/user-guide/executing-manual-tests" target="_blank">Executing manual tests</a>.
 
@@ -32,7 +32,7 @@ See <a href="https://docs.uipath.com/test-manager/automation-cloud/latest/user-g
 
     See <a href="https://docs.uipath.com/test-manager/automation-cloud/latest/user-guide/executing-test-sets-manually" target="_blank">Executing test sets manually</a>.
 
-??? tip "Run autonomously"
+??? tip "Run autonomously (Test Cloud only)"
     **Autonomous Test Execution** runs one manual test case with Autopilot, in one click, on a robot. You start it from the test case, not from a test set.
 
     1. Go to **Test Cases**, open a manual test case, and go to the **Manual Steps** tab. In the right-hand panel, select **Run Autonomously**.
@@ -51,7 +51,7 @@ See <a href="https://docs.uipath.com/test-manager/automation-cloud/latest/user-g
 
     See <a href="https://docs.uipath.com/test-manager/automation-cloud/latest/user-guide/running-autonomous-test-execution" target="_blank">Running Autonomous Test Execution</a>.
 
-??? tip "No test case yet? Explore the requirement autonomously"
+??? tip "No test case yet? Explore the requirement autonomously (Test Cloud only)"
     **Autonomous Exploration** is exploratory testing with Autopilot: it learns the app, designs tests, and runs them within a time-box.
 
     1. Open a **requirement** → **Autonomous Exploration**.
