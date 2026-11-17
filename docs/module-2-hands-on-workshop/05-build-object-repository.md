@@ -221,6 +221,6 @@ Your project is set up, linked to Test Manager, and the Object Repository is bui
 
 ---
 
-[Next → 06. Automate and Publish the Test Cases](06-automate-and-publish.md){: .md-button .md-button--primary}
+[Next → 6. Automate and Publish the Test Cases](06-automate-and-publish.md){: .md-button .md-button--primary}
 
 ---

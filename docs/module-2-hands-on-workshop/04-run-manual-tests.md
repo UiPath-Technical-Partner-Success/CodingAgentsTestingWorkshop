@@ -169,6 +169,6 @@ Your test cases are proven against the real application, with results in Test Ma
 
 ---
 
-[Next → 05. Set Up Studio and Build the Object Repository](05-build-object-repository.md){: .md-button .md-button--primary}
+[Next → 5. Set Up Studio and Build the Object Repository](05-build-object-repository.md){: .md-button .md-button--primary}
 
 ---

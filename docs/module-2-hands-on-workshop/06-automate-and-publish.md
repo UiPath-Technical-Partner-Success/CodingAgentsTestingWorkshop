@@ -136,6 +136,6 @@ Your test cases are automated and published, ready to run from Test Manager.
 
 ---
 
-[Next → 07. Add Test Cases to the Smoke Test Set](07-create-test-set.md){: .md-button .md-button--primary}
+[Next → 7. Add Test Cases to the Smoke Test Set](07-create-test-set.md){: .md-button .md-button--primary}
 
 ---

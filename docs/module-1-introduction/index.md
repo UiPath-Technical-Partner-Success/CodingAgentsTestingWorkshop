@@ -54,6 +54,6 @@ That's enough theory — let's build.
 
 ---
 
-[Next → 01. Import and Link the Test Manager Project](../module-2-hands-on-workshop/01-import-tm-project.md){: .md-button .md-button--primary}
+[Next → 1. Import and Link the Test Manager Project](../module-2-hands-on-workshop/01-import-tm-project.md){: .md-button .md-button--primary}
 
 ---

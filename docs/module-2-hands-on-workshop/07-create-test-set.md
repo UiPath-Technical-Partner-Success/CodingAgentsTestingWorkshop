@@ -55,6 +55,6 @@ Everything is in place to run, triage, and report.
 
 ---
 
-[Next → 08. Run, Triage, and Report](08-run-and-report.md){: .md-button .md-button--primary}
+[Next → 8. Run, Triage, and Report](08-run-and-report.md){: .md-button .md-button--primary}
 
 ---

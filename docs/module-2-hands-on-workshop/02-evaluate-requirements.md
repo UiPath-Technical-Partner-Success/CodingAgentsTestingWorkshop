@@ -70,6 +70,6 @@ Your requirement is clearer and more testable — ready for generating test case
 
 ---
 
-[Next → 03. Generate Test Cases](03-generate-test-cases.md){: .md-button .md-button--primary}
+[Next → 3. Generate Test Cases](03-generate-test-cases.md){: .md-button .md-button--primary}
 
 ---
