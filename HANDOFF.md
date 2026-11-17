@@ -1,6 +1,6 @@
 # Handoff: Coding Agents for Test Workshop Guide
 
-**Owner:** Meera Kannan · **Last updated:** 2026-11-17 · **Status:** On `main`. The owner's end-to-end rehearsal is under way: steps 6–8 rehearsed on 2026-11-16, step 8 report again on 2026-11-17 (see Log). **Resume here:** the 2026-11-17 full review is done (all items fixed or closed by the owner). Owner checks left: remove the old suggestions from TESTWS's Submit Loan Request before rehearsing step 8 again. Timings are tracked by the owner, not here. Notes in the local `Rehearsal Checklist.md` (not committed).
+**Owner:** Meera Kannan · **Last updated:** 2026-11-17 · **Status:** On `main`. The owner's end-to-end rehearsal is under way: steps 6–8 rehearsed on 2026-11-16, step 8 report again on 2026-11-17 (see Log). **Resume here:** nothing open. The 2026-11-17 full review is done, every owner check is closed, and the new sample project imports correctly (owner). Timings are tracked by the owner, not here. Notes in the local `Rehearsal Checklist.md` (not committed).
 
 ## What this is
 
@@ -207,3 +207,4 @@ An MkDocs (Material) site for the hands-on **Coding Agents for Test** workshop. 
 | 2026-11-17 | Review hotfixes (owner: continue): step 6 publish and link-check prompts say to replace `<YOUR_NAME>`; step 6 diagram shows the Delegate review; Home objectives add running in UiBank Smoke Test Set, the page table describes Prerequisites as laptop, accounts, folder and robot, Delegate, and adds a Trainer Setup row; README phase table uses the current steps; HANDOFF built-in agent step numbers fixed (2 and 3). Package names must be unique per learner (`<YOUR_NAME>_UiBank Tests`, BP-04). Left for owner: step 6 says **Project** panel (Set as Publishable) and **Explorer** panel (Link to Test Manager); confirm the Studio panel names. |
 | 2026-11-17 | Owner confirmed Orchestrator labels: the machine template menu item is **Edit Machine**, and editing a user under Manage access saves with **Update** (Prerequisites step now says "Click **Update**"). |
 | 2026-11-17 | Step 2 sample confirmed (owner): $120,000 / 3 years / $300,000 income, age 30, is rejected with "Sorry, at this time you have not been approved for a loan." and "You must be at least 18 years old for a loan and the loan must not exceed 100k.", the same reason line as $150,000 / $400,000, so the general >$100,000 rule in the sample holds. The sample quotes only the reason line. |
+| 2026-11-17 | Owner: the new sample `.tmh` imports correctly from step 1's zip. TESTWS cleanup dropped (rehearsal project only; learners never see it). |
