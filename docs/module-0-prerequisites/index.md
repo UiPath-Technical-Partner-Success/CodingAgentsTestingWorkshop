@@ -35,7 +35,7 @@ Confirm that you can:
 ## Connect Studio and Delegate
 
 1. Launch Studio and **sign in** to the workshop organization and tenant.
-2. Open **UiPath Assistant** → **Preferences** → **Orchestrator connection**, sign in with your UiPath account, and select the workshop tenant.
+2. Open **UiPath Assistant**, click the person icon or your initials (top right) → **Preferences** → **Orchestrator connection**, sign in with your UiPath account, and select the workshop tenant.
 
     ??? tip "Assistant already shows you signed in and connected?"
         1. Click **Sign out**. Your default browser opens and asks if you want to log out. Don't click it.
@@ -43,7 +43,7 @@ Confirm that you can:
         3. Go back to Assistant, click **Sign in**, and follow step 2.
 
 3. Select **Delegate** in the top ribbon. It shows only once Assistant is connected.
-4. Set the work profile: in Delegate, go to **Settings → Behavior preferences** and select **QA / Testing**.
+4. Set the work profile: in Delegate, click your user name (bottom left) → **Settings** → **Behavior preferences**, and select **QA / Testing**.
 5. Click **+ New** in the left panel to start your session. Use this one session for the whole workshop.
 
 !!! success "Check it"
