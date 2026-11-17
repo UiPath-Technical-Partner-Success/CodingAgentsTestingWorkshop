@@ -79,27 +79,21 @@ The business has documented a new process, **Loan lookup**, in a Process Design 
     Keep going until you're happy with both.
 
 ??? example "Go further — Organize test cases in bulk"
-    1. Replace `<YOUR_TEST_CASE_KEY>` with the key of the test case you ran in part 1, then paste:
+    Paste:
 
-        ```text
-        Add the label "Delegate" to test case <YOUR_TEST_CASE_KEY> and to the Loan Lookup test case you created.
-        ```
+    ```text
+    Create a custom field definition for test cases in my project:
+    - Name: Test Tier
+    - Description: How often this test should run: every build, daily, or before release.
+    - Object type: Test Cases
+    - Data type: Label
+    - Suggested values: Smoke, Core, Extended
 
-    2. Create a **Test Tier** custom field and set it on the labeled test cases:
-
-        ```text
-        Create a custom field definition for test cases in my project:
-        - Name: Test Tier
-        - Description: How often this test should run: every build, daily, or before release.
-        - Object type: Test Cases
-        - Data type: Label
-        - Suggested values: Smoke, Core, Extended
-
-        Then, for every test case with the label "Delegate", set Test Tier to "Smoke".
-        ```
+    Then set Test Tier to "Smoke" on every test case in UiBank Smoke Test Set.
+    ```
 
     !!! success "Check it"
-        Open a labeled test case. Its **Details** tab shows the **Test Tier** dropdown set to **Smoke** (not a second Test Tier line).
+        Open any test case in **UiBank Smoke Test Set**. Its **Details** tab shows the **Test Tier** dropdown set to **Smoke** (not a second Test Tier line).
 
     **Test Tier** is only a field. It doesn't add test cases to **UiBank Smoke Test Set**.
 
