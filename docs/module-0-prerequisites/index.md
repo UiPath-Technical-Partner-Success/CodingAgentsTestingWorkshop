@@ -16,8 +16,6 @@ Use this checklist to confirm you're ready **before the workshop starts**.
     1. Open **Start → Settings → System → Power & battery → Screen, sleep, & hibernate timeouts**.
     2. Under **Plugged in**, set **Turn my screen off after** and **Make my device sleep after** to **Never**.
 
-        ![Screen, sleep, & hibernate timeouts with Never selected](../assets/images/Windows%20Screen%20sleep%20timeouts.png)
-
     On a company laptop, a policy may still lock the screen. Check with your IT team.
 
 ✅ **UiPath Studio**, latest STS version: download and run <a href="https://download.uipath.com/connected-installer/latest/sts/UiPathPlatformSTS.msi" target="_blank">UiPathPlatformSTS.msi</a>
