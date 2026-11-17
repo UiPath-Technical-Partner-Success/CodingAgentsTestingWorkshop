@@ -159,6 +159,14 @@ th {
   max-height: 300px;
 }
 
+/* Side-by-side screenshots: add { .img-side } after each image on the same line */
+.md-typeset img.img-side {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 47%;
+  margin: 20px 1%;
+}
+
 /* Dark mode image shadow adjustment */
 [data-md-color-scheme="dark"] .md-typeset img {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4), 0 4px 12px rgba(0, 0, 0, 0.3);
