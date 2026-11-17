@@ -3,7 +3,7 @@
 Set up a Studio Test Automation project with Delegate, link it to Test Manager, and build the Object Repository that Autopilot uses in the next step.
 
 !!! warning "Access required"
-    You need an **App Test Developer** license to create and publish Test Automation projects.
+    You need an **App Test Developer** license (Test Cloud) or an **Automation Developer** license (Automation Cloud) to create and publish Test Automation projects.
 
 ## What you'll do
 
