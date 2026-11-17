@@ -24,6 +24,9 @@ A **test set** groups test cases that run together. Your project already has one
     ??? info "What about the other test cases in the set?"
         They stay. They're manual, so the automated run skips them.
 
+!!! success "Check it"
+    **UiBank Smoke Test Set** lists every test case you automated.
+
 ## Configure the automation
 
 1. Still on the set's **Test Cases** tab, click **Configure Automation**.
@@ -34,9 +37,6 @@ A **test set** groups test cases that run together. Your project already has one
 3. Set **Runtime Type** to the runtime you set on your machine: **App Testing** or **Testing**. The panel shows **1 Runtimes Available, 1 Connected**.
 4. Under **Automation Packages**, select **Autoselect Packages**. Check that it lists your `<YOUR_NAME>_UiBank Tests` package, and click **Save**.
 
-!!! success "Check it"
-    **UiBank Smoke Test Set** lists every test case you automated.
-
 !!! warning "Do a test run"
     This is the first time Test Manager runs a test on your machine. It checks your robot setup from [Prerequisites](../module-0-prerequisites/index.md#orchestrator-folder-and-robot), not just the test set, so a problem shows up here, not in step 8.
 
@@ -45,7 +45,7 @@ A **test set** groups test cases that run together. Your project already has one
     ![Execute menu on the test set with Automated selected](../assets/images/TM%20Test%20Set%20Execute%20Automated.png)
 
 !!! success "Check it"
-    In **Execution**, every test case you automated has a result. The over-65 test case fails. That's expected: you triage it in [8. Run, Triage, and Report](08-run-and-report.md). The set's manual test cases count as **not executed**.
+    In **Execution**, every test case you automated has a result. The over-65 test case fails. That's expected: you triage it in [8. Run, Triage, and Report](08-run-and-report.md). The set's manual test cases show **None** (not executed).
 
     ![Automated execution of UiBank Smoke Test Set: the over-65 test case failed, the others passed](../assets/images/TM%20Smoke%20Set%20Execution%20Result.png)
 
