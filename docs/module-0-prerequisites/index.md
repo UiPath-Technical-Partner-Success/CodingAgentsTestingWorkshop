@@ -125,6 +125,19 @@ Signing in to Automation Cloud lets you open Test Manager, but not run tests. Te
     **Create your folder**
 
     1. Create a personal folder, as your trainer guides you. You'll assign your machine to it.
+
+        1. In Orchestrator, at the **Tenant** level, go to **Folders**.
+
+            ![Folders tab at the tenant level](../assets/images/OC%20Tenant%20Folders.png)
+
+        2. Click the new folder icon next to **Manage Folders**.
+
+            ![New folder icon next to Manage Folders](../assets/images/OC%20New%20Folder%20icon.png){ width="400" }
+
+        3. Enter a unique **Name**, such as your own name, and click **Create**.
+
+            ![New Folder dialog with Name and Create](../assets/images/OC%20New%20Folder%20dialog.png){ width="400" }
+
     2. You get your permissions through a group your trainer sets up. You don't need to set them yourself.
     3. In the Enterprise setup, use **Custom Windows credentials**:
 
