@@ -7,7 +7,7 @@ Turn your manual test cases into automations with **Autopilot for Testers** in S
 
 ## What you'll do
 
-You switch between **two tools** on this page. Each step is labelled with the one it uses:
+You switch between **two tools** on this page. Each step is labeled with the one it uses:
 
 | Tool | What you do |
 |---|---|
