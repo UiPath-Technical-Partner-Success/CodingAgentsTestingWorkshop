@@ -154,21 +154,27 @@ Signing in to Automation Cloud lets you open Test Manager, but not run tests. Te
     !!! tip "Workshop shortcut"
         Your own user runs the tests. In production, an admin assigns a dedicated **robot account** and a machine template to the folder.
 
-    **Set up your machine and folder**
+    **Allocate a runtime to your machine**
 
-    1. In Orchestrator, select **Tenant** (top left) → **Machines**, and search for your name.
+    1. In Orchestrator, at the **Tenant** level, go to **Machines**.
 
-        ![Machines tab at the tenant level, with the search box](../assets/images/OC%20Tenant%20Machines.png)
+        ![Machines tab at the tenant level](../assets/images/OC%20Tenant%20Machines%20tab.png)
 
-    2. Edit your machine template. Under **Runtime details**, set **App Testing** or **Testing** to **1**, whichever you see, and save.
+    2. Search for your machine by your name, click the three dots (**⋮**) at the end of its row, and select **Edit Machine**.
 
-        ![App Testing runtime in the machine template](../assets/images/OC%20App%20testing%20license.png)
+        ![More actions on the machine row](../assets/images/OC%20Machine%20more%20actions.png)
 
-    3. Still at the **Tenant** level, go to **Folders** and open your personal folder. In the **Manage access** tab, check that your username is listed, with **Attended, Unattended** under **Robot Type**.
+    3. Under **Runtime licenses**, enter **1** in **App Testing** or **Testing**, whichever you see, and click **Update**.
+
+        ![Testing runtime set to 1](../assets/images/OC%20Runtime%20Testing.png){ width="300" } ![App Testing runtime set to 1](../assets/images/OC%20Runtime%20App%20Testing.png){ width="300" }
+
+    **Add your machine to your folder**
+
+    1. Still at the **Tenant** level, go to **Folders** and open your personal folder. In the **Manage access** tab, check that your username is listed, with **Attended, Unattended** under **Robot Type**.
 
         ![Manage access tab of the folder](../assets/images/OC%20Settings%20Folder%20Admin.png)
 
-    4. Open the **Machines** tab, next to **Manage access**. Click **Manage Machines in Folder**, select your machine, then click **Update** to add it to the folder.
+    2. Open the **Machines** tab, next to **Manage access**. Click **Manage Machines in Folder**, select your machine, then click **Update** to add it to the folder.
 
         ![Manage Machines in Folder button](../assets/images/OC%20Manage%20machine.png)
 
