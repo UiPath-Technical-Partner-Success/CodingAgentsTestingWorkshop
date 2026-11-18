@@ -97,7 +97,7 @@ Use the column for your organization type.
     2. Launch Studio, and sign in to <ORG> and <TENANT>
 
     VERIFICATION
-    - Studio shows you signed in to <TENANT>
+    - Studio asks you to sign in to Automation Cloud
     - The UiPath extension is enabled in your browser
     ```
 
