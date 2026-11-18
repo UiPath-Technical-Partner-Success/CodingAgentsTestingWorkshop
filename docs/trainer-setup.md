@@ -76,9 +76,9 @@ Use the column for your organization type.
     SYSTEM REQUIREMENTS
     - A Windows 10 or 11 laptop with local admin rights
     - Google Chrome or Microsoft Edge
-    - UiPath Studio, latest STS version, installed. Install it even if
-      you already have Studio, and select Studio and Assistant, Delegate
-      & Cartographer in the installer:
+    - UiPath Studio, latest STS version, installed.
+      Install it even if you already have Studio, and select Studio and
+      Assistant, Delegate & Cartographer in the installer:
       https://download.uipath.com/connected-installer/latest/sts/UiPathPlatformSTS.msi
     - Access to https://cloud.uipath.com and https://uibank.uipath.com,
       with no proxy or firewall blocking them. On a company laptop,
