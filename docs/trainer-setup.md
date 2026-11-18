@@ -38,7 +38,7 @@ Use the column for your organization type.
 | Run autonomously, Autonomous Exploration (step 4 tips) | Available | Not available |
 
 !!! info "Optional: Run autonomously and Autonomous Exploration"
-    For these tips in step 4, make sure a supported, non-serverless robot is available in each project's default folder. The robot machine must run Windows, and its UiPath browser extension must have **Allow in Incognito** turned on.
+    To use Run autonomously and Autonomous Exploration in step 4, make sure a robot is available in each project's default folder. The robot machine must run Windows, and its UiPath browser extension must have **Allow in Incognito** turned on.
 
 ## Test Manager
 
