@@ -51,7 +51,19 @@ Use the column for your organization type.
 !!! info "Recommended"
     Do the Prerequisites folder and robot setup for each learner before the session, so learners don't need tenant-level rights.
 
-✅ For the Prerequisites **folder and robot** setup, give the group the Orchestrator rights to configure unattended automation settings for their machine using machine domain name and password.
+✅ At the **Tenant** level, go to **Manage access** → **Access rules** → **Groups**, and assign access rules to the group.
+
+✅ Under **Roles**, add **Allow to be Folder Administrator**, **Allow to be Automation Developer** and **Allow to be Automation Publisher**.
+
+✅ Under **Settings**, set:
+
+✅ **UI Profile:** Standard
+
+✅ **Personal automation setup:** Enable personal automation + Personal workspace
+
+✅ **Client binaries (Robot, Assistant and Studio) auto-update policy:** None
+
+![Assign access rules for the group, with roles and settings](assets/images/OC%20Group%20access%20rules.png){ width="400" }
 
 ## Send learners the prerequisites
 
