@@ -145,8 +145,8 @@ For testing, Delegate is fully integrated with **Test Manager**, so you can hand
 
 ## Set up Delegate
 
-!!! tip "Suggested model: Claude Opus 5.5"
-    This guide was built and tested with **Claude Opus 5.5** at **Medium**. Select it from the model selector next to the chatbox. Other models work too, but their results may differ from the guide's samples.
+!!! tip "Suggested model: Claude Opus"
+    This guide was built and tested with **Claude Opus** at **Medium**. Select it from the model selector next to the chatbox. Other models work too, but their results may differ from the guide's samples.
 
     ![Model selector next to the Delegate chatbox](../assets/images/Delegate%20model%20selector.png)
 
