@@ -61,8 +61,6 @@ Use the column for your organization type.
 
 ✅ **Personal automation setup:** Enable personal automation + Personal workspace
 
-✅ **Client binaries (Robot, Assistant and Studio) auto-update policy:** None
-
 ![Assign access rules for the group, with roles and settings](assets/images/OC%20Group%20access%20rules.png){ width="400" }
 
 ## Send learners the prerequisites
