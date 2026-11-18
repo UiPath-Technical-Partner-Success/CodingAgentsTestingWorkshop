@@ -76,7 +76,10 @@ Use the column for your organization type.
 
     ```text
     SYSTEM REQUIREMENTS
-    - A Windows 10 or 11 laptop with local admin rights
+    - A Windows laptop with local admin rights
+      - Windows 10 (version 1903 or later) or Windows 11, 64-bit
+      - Intel or AMD processor, not ARM (such as Snapdragon)
+      - At least 8 GB RAM
     - Google Chrome or Microsoft Edge
     - UiPath Studio, latest STS version
       - Install it even if you already have Studio
@@ -102,6 +105,25 @@ Use the column for your organization type.
     ```
 
     </div>
+
+??? note "Trainer notes: Delegate security questions"
+    Use these if a customer's IT or security team asks about Delegate.
+
+    ✅ **Data:** the task text and screenshots go to the AI model through the AI Trust Layer. UiPath is contractually barred from training on customer data.
+
+    ✅ **Storage:** conversation history is stored in the tenant's region until the user deletes it. A local-only setting keeps history on the laptop.
+
+    ✅ **Encryption:** TLS 1.2 or later in transit, AES-256 at rest.
+
+    ✅ **Access:** Delegate runs as the signed-in user, without elevated rights. Entering a password always needs an explicit approval.
+
+    ✅ **Network:** outbound HTTPS only, to UiPath domains. Delegate uses the system proxy and the company's root certificates.
+
+    ✅ **Admin control:** Automation Ops can enforce and lock Delegate settings, including which models are allowed.
+
+    ✅ **Compliance:** SOC 2 Type 2, ISO/IEC 27001, 27017, 27018 and 42001, HIPAA and others. Delegate falls under the existing Automation Cloud DPA.
+
+    See <a href="https://docs.uipath.com/delegate/standalone/latest/user-guide/security-overview" target="_blank">Security overview</a>, <a href="https://docs.uipath.com/delegate/standalone/latest/user-guide/data-and-compliance" target="_blank">Data security and compliance</a> and <a href="https://docs.uipath.com/automation-cloud/automation-cloud/latest/admin-guide/configuring-firewall" target="_blank">Configuring the firewall</a>.
 
 ## On the day
 
