@@ -51,7 +51,7 @@ Use the column for your organization type.
 !!! info "Recommended"
     Do the Prerequisites folder and robot setup for each learner before the session, so learners don't need tenant-level rights.
 
-✅ At the **Tenant** level, go to **Manage access** → **Access rules** → **Groups**, and assign access rules to the group.
+✅ At the **Tenant** level, go to **Manage access** → **Assign access** → **Groups**, and assign access rules to the group.
 
 ✅ Under **Roles**, add **Allow to be Folder Administrator**, **Allow to be Automation Developer** and **Allow to be Automation Publisher**.
 
