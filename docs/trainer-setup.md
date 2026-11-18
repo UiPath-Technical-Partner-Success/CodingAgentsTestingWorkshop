@@ -33,7 +33,7 @@ Use the column for your organization type.
 | | Test Cloud organization | Automation Cloud organization |
 |---|---|---|
 | Learner user license | **App Test Developer - Named User** (App Tester can't create or publish Test Automation projects) | **Automation Developer - Named User** (includes Tester for Test Manager) |
-| Where to assign | User license to the group, organization-wide (no tenant allocation) | User license to the group or each learner |
+| Where to assign | Group | User license to the group or each learner |
 | Robot runtime for the tenant | **App Test Robot**: at least one per learner machine | **Testing**: at least one per learner machine |
 | Machine template runtime type | **App Testing** | **Testing** |
 | Run autonomously, Autonomous Exploration (step 4 tips) | Available | Not available |
