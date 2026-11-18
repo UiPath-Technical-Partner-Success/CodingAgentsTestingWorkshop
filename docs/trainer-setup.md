@@ -79,7 +79,7 @@ Use the column for your organization type.
     - UiPath Studio, latest STS version
       - Install it even if you already have Studio
       - In the installer, select Studio and Assistant, Delegate & Cartographer
-      - Download: https://download.uipath.com/connected-installer/latest/sts/UiPathPlatformSTS.msi
+      - Download link: https://download.uipath.com/connected-installer/latest/sts/UiPathPlatformSTS.msi
     - Access to these sites, with no proxy or firewall blocking them
       - https://cloud.uipath.com
       - https://uibank.uipath.com
