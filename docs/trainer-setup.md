@@ -69,7 +69,7 @@ Use the column for your organization type.
 
 ## Send learners the prerequisites
 
-✅ Copy and share these prerequisites with learners.
+✅ Copy these prerequisites, replace `<ORG>` and `<TENANT>` with your organization and tenant names, and send them to learners.
 
 !!! info "Prerequisites to send learners"
     <div class="rich-copy" markdown>
@@ -124,10 +124,6 @@ Use the column for your organization type.
     ✅ **Compliance:** SOC 2 Type 2, ISO/IEC 27001, 27017, 27018 and 42001, HIPAA and others. Delegate falls under the existing Automation Cloud DPA.
 
     See <a href="https://docs.uipath.com/delegate/standalone/latest/user-guide/security-overview" target="_blank">Security overview</a>, <a href="https://docs.uipath.com/delegate/standalone/latest/user-guide/data-and-compliance" target="_blank">Data security and compliance</a> and <a href="https://docs.uipath.com/automation-cloud/automation-cloud/latest/admin-guide/configuring-firewall" target="_blank">Configuring the firewall</a>.
-
-## On the day
-
-✅ Share the **organization name** and **tenant name** with learners.
 
 ## After the workshop
 
