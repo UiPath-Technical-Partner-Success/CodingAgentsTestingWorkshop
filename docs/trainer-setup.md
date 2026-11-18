@@ -76,27 +76,29 @@ Use the column for your organization type.
     SYSTEM REQUIREMENTS
     - A Windows 10 or 11 laptop with local admin rights
     - Google Chrome or Microsoft Edge
-    - UiPath Studio, latest STS version, installed.
-      Install it even if you already have Studio, and select Studio and
-      Assistant, Delegate & Cartographer in the installer:
-      https://download.uipath.com/connected-installer/latest/sts/UiPathPlatformSTS.msi
-    - Access to https://cloud.uipath.com and https://uibank.uipath.com,
-      with no proxy or firewall blocking them. On a company laptop,
-      check with your IT team first.
-    - Your Windows sign-in password. Sign in with only a PIN, or no
-      password? Tell your trainer before the workshop.
-    - On the day: set your screen to never turn off and your laptop to
-      never sleep while plugged in.
+    - UiPath Studio, latest STS version
+      - Install it even if you already have Studio
+      - In the installer, select Studio and Assistant, Delegate & Cartographer
+      - Download: https://download.uipath.com/connected-installer/latest/sts/UiPathPlatformSTS.msi
+    - Access to these sites, with no proxy or firewall blocking them
+      - https://cloud.uipath.com
+      - https://uibank.uipath.com
+      - On a company laptop, check with your IT team first
+    - Your Windows sign-in password
+      - Sign in with only a PIN, or no password? Tell your trainer before the workshop
+    - On the day
+      - Screen: never turn off
+      - Laptop: never sleep while plugged in
 
     ACCESS AND SETUP
-    1. Sign in at https://cloud.uipath.com, and open the organization
-       <ORG> and the tenant <TENANT>. Check that you can open
-       Test Manager and Orchestrator.
-    2. Launch Studio, and sign in to <ORG> and <TENANT>.
+    1. Sign in at https://cloud.uipath.com
+       - Open the organization <ORG> and the tenant <TENANT>
+       - Check that you can open Test Manager and Orchestrator
+    2. Launch Studio, and sign in to <ORG> and <TENANT>
 
     VERIFICATION
-    Studio shows you signed in to <TENANT>, and the UiPath extension is
-    enabled in your browser.
+    - Studio shows you signed in to <TENANT>
+    - The UiPath extension is enabled in your browser
     ```
 
 ## On the day
