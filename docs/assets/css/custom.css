@@ -804,3 +804,8 @@ th {
   font-weight: 700;
   line-height: 1;
 }
+
+/* Nested checklist items, such as settings under a step */
+.md-typeset .indent {
+  margin-left: 2em;
+}

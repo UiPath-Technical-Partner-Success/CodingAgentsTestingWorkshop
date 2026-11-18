@@ -57,9 +57,13 @@ Use the column for your organization type.
 
 ✅ Under **Settings**, set:
 
+<div class="indent" markdown>
+
 ✅ **UI Profile:** Standard
 
 ✅ **Personal automation setup:** Enable personal automation + Personal workspace
+
+</div>
 
 ![Assign access rules for the group, with roles and settings](assets/images/OC%20Group%20access%20rules.png){ width="400" }
 
