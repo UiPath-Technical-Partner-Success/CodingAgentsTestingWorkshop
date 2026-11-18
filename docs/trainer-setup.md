@@ -86,8 +86,6 @@ Use the column for your organization type.
       - https://cloud.uipath.com
       - https://uibank.uipath.com
       - On a company laptop, check with your IT team first
-    - Your Windows sign-in password
-      - Sign in with only a PIN, or no password? Tell your trainer before the workshop
     - On the day
       - Screen: never turn off
       - Laptop: never sleep while plugged in
