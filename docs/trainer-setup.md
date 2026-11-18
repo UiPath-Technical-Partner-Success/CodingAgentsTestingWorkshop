@@ -72,6 +72,8 @@ Use the column for your organization type.
 ✅ Copy and share these prerequisites with learners.
 
 ??? info "Prerequisites to send learners"
+    <div class="rich-copy" markdown>
+
     ```text
     SYSTEM REQUIREMENTS
     - A Windows 10 or 11 laptop with local admin rights
@@ -100,6 +102,8 @@ Use the column for your organization type.
     - Studio shows you signed in to <TENANT>
     - The UiPath extension is enabled in your browser
     ```
+
+    </div>
 
 ## On the day
 
