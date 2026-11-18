@@ -76,23 +76,7 @@ Use the column for your organization type.
 
     ```text
     SYSTEM REQUIREMENTS
-    - A Windows laptop with local admin rights
-      - Windows 10 (version 1903 or later) or Windows 11, 64-bit
-      - Intel or AMD processor, not ARM (such as Snapdragon)
-      - At least 8 GB RAM
-    - Google Chrome or Microsoft Edge
-    - UiPath Studio, latest STS version
-      - Install it even if you already have Studio
-      - In the installer, select Studio and Assistant, Delegate & Cartographer
-      - Download link: https://download.uipath.com/connected-installer/latest/sts/UiPathPlatformSTS.msi
-    - Access to these sites, with no proxy or firewall blocking them
-      - https://cloud.uipath.com
-      - https://uibank.uipath.com
-      - On a company laptop, check with your IT team first
-    - On the day
-      - Screen: never turn off
-      - Laptop: never sleep while plugged in
-
+    --8<-- "system-requirements.md"
     ACCESS AND SETUP
     1. Sign in at https://cloud.uipath.com
        - Open the organization <ORG> and the tenant <TENANT>

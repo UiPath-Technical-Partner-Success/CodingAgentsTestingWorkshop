@@ -25,8 +25,12 @@ theme:
 extra:
   generator: false
 
+watch:
+  - includes
+
 hooks:
   - hooks/cache_bust.py
+  - hooks/external_links.py
   - hooks/nav_numbers.py
 
 extra_css:
@@ -58,6 +62,10 @@ markdown_extensions:
   - toc:
       permalink: true
   - tables
+  - pymdownx.magiclink
+  - pymdownx.snippets:
+      base_path: [includes]
+      check_paths: true
 
 nav:
   - Home: index.md

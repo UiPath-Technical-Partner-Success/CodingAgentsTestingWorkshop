@@ -4,26 +4,22 @@ Use this checklist to confirm you're ready **before the workshop starts**.
 
 ## Your machine
 
-✅ A **Windows 10 or 11** laptop. The workshop uses Studio Desktop, and your machine runs your tests as a robot.
+<div class="req-list" markdown>
 
-✅ **Local admin rights**, to install Studio and the UiPath browser extension
+--8<-- "system-requirements.md"
 
-✅ A browser: **Google Chrome** or **Microsoft Edge**
+</div>
 
-✅ **Screen lock off** for the workshop day: set the screen to never turn off and the laptop to never sleep while plugged in. Delegate and your robot need an unlocked screen. Turn it back on afterwards.
+The workshop uses Studio Desktop, and your machine runs your tests as a robot. Delegate and your robot need an unlocked screen on the day. Turn screen lock back on afterwards.
 
-??? tip "How to turn it off (Windows 11)"
+??? tip "How to turn off screen lock (Windows 11)"
     1. Open **Start → Settings → System → Power & battery → Screen, sleep, & hibernate timeouts**.
     2. Under **Plugged in**, set **Turn my screen off after** and **Make my device sleep after** to **Never**.
 
     On a company laptop, a policy may still lock the screen. Check with your IT team.
 
-✅ **UiPath Studio**, latest STS version: download and run <a href="https://download.uipath.com/connected-installer/latest/sts/UiPathPlatformSTS.msi" target="_blank">UiPathPlatformSTS.msi</a>
-
 !!! warning "Install the latest STS version"
     Delegate comes with the latest **Short Term Support (STS)** installer. Install it even if you already have Studio. In the installer, select **Studio** and **Assistant, Delegate & Cartographer**.
-
-✅ Access to <a href="https://cloud.uipath.com" target="_blank">cloud.uipath.com</a> and <a href="https://uibank.uipath.com" target="_blank">uibank.uipath.com</a>, with no proxy or firewall blocking them
 
 ## Accounts and access
 
