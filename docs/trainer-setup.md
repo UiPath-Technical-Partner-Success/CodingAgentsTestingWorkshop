@@ -35,7 +35,6 @@ Use the column for your organization type.
 | Learner user license | **App Test Developer - Named User** (App Tester can't create or publish Test Automation projects) | **Automation Developer - Named User** (includes Tester for Test Manager) |
 | Where to assign | Group | Group |
 | Robot runtime for the tenant | **App Test Robot**: at least one per learner machine | **Testing**: at least one per learner machine |
-| Machine template runtime type | **App Testing** | **Testing** |
 | Run autonomously, Autonomous Exploration (step 4 tips) | Available | Not available |
 
 !!! info "Optional: Run autonomously and Autonomous Exploration"
