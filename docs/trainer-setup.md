@@ -71,7 +71,7 @@ Use the column for your organization type.
 
 ✅ Copy and share these prerequisites with learners.
 
-??? info "Prerequisites to send learners"
+!!! info "Prerequisites to send learners"
     <div class="rich-copy" markdown>
 
     ```text
