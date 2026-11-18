@@ -69,7 +69,7 @@
 
   // Capture phase, so this runs before the theme's own copy handler.
   document.addEventListener("click", function (event) {
-    var button = event.target.closest && event.target.closest(".rich-copy .md-clipboard");
+    var button = event.target.closest && event.target.closest(".rich-copy [data-clipboard-target]");
     if (!button) return;
     var code = button.closest("pre") && button.closest("pre").querySelector("code");
     if (!code || !navigator.clipboard) return; // let the theme copy plain text
