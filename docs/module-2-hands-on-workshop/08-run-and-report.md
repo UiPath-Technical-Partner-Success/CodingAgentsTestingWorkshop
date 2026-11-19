@@ -23,7 +23,7 @@ A failed test doesn't always mean a broken app: the test itself can be wrong. Yo
         ```
 
     3. Approve each request when Delegate asks. The important one is the run itself, a **real execution** on your robot.
-    4. Wait a few minutes while it runs the set and checks each result. The robot uses your desktop and browser, so don't use your mouse or keyboard until Delegate reports back.
+    4. Wait about 5 minutes while it runs the set and checks each result. The robot uses your desktop and browser, so don't use your mouse or keyboard until Delegate reports back.
 
 ??? tip "Run a single test case instead"
     Replace `<TEST_CASE_KEY>` with the key of one of your automated test cases, then paste:
@@ -54,6 +54,8 @@ A go/no-go call needs evidence. Delegate repeats the over-65 application in the 
         ```text
         Reproduce the UiBank defect in the browser: open https://uibank.uipath.com, apply for a loan with the data from the over-65 test case, and take a screenshot of the result. Then look up its loan ID on the Loan Lookup page, and take a screenshot. Then create a release manager report in PDF for this run, and save it on my Desktop. Cover this run only, not earlier executions. I need a go/no-go recommendation before tonight's sign-off meeting. Base it on UiBank defects only, and list test defects as follow-ups. Include the triage, and add both screenshots and the loan ID as evidence. Under each screenshot, add one line on what it proves against the requirement.
         ```
+
+        It takes about 6 minutes.
 
     2. Approve when Delegate asks. Don't use your browser while it reproduces the defect.
     3. If Delegate asks where to save the report, choose your Desktop. Keep the default file name, and select **Submit**.

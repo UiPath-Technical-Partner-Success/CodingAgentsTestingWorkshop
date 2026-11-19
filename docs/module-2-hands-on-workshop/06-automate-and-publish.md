@@ -68,7 +68,7 @@ Automate **every** test case you chose in [3. Generate Test Cases](03-generate-t
     ```
 
 3. When Delegate finishes, in about 3 minutes, open the test case again and check the changes.
-4. **Run** it locally. Don't use your mouse or keyboard until the run finishes.
+4. **Run** it locally. It takes under a minute. Don't use your mouse or keyboard until the run finishes.
 5. Repeat steps 1–4 for each of your other chosen test cases.
 
 !!! success "Check it"
@@ -83,6 +83,8 @@ Replace `<TEST_CASE_NAME_1>`, `<TEST_CASE_NAME_2>`, `<TEST_CASE_NAME_3>` with th
 ```text
 Set the test cases <TEST_CASE_NAME_1>, <TEST_CASE_NAME_2>, <TEST_CASE_NAME_3> in <YOUR_NAME>_UiBank Tests as publishable, and publish the project to the Orchestrator Tenant Processes Feed, not my Personal Workspace.
 ```
+
+It takes about 3 minutes.
 
 ??? tip "Do it by hand in Studio"
     1. In the **Project Explorer**, right-click each automated test case → **Set as Publishable**.
