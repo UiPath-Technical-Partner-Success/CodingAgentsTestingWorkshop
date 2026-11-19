@@ -26,8 +26,10 @@ A failed test doesn't always mean a broken app: the test itself can be wrong. Yo
     4. Wait a few minutes while it runs the set and checks each result. The robot uses your desktop and browser, so don't use your mouse or keyboard until Delegate reports back.
 
 ??? tip "Run a single test case instead"
+    Replace `<TEST_CASE_KEY>` with the key of one of your automated test cases, then paste:
+
     ```text
-    Run test case <YOUR_TEST_CASE_KEY> in my project in Test Manager, wait for it to finish, and tell me whether it passed. If it failed, explain why.
+    Run test case <TEST_CASE_KEY> in my project in Test Manager, wait for it to finish, and tell me whether it passed. If it failed, explain why.
     ```
 
 !!! success "Check it"

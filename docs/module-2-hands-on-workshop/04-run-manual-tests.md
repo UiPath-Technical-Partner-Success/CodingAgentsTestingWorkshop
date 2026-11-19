@@ -21,10 +21,10 @@ Go back to your Delegate session.
 
 !!! example "It's your turn now!"
     1. Keep only one UiBank tab open. Delegate finds the window by its title, and the prompt names UiBank.
-    2. Replace `<YOUR_TEST_CASE_KEY>` with the key of one of the test cases you chose in [3. Generate Test Cases](03-generate-test-cases.md), not the over-65 one. A key is your project prefix, a colon and a number, for example `UIBAS:43`. Then paste:
+    2. Replace `<TEST_CASE_KEY>` with the key of one of the test cases you chose in [3. Generate Test Cases](03-generate-test-cases.md), not the over-65 one. A key is your project prefix, a colon and a number, for example `UIBAS:43`. Then paste:
 
         ```text
-        Run the manual test case <YOUR_TEST_CASE_KEY>. Open UiBank at https://uibank.uipath.com, follow the test case's manual steps in the browser, and check every expected result. Take a screenshot at the final validation step and save it to my Desktop. Push the results to Test Manager. If any step failed, explain the reason.
+        Run the manual test case <TEST_CASE_KEY>. Open UiBank at https://uibank.uipath.com, follow the test case's manual steps in the browser, and check every expected result. Take a screenshot at the final validation step and save it to my Desktop. Push the results to Test Manager. If any step failed, explain the reason.
         ```
 
         It takes about 10 minutes. Delegate uses your mouse and keyboard, so don't touch them until it reports back. Follow its progress in the task list. If your screen locks, unlock it, and Delegate carries on.
@@ -39,7 +39,7 @@ Go back to your Delegate session.
     Did Delegate stumble on a step? Autopilot automates these same steps in [6. Automate and Publish the Test Cases](06-automate-and-publish.md), so fix them now:
 
     ```text
-    Rewrite the steps of test case <YOUR_TEST_CASE_KEY> that were unclear during this run, so each one has a single clear action and expected result. Show me the changes before you save them to Test Manager.
+    Rewrite the steps of test case <TEST_CASE_KEY> that were unclear during this run, so each one has a single clear action and expected result. Show me the changes before you save them to Test Manager.
     ```
 
 ### 2 — Create a new requirement and test case (optional)
