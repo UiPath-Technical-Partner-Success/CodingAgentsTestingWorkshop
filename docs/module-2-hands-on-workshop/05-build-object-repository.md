@@ -36,6 +36,8 @@ Replace `<YOUR_NAME>` with your name, for example `AlexS`, so your package is un
 Create a blank Studio Test Automation project named <YOUR_NAME>_UiBank Tests, with Windows compatibility and VB as the language, in Documents\UiPath.
 ```
 
+It takes about 5 minutes.
+
 !!! success "Check it"
     Delegate reports the project in `Documents\UiPath\<YOUR_NAME>_UiBank Tests`. It works in the background, so Studio doesn't open the project yet. It opens when you link it to Test Manager.
 
@@ -53,6 +55,8 @@ Create a blank Studio Test Automation project named <YOUR_NAME>_UiBank Tests, wi
 ```text
 Install the latest stable UI Automation activities package in <YOUR_NAME>_UiBank Tests.
 ```
+
+It takes about 1 minute.
 
 !!! success "Check it"
     Delegate reports that **UiPath.UIAutomation.Activities** is installed. Once the project opens in Studio in the next section, **Manage Packages → Project Dependencies** lists it.
@@ -77,6 +81,8 @@ Paste:
 ```text
 Connect this project to my Test Manager project, then open Test Explorer to show its test cases.
 ```
+
+It takes about 6 minutes.
 
 !!! success "Check it"
     In **Test Manager Settings**, the status is **Connected** and **Default Project** is your project. **Test Explorer** lists your test cases.

@@ -40,7 +40,7 @@ Click a step to jump to it.
 Automate **every** test case you chose in [3. Generate Test Cases](03-generate-test-cases.md). 
 
 
-1. In **Test Explorer**, right-click one of these test cases → **Generate Test Case with Autopilot**.
+1. In **Test Explorer**, right-click one of these test cases → **Generate Test Case with Autopilot**. It takes about 6 minutes.
 
     ![Generate Test Case with Autopilot in the Test Explorer right-click menu](../assets/images/testExplorer.png)
 
@@ -67,7 +67,7 @@ Automate **every** test case you chose in [3. Generate Test Cases](03-generate-t
     # On the Verify activity, turn on Take screenshot if failed.
     ```
 
-3. When Delegate finishes, open the test case again and check the changes.
+3. When Delegate finishes, in about 3 minutes, open the test case again and check the changes.
 4. **Run** it locally. Don't use your mouse or keyboard until the run finishes.
 5. Repeat steps 1–4 for each of your other chosen test cases.
 
