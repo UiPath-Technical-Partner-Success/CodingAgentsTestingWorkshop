@@ -1,15 +1,6 @@
 # 4. Run Manual Tests
 
-There are three ways to run a manual test case. Each records its results in Test Manager.
-
-
-| | What it runs | Who runs the steps | Apps it can test | Setup needed |
-|---|---|---|---|---|
-| **Delegate** *(used in this workshop)* | One test case | Delegate, on your machine | Web and desktop apps | None |
-| **Manual execution assistant** | A whole test set | You | Any | None |
-| **Run autonomously** | One test case | Autopilot, on a robot | Web apps | Test Cloud only. A robot in the project's default folder (set up in [Prerequisites](../module-0-prerequisites/index.md#orchestrator-folder-and-robot)) |
-
-See <a href="https://docs.uipath.com/test-manager/automation-cloud/latest/user-guide/executing-manual-tests" target="_blank">Executing manual tests</a>.
+Run a manual test case with Delegate, and record its results in Test Manager.
 
 ## Run manual tests with Delegate
 
@@ -109,6 +100,16 @@ The business has documented a new process, **Loan lookup**, in a Process Design 
     ✅ **Record the results** — create test results with screenshots of failed steps, and upload them to Test Manager.
 
 ## Other ways to run manual tests
+
+There are three ways to run a manual test case. Each records its results in Test Manager.
+
+| | What it runs | Who runs the steps | Apps it can test | Setup needed |
+|---|---|---|---|---|
+| **Delegate** *(used in this workshop)* | One test case | Delegate, on your machine | Web and desktop apps | None |
+| **Manual execution assistant** | A whole test set | You | Any | None |
+| **Run autonomously** | One test case | Autopilot, on a robot | Web apps | Test Cloud only. A robot in the project's default folder (set up in [Prerequisites](../module-0-prerequisites/index.md#orchestrator-folder-and-robot)) |
+
+See <a href="https://docs.uipath.com/test-manager/automation-cloud/latest/user-guide/executing-manual-tests" target="_blank">Executing manual tests</a>.
 
 ??? tip "Manual execution assistant"
     You run every test case in a test set yourself, one after another.
