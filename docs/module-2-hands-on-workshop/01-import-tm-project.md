@@ -4,7 +4,7 @@ You start from a ready-made **UiBank** project: a requirement, test cases, a tes
 
 ## Download the project file
 
-1. Download <a href="../../assets/Files/Agentic%20Testing%20Workshop%20-%20Sample%20Test%20Manager%20Project.zip" target="_blank">Agentic Testing Workshop - Sample Test Manager Project.zip</a>.
+1. Download <a href="../../assets/Files/Test%20Manager%20Project/Agentic%20Testing%20Workshop%20-%20Sample%20Test%20Manager%20Project.zip" target="_blank">Agentic Testing Workshop - Sample Test Manager Project.zip</a>.
 2. Unzip it. You'll import the `.tmh` file inside.
 
 ## Import it into Test Manager
