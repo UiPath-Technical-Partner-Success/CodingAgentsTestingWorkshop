@@ -47,7 +47,7 @@ Go back to your Delegate session.
 The business has documented a new process, **Loan lookup**, in a Process Design Document (PDD). It isn't in your requirements yet.
 
 !!! example "It's your turn now!"
-    1. Download the PDD, <a href="../../assets/Files/Loan%20lookup%20process%20to%20be%20tested.docx" target="_blank">Loan lookup process to be tested.docx</a>.
+    1. Download the PDD, <a href="../../assets/Files/PDD/Loan%20lookup%20process%20to%20be%20tested.docx" target="_blank">Loan lookup process to be tested.docx</a>.
     2. Attach it in Delegate, then paste:
 
         ```text
