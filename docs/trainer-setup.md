@@ -84,7 +84,7 @@ Use the column for your organization type.
     2. Launch Studio, and sign in to <ORG> and <TENANT>
 
     VERIFICATION
-    - Studio asks you to sign in to Automation Cloud
+    - Studio asked you to sign in to Automation Cloud, and you signed in
     - The UiPath extension is enabled in your browser
     ```
 
@@ -112,3 +112,7 @@ Use the column for your organization type.
 ## After the workshop
 
 ✅ Clean up the imported projects, learner folders, and robot runtime assignments. Remove learners from the group, or delete the tenant.
+
+---
+
+[Back to Home](index.md){: .md-button .md-button--primary}
