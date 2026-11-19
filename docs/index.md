@@ -67,7 +67,6 @@ You'll walk through the full testing lifecycle in UiPath Test Cloud, with AI at 
 
 <p class="wf-caption">Select a step to jump to it.</p>
 
-
 ## Learning objectives
 
 By the end of this workshop, you will:
@@ -77,7 +76,6 @@ By the end of this workshop, you will:
 ✅ Use Delegate to run manual tests, build the Object Repository, triage failures against the requirement, and write a go/no-go release report
 
 ✅ Turn manual test cases into automations with Autopilot for Testers in Studio, and run them from Test Manager in **UiBank Smoke Test Set**
-
 
 ## How this guide is organized
 

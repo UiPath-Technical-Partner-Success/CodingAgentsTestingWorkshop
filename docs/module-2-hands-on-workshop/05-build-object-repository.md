@@ -107,11 +107,9 @@ It takes about 6 minutes.
 
 <span class="tool-badge tool-badge--delegate">Delegate</span>
 
-The **Object Repository** stores the app's screens and UI elements for every test case to reuse. 
-
+The **Object Repository** stores the app's screens and UI elements for every test case to reuse.
 
 Building it by hand is usually one of the slowest parts of test automation: you capture every screen and element yourself. Tell Delegate what to capture, and it builds the repository for you. To cover every screen and element the test cases need, use the prompt below.
-
 
 !!! warning "This prompt is built for Chrome"
     Using Edge? Before you send the prompt, change **Chrome** to **Edge** in the two highlighted lines:

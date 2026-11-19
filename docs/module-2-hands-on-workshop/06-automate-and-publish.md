@@ -37,8 +37,7 @@ Click a step to jump to it.
 
 <span class="tool-badge tool-badge--studio">Studio Desktop</span>
 
-Automate **every** test case you chose in [3. Generate Test Cases](03-generate-test-cases.md). 
-
+Automate **every** test case you chose in [3. Generate Test Cases](03-generate-test-cases.md).
 
 1. In **Test Explorer**, right-click one of these test cases → **Generate Test Case with Autopilot**. It takes about 6 minutes.
 
@@ -131,7 +130,6 @@ It takes about 3 minutes.
 
             !!! warning "Don't pick &lt;new test case&gt;"
                 It creates a duplicate test case in Test Manager instead of linking the one you have.
-
 
 ## Nice work!
 

@@ -28,7 +28,7 @@ Complete this checklist **before the workshop**, ideally a few days ahead.
 
 ## Licenses and runtimes
 
-Use the column for your organization type. 
+Use the column for your organization type.
 
 | | Test Cloud organization | Automation Cloud organization |
 |---|---|---|
@@ -44,9 +44,7 @@ Use the column for your organization type.
 
 ✅ Give the group the **Project Creator** tenant role.
 
-
 ## Orchestrator
-
 
 !!! info "Recommended"
     Do the Prerequisites folder and robot setup for each learner before the session, so learners don't need tenant-level rights.

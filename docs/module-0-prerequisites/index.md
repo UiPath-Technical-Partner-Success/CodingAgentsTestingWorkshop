@@ -42,7 +42,6 @@ Signing in to Automation Cloud lets you open Test Manager, but not run tests. Te
 
 ✅ **Your machine template**, with a testing runtime, which connects the robot on your laptop
 
-
 ??? info "Trainer-led setup: your folder and machine"
     Do this with your trainer, before or at the start of the workshop, as they tell you.
 
