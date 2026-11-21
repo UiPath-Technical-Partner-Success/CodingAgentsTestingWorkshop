@@ -1,18 +1,28 @@
-# 4. Run Manual Tests
+# 4. Run Test Cases with Agents
 
-Run a manual test case with Delegate, and record its results in Test Manager.
+Run a manual test case with Delegate, and record its results in Test Manager. Then see the other ways to run one: yourself, or autonomously with Autopilot.
 
-## Run manual tests with Delegate
+## Run a test case with Delegate
 
 With Delegate, you can run a test case or create a new one from a business document. You review the work and decide what to save in Test Manager.
 
-Go back to your Delegate session.
+This step uses **Delegate**, the desktop agent: it works in your browser with your mouse and keyboard.
 
-### 1 — Run a test case
+Go back to your Delegate session. Delegate is generally available on Windows. On a Mac, Delegate for macOS (Preview) runs the same prompts.
+
+??? tip "No Delegate?"
+    You can still run a manual test case and record its result in Test Manager:
+
+    ✅ **Run it yourself** – use the [manual execution assistant](#other-ways-to-run-a-manual-test-case) in Test Manager, described further down this page.
+
+    ✅ **Use a coding agent that can drive a browser** – for example Claude Code with the UiPath skills and a browser tool, such as Claude in Chrome. Paste the same prompt. The agent records the result with `uip tm` commands and names the execution itself, so look for the newest execution with your test case name. It attaches only what it chooses, not a trace file per step, and may save the screenshot in its working folder instead of your Desktop.
+
+### 1 – Run a test case
 
 !!! example "It's your turn now!"
     1. Keep only one UiBank tab open. Delegate finds the window by its title, and the prompt names UiBank.
-    2. Replace `<TEST_CASE_KEY>` with the key of one of the test cases you chose in [3. Generate Test Cases](03-generate-test-cases.md), not the over-65 one. A key is your project prefix, a colon and a number, for example `UIBAS:43`. Then paste:
+    2. Before your first prompt, attach only the browser window with UiBank to the chat (the screen icon next to the chatbox). Delegate then sees nothing else on your screen.
+    3. Replace `<TEST_CASE_KEY>` with the key of one of the test cases you chose in [3. Generate Test Cases](03-generate-test-cases.md), not the over-65 one. A key is your project prefix, a colon and a number, for example `UIBAS:43`. Then paste:
 
         ```text
         Run the manual test case <TEST_CASE_KEY>. Open UiBank at https://uibank.uipath.com, follow the test case's manual steps in the browser, and check every expected result. Take a screenshot at the final validation step and save it to my Desktop. Push the results to Test Manager. If any step failed, explain the reason.
@@ -20,11 +30,13 @@ Go back to your Delegate session.
 
         It takes about 10 minutes. Delegate uses your mouse and keyboard, so don't touch them until it reports back. Follow its progress in the task list. If your screen locks, unlock it, and Delegate carries on.
 
-    3. If Delegate asks for permission to push the result, approve it. It records the result in a test set execution, which you'll find under **Execution**.
-    4. For any failure, decide: **defect in UiBank**, or **problem with the test case**?
+    4. If Delegate asks for permission to push the result, approve it. It records the result in a test set execution, which you'll find under **Execution**.
+    5. For any failure, decide: **defect in UiBank**, or **problem with the test case**?
+
+    On a Mac, Delegate for macOS (Preview) is not yet rehearsed for this workshop – if it doesn't work, use the **No Delegate?** tip above.
 
 !!! success "Check it"
-    **Execution** → open the execution named **Delegate-** followed by your test case name and the date. It shows the test case result and each step's result, with a Delegate trace file attached to every step. The final screenshot is on your Desktop.
+    **Execution** → open the newest execution with your test case name (Delegate names it **Delegate-** followed by the test case name and the date). It shows the test case result and each step's result, with a Delegate trace file attached to every step. The final screenshot is on your Desktop.
 
 !!! question "Think about it"
     Did Delegate stumble on a step? Autopilot automates these same steps in [6. Automate and Publish the Test Cases](06-automate-and-publish.md), so fix them now:
@@ -33,7 +45,7 @@ Go back to your Delegate session.
     Rewrite the steps of test case <TEST_CASE_KEY> that were unclear during this run, so each one has a single clear action and expected result. Show me the changes before you save them to Test Manager.
     ```
 
-### 2 — Create a new requirement and test case (optional)
+### 2 – Create a new requirement and test case (optional)
 
 The business has documented a new process, **Loan lookup**, in a Process Design Document (PDD). It isn't in your requirements yet.
 
@@ -44,17 +56,26 @@ The business has documented a new process, **Loan lookup**, in a Process Design 
         ```text
         Analyze the attached PDD and create + save a requirement and a manual test case directly in UiPath Test Manager.
 
-        Requirement: Create one new requirement for the process described in the PDD (don't create it if an existing requirement already covers this exact process — check first and tell me if you find one instead of creating a duplicate). Name it Loan Lookup. Its description should summarize the user flow (pages/actions) and any acceptance criteria from the PDD.
-        Test case: Create one manual test case - infer name from the PDD, derived from the PDD's numbered steps/screenshots — one test step per documented UI action, each with an expected result. Don't use the loan ID shown in the PDD: the step that enters the loan ID should use a loan ID from a loan applied for today.
+        Requirement: Create one new requirement for the process described in the PDD (don't create it if an existing requirement already covers this exact process – check first and tell me if you find one instead of creating a duplicate). Name it Loan Lookup. Its description should summarize the user flow (pages/actions) and any acceptance criteria from the PDD.
+        Test case: Create one manual test case - infer name from the PDD, derived from the PDD's numbered steps/screenshots – one test step per documented UI action, each with an expected result. Don't use the loan ID shown in the PDD: the step that enters the loan ID should use a loan ID from a loan applied for today.
         Final step: After the PDD's last action, add a step that verifies the loan details page shows the same loan ID that was entered, along with the rest of the loan's details.
         Link: Link the new test case to the new requirement.
         Report back: give me the created requirement key and test case key when done.
         ```
 
-    3. Ask Delegate to apply for a loan in UiBank to get a new loan ID, then run the new test case with it.
+    3. Paste:
+
+        ```text
+        Apply for a loan in UiBank at https://uibank.uipath.com, note the new loan ID it shows, then run the new Loan Lookup test case with that loan ID.
+        ```
+
+        UiBank's button for Loan Lookup is **Already Have A Loan?**.
+
+        !!! info "The loan ID ages"
+            UiBank may drop old loans. If you rerun this test case on another day, apply for a new loan first.
 
 !!! success "Check it"
-    A new **Loan Lookup** requirement, with a linked test case that has manual steps and a result in **Execution**.
+    A new **Loan Lookup** requirement, with a linked test case that has manual steps and a result in **Execution**. Don't check the email address on the loan details page: UiBank shows a sample address.
 
 ??? example "Not quite right? Talk to Delegate"
     Open the new requirement and test case in Test Manager. Check the title, description, acceptance criteria, steps, and expected results.
@@ -69,7 +90,7 @@ The business has documented a new process, **Loan lookup**, in a Process Design 
 
     Keep going until you're happy with both.
 
-??? example "Go further — Organize test cases in bulk"
+??? example "Go further – Organize test cases in bulk"
     Paste:
 
     ```text
@@ -88,26 +109,26 @@ The business has documented a new process, **Loan lookup**, in a Process Design 
 
     **Test Tier** is only a field. It doesn't add test cases to **UiBank Smoke Test Set**.
 
-??? info "Beyond running tests — Delegate across the whole manual testing cycle"
+??? info "Beyond running tests – Delegate across the whole manual testing cycle"
     Ideas to try on your own project, in your own words:
 
-    ✅ **Find test ideas** — from a requirement's acceptance criteria, or from a screenshot of a screen, including boundary and negative cases.
+    ✅ **Find test ideas** – from a requirement's acceptance criteria, or from a screenshot of a screen, including boundary and negative cases.
 
-    ✅ **Write the steps** — turn those ideas into manual test cases and link them to the requirement.
+    ✅ **Write the steps** – turn those ideas into manual test cases and link them to the requirement.
 
-    ✅ **Run them with you** — Delegate runs the steps and stops to ask when it needs a decision from you. Don't paste passwords into the chat: keep test logins in an Orchestrator Credential asset and give Delegate the asset name.
+    ✅ **Run them with you** – Delegate runs the steps and stops to ask when it needs a decision from you. Don't paste passwords into the chat: keep test logins in an Orchestrator Credential asset and give Delegate the asset name.
 
-    ✅ **Record the results** — create test results with screenshots of failed steps, and upload them to Test Manager.
+    ✅ **Record the results** – create test results with screenshots of failed steps, and upload them to Test Manager.
 
-## Other ways to run manual tests
+## Other ways to run a manual test case
 
-There are three ways to run a manual test case. Each records its results in Test Manager.
+A **manual test case** is a test case with steps but no automation yet. A person can run it, or an agent can. There are three ways, and each records its results in Test Manager:
 
 | | What it runs | Who runs the steps | Apps it can test | Setup needed |
 |---|---|---|---|---|
-| **Delegate** *(used in this workshop)* | One test case | Delegate, on your machine | Web and desktop apps | None |
+| **Delegate** *(used in this workshop)* | One test case | Delegate, on your machine (Windows; macOS in Preview) | Web and desktop apps | None |
 | **Manual execution assistant** | A whole test set | You | Any | None |
-| **Run autonomously** | One test case | Autopilot, on a robot | Web apps | Test Cloud only. A robot in the project's default folder (set up in [Prerequisites](../module-0-prerequisites/index.md#orchestrator-folder-and-robot)) |
+| **Run autonomously (Autonomous Test Execution)** | One test case | Autopilot, on a robot | Web apps | Preview, Test Cloud only. A robot in the project's default folder (set up in [Prerequisites](../module-0-prerequisites/index.md#orchestrator-folder-and-robot)), not a serverless one, and App Test Platform Units |
 
 See <a href="https://docs.uipath.com/test-manager/automation-cloud/latest/user-guide/executing-manual-tests" target="_blank">Executing manual tests</a>.
 
@@ -115,6 +136,8 @@ See <a href="https://docs.uipath.com/test-manager/automation-cloud/latest/user-g
     You run every test case in a test set yourself, one after another.
 
     1. Go to **Test Sets**, open **UiBank Smoke Test Set**, and select **Execute → Manually**.
+
+        The set holds the imported test cases. Your own test cases join it in [7. Add Test Cases to the Smoke Test Set](07-create-test-set.md).
 
         !!! info "Allow pop-ups for Test Manager"
             The manual execution assistant opens in a new window.
@@ -132,33 +155,46 @@ See <a href="https://docs.uipath.com/test-manager/automation-cloud/latest/user-g
 
     See <a href="https://docs.uipath.com/test-manager/automation-cloud/latest/user-guide/executing-test-sets-manually" target="_blank">Executing test sets manually</a>.
 
-??? tip "Run autonomously (Test Cloud only)"
-    **Autonomous Test Execution** runs one manual test case with Autopilot, in one click, on a robot. You start it from the test case, not from a test set.
+??? tip "Run autonomously (Preview, Test Cloud only)"
+    **Autonomous Test Execution** runs one manual test case with Autopilot, in one click, on a robot. You start it from the test case, not from a test set. It needs a robot on a machine in your folder – serverless robots aren't supported. Mac robots aren't documented for it: on a Mac, watch your trainer's demo.
 
-    1. Go to **Test Cases**, open a manual test case, and go to the **Manual Steps** tab. In the right-hand panel, select **Run Autonomously**.
+    1. Go to **Test Cases**, open a manual test case, and go to the **Manual Steps** tab. In the right-hand panel, select **Run autonomously**.
 
         ![Run Autonomously in the Manual Steps tab](../assets/images/TM%20Run%20autonomously.png)
 
-    2. Enter the **Target Application URL**, `https://uibank.uipath.com`. **Run** stays disabled until you do. Turn on **Live Streaming** to watch Autopilot drive the browser, and take over if needed. Select an **AI Model**, or keep the default.
+    2. Enter the **Url**, `https://uibank.uipath.com`. Keep the recommended **Model**. Turn on **Enable live streaming** to watch Autopilot drive the browser, and take over if needed. Select **Next**.
 
-        **Run** still disabled? Open **Configure** and set **Runtime type** to your machine's runtime, **App Testing** or **Testing**.
-    3. Select **Run**.
+        Your tenant may show slightly different labels.
+
+    3. Check **Select folder** (your Default Folder) and set **Runtime type** to your machine's runtime, **App Testing** or **Testing** – change it if it shows a serverless runtime. The robot on your machine must also show as connected in UiPath Assistant. Select **Run**.
+
+        Still **Pending** after 2 minutes? Check the runtime type is your machine's **App Testing** or **Testing**, not a serverless one, and that your user shows **Attended, Unattended** under **Robot Type** in your folder's **Manage access** tab ([Prerequisites](../module-0-prerequisites/index.md#orchestrator-folder-and-robot)).
+
     4. When it finishes, open the execution:
 
-        ✅ **Logs** — each step's result, expected behavior, and screenshots. Expand a step to see what Autopilot did.
+        ✅ **Logs** – each step's result, expected behavior, and screenshots. Expand a step to see what Autopilot did.
 
-        ✅ **Execution Log** — Autopilot's reasoning, such as how it found an element or compared a result.
+        ✅ **Execution Log** – Autopilot's reasoning, such as how it found an element or compared a result.
 
     See <a href="https://docs.uipath.com/test-manager/automation-cloud/latest/user-guide/running-autonomous-test-execution" target="_blank">Running Autonomous Test Execution</a>.
 
-??? tip "No test case yet? Explore the requirement autonomously (Test Cloud only)"
-    **Autonomous Exploration** is exploratory testing with Autopilot: it learns the app, designs tests, and runs them within a time-box.
+## Explore without a test case
 
-    1. Open a **requirement** → **Autonomous Exploration**.
-    2. Enter the app URL, set a **time-box**, and select an AI model. Enable **Live Streaming** to watch it explore.
-    3. Select **Start**. When it's **Completed**, select **Show report**.
+**Autonomous Exploration** doesn't run a test case. Autopilot explores the app from a requirement, designs tests and runs them within a time-box.
 
-    Needs a Windows robot in the project's default folder (set up in [Prerequisites](../module-0-prerequisites/index.md#orchestrator-folder-and-robot)), with the UiPath browser extension set to **Allow in Incognito**. See <a href="https://docs.uipath.com/test-manager/automation-cloud/latest/user-guide/running-autonomous-exploration" target="_blank">Running Autonomous Exploration</a>.
+??? tip "No test case yet? Explore the requirement autonomously (Preview, Test Cloud only)"
+    **Autonomous Exploration** is exploratory testing with Autopilot: it learns the app, designs tests, and runs them within a time-box. Windows only – on a Mac, watch the trainer's demo.
+
+    1. Open a **requirement** → **+ Autonomous Exploration**.
+    2. Enter the **Test URL**, a **Timebox (minutes)**, and select a **Model**. Enable live streaming to watch it explore. Select **Next**.
+
+        Your tenant may show slightly different labels.
+
+    3. Check the folder, set **Runtime type** to **App Testing** or **Testing**, and select **Start Autonomous Exploration**. When it's **Completed**, select **Show report**.
+
+        Still **Pending** after 2 minutes? Use the same checks as in **Run autonomously** above.
+
+    Needs a Windows robot in the project's default folder (set up in [Prerequisites](../module-0-prerequisites/index.md#orchestrator-folder-and-robot)), not a serverless one, with the UiPath browser extension set to **Allow in Incognito**, and App Test Platform Units. See <a href="https://docs.uipath.com/test-manager/automation-cloud/latest/user-guide/running-autonomous-exploration" target="_blank">Running Autonomous Exploration</a>.
 
 ## Nice work!
 

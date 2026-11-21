@@ -2,11 +2,19 @@
     - Windows 10 (version 1903 or later) or Windows 11, 64-bit
     - Intel or AMD processor, not ARM (such as Snapdragon)
     - At least 8 GB RAM
+- or a Mac with Apple silicon (M1 or later) and rights to install apps
+    - macOS 14 Sonoma or later
+    - At least 8 GB free disk space
+    - Intel Macs are not supported
+    - Studio on macOS and Delegate for macOS are in Preview
 - Google Chrome or Microsoft Edge
 - UiPath Studio, latest STS version
     - Install it even if you already have Studio
-    - In the installer, select Studio and Assistant, Delegate & Cartographer
-    - Download link: https://download.uipath.com/connected-installer/latest/sts/UiPathPlatformSTS.msi
+    - Windows: in the installer, select Studio and Assistant, Delegate & Cartographer
+    - Windows download link: https://download.uipath.com/connected-installer/latest/sts/UiPathPlatformSTS.msi
+    - Mac: the installer package installs Studio on macOS and Assistant
+    - Mac download link: https://download.uipath.com/connected-installer-macos/latest/sts/UiPathPlatformSTS.pkg
+    - Delegate for macOS: follow https://docs.uipath.com/delegate/standalone/latest/user-guide/installation
 - Access to these sites, with no proxy or firewall blocking them
     - https://cloud.uipath.com
     - https://uibank.uipath.com

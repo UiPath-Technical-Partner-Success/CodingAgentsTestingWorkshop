@@ -7,9 +7,11 @@
 This **Learner's Handbook** is your hands-on guide for the workshop. We keep the theory short and get you building fast: in one day you'll take a requirement all the way to an automated test run, and finish by asking an AI agent to triage the failures and write a **go/no-go release report** in plain English.
 
 !!! info "Before the workshop"
-    Complete the **[Prerequisites](module-0-prerequisites/index.md)** before the session starts. You install Studio and Delegate, and the hands-on steps depend on them.
+    Complete the **[Prerequisites](module-0-prerequisites/index.md)** before the session starts. You install Studio, Delegate and the `uip` CLI on your Windows laptop or Mac, and the hands-on steps depend on them.
 
     Your **trainer will share the organization and tenant** you'll use during the workshop.
+
+You'll work with two kinds of AI agent: **Delegate**, the desktop agent that drives your apps the way you would, and a **coding agent** – **Autopilot** (the default) or **Claude Code** – that builds and runs your test automation. See [Agents in this workshop](module-1-introduction/index.md#agents-in-this-workshop).
 
 ## What you'll build
 
@@ -35,7 +37,7 @@ You'll walk through the full testing lifecycle in UiPath Test Cloud, with AI at 
     <div class="wf-steps">
       <a class="wf-step" href="module-2-hands-on-workshop/02-evaluate-requirements/"><span class="wf-num">2</span>Evaluate requirements</a>
       <a class="wf-step" href="module-2-hands-on-workshop/03-generate-test-cases/"><span class="wf-num">3</span>Generate test cases</a>
-      <a class="wf-step" href="module-2-hands-on-workshop/04-run-manual-tests/"><span class="wf-num">4</span>Run manual tests</a>
+      <a class="wf-step" href="module-2-hands-on-workshop/04-run-manual-tests/"><span class="wf-num">4</span>Run test cases</a>
     </div>
     <div class="wf-phase-foot"><strong>Autopilot for Testers</strong>, plus <strong>Delegate</strong> for manual runs</div>
   </div>
@@ -43,7 +45,7 @@ You'll walk through the full testing lifecycle in UiPath Test Cloud, with AI at 
   <div class="wf-phase">
     <div class="wf-phase-head">
       <span class="wf-phase-kicker">Phase 3 · Build</span>
-      <span class="wf-phase-title">Studio + Delegate</span>
+      <span class="wf-phase-title">Studio + agents</span>
     </div>
     <div class="wf-steps">
       <a class="wf-step" href="module-2-hands-on-workshop/05-build-object-repository/"><span class="wf-num">5</span>Build the Object Repository</a>
@@ -55,7 +57,7 @@ You'll walk through the full testing lifecycle in UiPath Test Cloud, with AI at 
   <div class="wf-phase wf-phase--outcome">
     <div class="wf-phase-head">
       <span class="wf-phase-kicker">Phase 4 · Run &amp; report</span>
-      <span class="wf-phase-title">TM + Delegate</span>
+      <span class="wf-phase-title">TM + agents</span>
     </div>
     <div class="wf-steps">
       <a class="wf-step" href="module-2-hands-on-workshop/07-create-test-set/"><span class="wf-num">7</span>Add to the smoke test set</a>
@@ -71,24 +73,29 @@ You'll walk through the full testing lifecycle in UiPath Test Cloud, with AI at 
 
 By the end of this workshop, you will:
 
-✅ Use the agentic features in Test Manager to evaluate requirements and generate test cases
+✅ Use the Autopilot actions in Test Manager to evaluate requirements and generate test cases
 
-✅ Use Delegate to run manual tests, build the Object Repository, triage failures against the requirement, and write a go/no-go release report
+✅ Use Delegate, the desktop agent, to run a manual test case, build the Object Repository, reproduce a defect, and write a go/no-go release report
 
-✅ Turn manual test cases into automations with Autopilot for Testers in Studio, and run them from Test Manager in **UiBank Smoke Test Set**
+✅ Use a coding agent – Autopilot or Claude Code – to turn manual test cases into automations, publish them, run them from Test Manager in **UiBank Smoke Test Set**, and triage failures against the requirement
+
+✅ Follow the same flow on a Windows laptop or a Mac
 
 ## How this guide is organized
 
 | Section | What's inside |
 |---|---|
-| **[Prerequisites](module-0-prerequisites/index.md)** | Your laptop, accounts, Orchestrator folder and robot, and Delegate |
-| **[Introduction](module-1-introduction/index.md)** | A short tour of Test Cloud, Test Manager, and Delegate |
+| **[Prerequisites](module-0-prerequisites/index.md)** | Your Windows laptop or Mac, accounts, Orchestrator folder and robot, Studio, Delegate, and the `uip` CLI |
+| **[Introduction](module-1-introduction/index.md)** | A short tour of Test Cloud, Test Manager, Autopilot and Delegate, and which agent does what |
 | **[Hands-On Workshop](module-2-hands-on-workshop/01-import-tm-project.md)** | The eight hands-on steps, from import to the go/no-go report |
 | **[Troubleshooting & Next Steps](module-3-troubleshooting-and-next-steps/index.md)** | More prompts to try and fixes for common problems |
 | **[Trainer Setup](trainer-setup.md)** | The trainer's checklist before the workshop |
 
+!!! tip "Windows or Mac? Autopilot or Claude Code?"
+    Where a step differs, the page shows tabs. Pick your operating system and your coding agent once – the guide remembers your choice on every page.
+
 !!! quote "Here's something worth holding onto as you work through this workshop"
-    AI agents don't replace testers — they give testers a new way to work. Instead of clicking through dashboards to find out what failed and why, you ask a question in plain English and get an answer grounded in your real test data.
+    AI agents don't replace testers – they give testers a new way to work. Instead of clicking through dashboards to find out what failed and why, you ask a question in plain English and get an answer grounded in your real test data.
 
     Robots bring determinism and control, agents bring adaptability and reasoning. **This workshop is about putting the two together.**
 

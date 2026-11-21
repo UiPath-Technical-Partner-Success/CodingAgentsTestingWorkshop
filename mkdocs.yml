@@ -41,6 +41,7 @@ extra_javascript:
   - assets/js/mermaid-init.js
   - assets/js/sidebar-toggle.js
   - assets/js/rich-copy.js
+  - assets/js/tabs-sync.js
 
 markdown_extensions:
   - attr_list
@@ -77,7 +78,7 @@ nav:
     - 1. Import and Link the Test Manager Project: module-2-hands-on-workshop/01-import-tm-project.md
     - 2. Evaluate Requirements: module-2-hands-on-workshop/02-evaluate-requirements.md
     - 3. Generate Test Cases: module-2-hands-on-workshop/03-generate-test-cases.md
-    - 4. Run Manual Tests: module-2-hands-on-workshop/04-run-manual-tests.md
+    - 4. Run Test Cases with Agents: module-2-hands-on-workshop/04-run-manual-tests.md
     - 5. Set Up Studio and Build the Object Repository: module-2-hands-on-workshop/05-build-object-repository.md
     - 6. Automate and Publish the Test Cases: module-2-hands-on-workshop/06-automate-and-publish.md
     - 7. Add Test Cases to the Smoke Test Set: module-2-hands-on-workshop/07-create-test-set.md
