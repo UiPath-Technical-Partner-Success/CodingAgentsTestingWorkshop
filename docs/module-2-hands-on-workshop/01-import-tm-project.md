@@ -64,6 +64,8 @@ List my Test Manager projects whose name contains <YOUR_NAME>, with their detail
 
     If the agent reports an authentication error, run `uip login` again: the login can expire within the hour.
 
+    The agent finds no project? Its project search matches the start of the name, so give it your full project name, for example `UiBank_AlexS`.
+
 !!! success "Check it"
     The agent lists your Test Manager projects, including the one you just imported. If you have more than one, it asks which one to use. Your project has 1 requirement (**Submit Loan Request**), 6 test cases and 1 test set (**UiBank Smoke Test Set**).
 

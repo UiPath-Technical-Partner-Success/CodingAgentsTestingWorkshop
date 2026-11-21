@@ -37,7 +37,7 @@ The **Generate Test Cases** built-in agent, an Autopilot action in Test Manager,
         ```
 
     3. Choose a model.
-    4. Click **Generate Tests**. The agent can take a few minutes. You can close the dialog while it works.
+    4. Click **Generate tests**. The agent can take a few minutes. You can close the dialog while it works.
 
 5. Under **Latest activity**, click **Generated test cases** to see the proposals.
 

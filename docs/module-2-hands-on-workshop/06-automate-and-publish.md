@@ -123,7 +123,7 @@ Review and fix the automated test case <TEST_CASE_KEY> in the <YOUR_NAME>_UiBank
         The agent reads the manual steps with `uip tm`, writes the test case and links its activities to the Object Repository elements. In a Cross-platform project there's no **Verify Control Attribute**, so it uses **Get Text**, **Log Message** and **Verify Expression with Operator** with the operator **Contains**.
 
     2. When it finishes, paste the review prompt above in the same session.
-    3. Ask it to run the test case locally and show the Verify result from the run log. A run takes 1–3 minutes. Don't use your mouse or keyboard until the run finishes. On the robot, in steps 7 and 8, each test case takes seconds.
+    3. Ask it to run the test case locally and show the Verify result from the run log. A run takes from about 15 seconds to 3 minutes. Don't use your mouse or keyboard until the run finishes. On the robot, in steps 7 and 8, each test case takes seconds.
     4. Repeat steps 1–3 for each of your other chosen test cases. In our rehearsal, writing and linking three test cases took about 3 minutes in all.
 
 !!! success "Check it"

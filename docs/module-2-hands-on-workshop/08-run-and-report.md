@@ -163,7 +163,7 @@ Delegate gives the path to the saved report and summarizes it in the chat. Alway
 
 ## Go further
 
-Stay in the same Delegate session – it remembers the run and the report:
+Stay in the same Delegate session – it remembers the run and the report. No Delegate? Ask your coding agent, in the session that wrote the report:
 
 ✅ *"Summarize the failures in three bullet points I can paste into Slack."*
 

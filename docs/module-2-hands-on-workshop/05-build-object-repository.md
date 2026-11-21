@@ -250,7 +250,7 @@ Building it by hand is usually one of the slowest parts of test automation: you 
 
         Any coding agent with the UiPath skills works the same way; the commands below are for Claude Code.
 
-        Run `claude` in your project folder and paste the prompt. It captures each element live in Chrome with `uip rpa uia` and writes it into the project's Object Repository. It took about 20 minutes in our rehearsal.
+        Run `claude` in your project folder and paste the prompt. It captures each element live in Chrome with `uip rpa uia` and writes it into the project's Object Repository. It took 4–20 minutes in our rehearsals.
 
         Selection and Form share the same browser window, so the agent may need to narrow the Form screen to `/loans/apply` and the Quote screen to the result page. Let it.
 

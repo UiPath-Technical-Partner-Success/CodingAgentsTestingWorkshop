@@ -80,7 +80,7 @@ Signing in to Automation Cloud lets you open Test Manager, but not run tests. Te
     !!! tip "Orchestrator asks you to choose a layout?"
         Select **New layout** and **Continue**, then close the tour. This guide uses the new layout paths: **Tenant → Infrastructure → Machines**, **Tenant → Access → Access rules** (called *Manage access* in the current (classic) layout) and **Tenant → Access → Folder management** (called *Folders*). For Machines and Folders, see the <a href="https://docs.uipath.com/orchestrator/automation-cloud/latest/user-guide/new-layout-navigation-map" target="_blank">New layout navigation map</a>.
 
-    **Already set up for you?** Your trainer may have created your folder, user settings, machine template and runtime. Then only check that: your folder exists under **Access → Folder management**; your user is listed in its **Manage access** tab; and its **Machines** tab lists your machine template with **1** under **App Testing** or **Testing**. If all three are true, skip to [Connect Studio and Delegate](#connect-studio-and-delegate).
+    **Already set up for you?** Your trainer may have created your folder, user settings, machine template and runtime. Then only check that: your folder exists under **Access → Folder management** (**Folders** in the classic layout); your user is listed in its **Manage access** tab, with **Attended, Unattended** under **Robot Type**; and its **Machines** tab lists your machine template with **1** under **App Testing** or **Testing**. If all three are true, skip to [Connect Studio and Delegate](#connect-studio-and-delegate).
 
     **1. Machines: allocate a runtime to your machine template**
 
@@ -171,6 +171,9 @@ flowchart LR
 For testing, Delegate is fully integrated with **Test Manager**, so you can hand it testing work across the whole cycle, from planning and authoring tests to running them and reporting on the results.
 
 On a Mac without Delegate? Do steps 1–2 only, and skip the Delegate checks below and **Set up Delegate**.
+
+??? tip "Mac with Claude Code, but Studio on macOS won't install or start?"
+    The Claude Code path still works: the `uip` CLI runs its own headless Studio, on the robot that comes with UiPath Assistant. Keep Assistant installed, signed in and connected (step 2). Skip step 1 and the two Studio checks below, and use the **No Delegate?** tips with the Claude Code tab in steps 5 and 6. Rehearsed on a Mac without Studio on macOS.
 
 1. Launch Studio and **sign in** to the workshop organization and tenant.
 2. Open **UiPath Assistant**, click the person icon or your initials (top right) → **Preferences** → **Orchestrator connection**, sign in with your UiPath account, and select the workshop tenant.
