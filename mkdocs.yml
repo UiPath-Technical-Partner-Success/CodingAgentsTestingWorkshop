@@ -41,6 +41,7 @@ extra_javascript:
   - assets/js/mermaid-init.js
   - assets/js/sidebar-toggle.js
   - assets/js/rich-copy.js
+  - assets/js/tabs-sync.js
 
 markdown_extensions:
   - attr_list
