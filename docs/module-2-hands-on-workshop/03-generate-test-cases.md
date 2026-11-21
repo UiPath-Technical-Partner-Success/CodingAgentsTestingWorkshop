@@ -8,9 +8,9 @@ The **Generate Test Cases** built-in agent, an Autopilot action in Test Manager,
 2. Click **Optimize coverage**, and choose **Generate tests**.
 3. In **Provide additional context → Add documents**, select:
 
-    ✅ **UiBank Security Guidelines.pdf** — input validation rules for the form fields
+    ✅ **UiBank Security Guidelines.pdf** – input validation rules for the form fields
 
-    ✅ **UiBank Accessibility Guidelines.docx** — form labels, error messages and keyboard access
+    ✅ **UiBank Accessibility Guidelines.docx** – form labels, error messages and keyboard access
 
     ??? tip "Add documents or Leverage RAG?"
         | | Add documents | Leverage RAG |
@@ -26,9 +26,9 @@ The **Generate Test Cases** built-in agent, an Autopilot action in Test Manager,
     1. **Select a prompt**: choose **Valid E2E Scenario Testing**.
 
         ??? info "Editing prompts and adding your own"
-            ✅ **For this run only** — edit the prompt right here.
+            ✅ **For this run only** – edit the prompt right here.
 
-            ✅ **For the whole project** — create new prompts or edit existing ones in the **Prompt Library**, under **Project Settings**.
+            ✅ **For the whole project** – create new prompts or edit existing ones in the **Prompt Library**, under **Project Settings**.
 
     2. At the end of the prompt text, on a new line, add these instructions:
 

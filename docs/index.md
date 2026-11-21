@@ -95,7 +95,7 @@ By the end of this workshop, you will:
     Where a step differs, the page shows tabs. Pick your operating system and your coding agent once – the guide remembers your choice on every page.
 
 !!! quote "Here's something worth holding onto as you work through this workshop"
-    AI agents don't replace testers — they give testers a new way to work. Instead of clicking through dashboards to find out what failed and why, you ask a question in plain English and get an answer grounded in your real test data.
+    AI agents don't replace testers – they give testers a new way to work. Instead of clicking through dashboards to find out what failed and why, you ask a question in plain English and get an answer grounded in your real test data.
 
     Robots bring determinism and control, agents bring adaptability and reasoning. **This workshop is about putting the two together.**
 

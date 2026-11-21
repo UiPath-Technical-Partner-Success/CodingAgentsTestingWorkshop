@@ -8,9 +8,9 @@ Vague or incomplete requirements lead to gaps in testing. The **Evaluate Require
 2. Click **Optimize coverage**, and choose **Evaluate quality**.
 3. In **Provide additional context → Add documents**, select these project documents (marked **P**), so the agent checks the requirement against their rules:
 
-    ✅ **UiBank Security Guidelines.pdf** — input validation rules for the form fields
+    ✅ **UiBank Security Guidelines.pdf** – input validation rules for the form fields
 
-    ✅ **UiBank Accessibility Guidelines.docx** — form labels, error messages and keyboard access
+    ✅ **UiBank Accessibility Guidelines.docx** – form labels, error messages and keyboard access
 
     ![Add documents tab in Provide additional context](../assets/images/Add%20Documents%20dialog.png){ .img-equal }
 
@@ -69,7 +69,7 @@ The original acceptance criteria need the same check. Test cases are generated f
 
 ## Nice work!
 
-Your requirement is clearer and more testable — ready for generating test cases.
+Your requirement is clearer and more testable – ready for generating test cases.
 
 ---
 

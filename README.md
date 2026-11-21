@@ -1,4 +1,4 @@
-# Coding Agents for Test — Hands-On Workshop Guide
+# Coding Agents for Test – Hands-On Workshop Guide
 
 The learner's handbook for the UiPath **Coding Agents for Test** instructor-led workshop. It's an MkDocs site that walks testers through UiPath Test Cloud, from requirements to a go/no-go release report, using AI agents at every stage.
 

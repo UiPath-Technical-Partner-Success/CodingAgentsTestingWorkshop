@@ -17,7 +17,7 @@ Go back to your Delegate session. Delegate is generally available on Windows. On
 
     ✅ **Use a coding agent that can drive a browser** – for example Claude Code with the UiPath skills and a browser tool, such as Claude in Chrome. Paste the same prompt. The agent records the result with `uip tm` commands and names the execution itself, so look for the newest execution with your test case name. It attaches only what it chooses, not a trace file per step, and may save the screenshot in its working folder instead of your Desktop.
 
-### 1 — Run a test case
+### 1 – Run a test case
 
 !!! example "It's your turn now!"
     1. Keep only one UiBank tab open. Delegate finds the window by its title, and the prompt names UiBank.
@@ -45,7 +45,7 @@ Go back to your Delegate session. Delegate is generally available on Windows. On
     Rewrite the steps of test case <TEST_CASE_KEY> that were unclear during this run, so each one has a single clear action and expected result. Show me the changes before you save them to Test Manager.
     ```
 
-### 2 — Create a new requirement and test case (optional)
+### 2 – Create a new requirement and test case (optional)
 
 The business has documented a new process, **Loan lookup**, in a Process Design Document (PDD). It isn't in your requirements yet.
 
@@ -56,8 +56,8 @@ The business has documented a new process, **Loan lookup**, in a Process Design 
         ```text
         Analyze the attached PDD and create + save a requirement and a manual test case directly in UiPath Test Manager.
 
-        Requirement: Create one new requirement for the process described in the PDD (don't create it if an existing requirement already covers this exact process — check first and tell me if you find one instead of creating a duplicate). Name it Loan Lookup. Its description should summarize the user flow (pages/actions) and any acceptance criteria from the PDD.
-        Test case: Create one manual test case - infer name from the PDD, derived from the PDD's numbered steps/screenshots — one test step per documented UI action, each with an expected result. Don't use the loan ID shown in the PDD: the step that enters the loan ID should use a loan ID from a loan applied for today.
+        Requirement: Create one new requirement for the process described in the PDD (don't create it if an existing requirement already covers this exact process – check first and tell me if you find one instead of creating a duplicate). Name it Loan Lookup. Its description should summarize the user flow (pages/actions) and any acceptance criteria from the PDD.
+        Test case: Create one manual test case - infer name from the PDD, derived from the PDD's numbered steps/screenshots – one test step per documented UI action, each with an expected result. Don't use the loan ID shown in the PDD: the step that enters the loan ID should use a loan ID from a loan applied for today.
         Final step: After the PDD's last action, add a step that verifies the loan details page shows the same loan ID that was entered, along with the rest of the loan's details.
         Link: Link the new test case to the new requirement.
         Report back: give me the created requirement key and test case key when done.
@@ -90,7 +90,7 @@ The business has documented a new process, **Loan lookup**, in a Process Design 
 
     Keep going until you're happy with both.
 
-??? example "Go further — Organize test cases in bulk"
+??? example "Go further – Organize test cases in bulk"
     Paste:
 
     ```text
@@ -109,16 +109,16 @@ The business has documented a new process, **Loan lookup**, in a Process Design 
 
     **Test Tier** is only a field. It doesn't add test cases to **UiBank Smoke Test Set**.
 
-??? info "Beyond running tests — Delegate across the whole manual testing cycle"
+??? info "Beyond running tests – Delegate across the whole manual testing cycle"
     Ideas to try on your own project, in your own words:
 
-    ✅ **Find test ideas** — from a requirement's acceptance criteria, or from a screenshot of a screen, including boundary and negative cases.
+    ✅ **Find test ideas** – from a requirement's acceptance criteria, or from a screenshot of a screen, including boundary and negative cases.
 
-    ✅ **Write the steps** — turn those ideas into manual test cases and link them to the requirement.
+    ✅ **Write the steps** – turn those ideas into manual test cases and link them to the requirement.
 
-    ✅ **Run them with you** — Delegate runs the steps and stops to ask when it needs a decision from you. Don't paste passwords into the chat: keep test logins in an Orchestrator Credential asset and give Delegate the asset name.
+    ✅ **Run them with you** – Delegate runs the steps and stops to ask when it needs a decision from you. Don't paste passwords into the chat: keep test logins in an Orchestrator Credential asset and give Delegate the asset name.
 
-    ✅ **Record the results** — create test results with screenshots of failed steps, and upload them to Test Manager.
+    ✅ **Record the results** – create test results with screenshots of failed steps, and upload them to Test Manager.
 
 ## Other ways to run a manual test case
 
@@ -172,9 +172,9 @@ See <a href="https://docs.uipath.com/test-manager/automation-cloud/latest/user-g
 
     4. When it finishes, open the execution:
 
-        ✅ **Logs** — each step's result, expected behavior, and screenshots. Expand a step to see what Autopilot did.
+        ✅ **Logs** – each step's result, expected behavior, and screenshots. Expand a step to see what Autopilot did.
 
-        ✅ **Execution Log** — Autopilot's reasoning, such as how it found an element or compared a result.
+        ✅ **Execution Log** – Autopilot's reasoning, such as how it found an element or compared a result.
 
     See <a href="https://docs.uipath.com/test-manager/automation-cloud/latest/user-guide/running-autonomous-test-execution" target="_blank">Running Autonomous Test Execution</a>.
 

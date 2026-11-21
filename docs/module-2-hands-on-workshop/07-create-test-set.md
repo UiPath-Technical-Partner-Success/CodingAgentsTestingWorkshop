@@ -10,9 +10,9 @@ A **test set** groups test cases that run together. Your project already has one
     ??? info "Static or Dynamic Assignment?"
         A test set gets its test cases in one of two ways:
 
-        ✅ **Static Assignment** — pick test cases one by one. The set always runs exactly these.
+        ✅ **Static Assignment** – pick test cases one by one. The set always runs exactly these.
 
-        ✅ **Dynamic Assignment** — add labels. The set includes every test case with at least one of them.
+        ✅ **Dynamic Assignment** – add labels. The set includes every test case with at least one of them.
 
         Use **Static Assignment** in this workshop. The set is already static, and the steps below assume it.
 

@@ -135,7 +135,7 @@ Where a step differs by operating system or coding agent, the page shows tabs. P
 !!! tip "Rule for today"
     Treat everything Autopilot, Delegate and Claude Code produce as a draft. Review generated test cases before you create them, and read what an agent is about to write or change before you approve it.
 
-That's enough theory — let's build.
+That's enough theory – let's build.
 
 ---
 
