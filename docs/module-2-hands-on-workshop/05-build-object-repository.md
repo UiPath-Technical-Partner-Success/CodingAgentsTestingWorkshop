@@ -96,7 +96,7 @@ It takes about 5 minutes.
 
     === "Autopilot"
 
-        On Windows, open the **Autopilot** panel in Studio (Studio 2026.10 LTS or a current STS, 2026.0.199 or later) and paste the prompt.
+        On Windows, open the **Autopilot** panel in Studio (Studio 2026.10 LTS or a current STS, 2026.0.195 or later) and paste the prompt.
 
         On a Mac, open your `Documents/UiPath` folder in VS Code with the **UiPath Autopilot** extension and paste the prompt there. If your Studio on macOS (Preview) shows the Autopilot panel, you can use it instead. The Mac path is not yet rehearsed for this workshop – if it doesn't work, use the Claude Code tab.
 

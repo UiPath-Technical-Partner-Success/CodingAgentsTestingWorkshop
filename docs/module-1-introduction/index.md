@@ -40,15 +40,15 @@ See <a href="https://docs.uipath.com/autopilot/other/latest/user-guide/about-aut
 
 **Autopilot for Testers** is its set of testing capabilities in Test Manager and Studio. Today you'll use two **Autopilot actions** built into Test Manager, and Autopilot in Studio:
 
-✅ **Evaluate Requirement Quality** – finds gaps in requirements, such as undefined thresholds and missing edge cases, and suggests fixes
+✅ **Evaluate Requirement Quality** (<a href="https://docs.uipath.com/autopilot/other/latest/user-guide/requirement-evaluation" target="_blank">Quality-check requirements</a> in the docs) – finds gaps in requirements, such as undefined thresholds and missing edge cases, and suggests fixes
 
-✅ **Generate Test Cases** – generates test cases from requirements
+✅ **Generate Test Cases** (<a href="https://docs.uipath.com/autopilot/other/latest/user-guide/manual-test-generation" target="_blank">Generate tests for requirement</a> in the docs) – generates test cases from requirements
 
-✅ **Autopilot for Testers in Studio** – <a href="https://docs.uipath.com/autopilot/other/latest/user-guide/generate-coded-test-cases" target="_blank">turns a manual test case into an automated one</a>, low-code or coded (C#)
+✅ **Generate Test Case with Autopilot** in Studio (<a href="https://docs.uipath.com/autopilot/other/latest/user-guide/generate-low-code-automations" target="_blank">Generate low-code automations</a> in the docs) – turns a manual test case into an automated, low-code test case
 
 ![Built-in agent type](../assets/images/Agent%20type%20OOTB.png)
 
-**Autopilot for Testers can do more.** You don't use these today, but they work on any Test Manager project.
+**Autopilot for Testers can do more.** Here is the rest of the capability list on <a href="https://docs.uipath.com/autopilot/other/latest/user-guide/autopilot-for-testers" target="_blank">Autopilot for Testers</a>. You don't use these today, except the search in an optional tip in step 8.
 
 **In Test Manager**
 
@@ -56,17 +56,19 @@ See <a href="https://docs.uipath.com/autopilot/other/latest/user-guide/about-aut
 
 ✅ <a href="https://docs.uipath.com/autopilot/other/latest/user-guide/find-obsolete-tests" target="_blank">Find obsolete tests</a> – Test Cloud only
 
-✅ <a href="https://docs.uipath.com/autopilot/other/latest/user-guide/create-sap-transactions" target="_blank">Generate SAP transaction tests</a> – from Heatmap and Change Impact Analysis
+✅ <a href="https://docs.uipath.com/autopilot/other/latest/user-guide/create-sap-transactions" target="_blank">Generate tests for SAP transactions</a> – from Heatmap and Change Impact Analysis
 
-✅ <a href="https://docs.uipath.com/autopilot/other/latest/user-guide/test-result-analysis" target="_blank">Analyze test results</a> – an Execution Insights report with top failing tests, common errors and recommendations
+✅ <a href="https://docs.uipath.com/autopilot/other/latest/user-guide/test-result-analysis" target="_blank">Generate test reports</a> – an Execution Insights report with top failing tests, common errors and recommendations
 
-✅ <a href="https://docs.uipath.com/autopilot/other/latest/user-guide/search-test-manager-project" target="_blank">Search a Test Manager project</a> – ask Autopilot chat in plain language, for example "Find all test case logs which failed"
+✅ <a href="https://docs.uipath.com/autopilot/other/latest/user-guide/search-test-manager-project" target="_blank">Search Test Manager project</a> – ask Autopilot chat in plain language, for example "Find all test case logs which failed"
 
 **In Studio**
 
-✅ <a href="https://docs.uipath.com/autopilot/other/latest/user-guide/generate-coded-test-cases" target="_blank">Generate coded test cases and coded API test cases</a> – from text, code comments, an existing manual test case, or an API
+✅ <a href="https://docs.uipath.com/autopilot/other/latest/user-guide/generate-coded-automations" target="_blank">Generate coded automations</a> – coded (C#) test cases from text, code comments or an existing manual test case
 
-✅ <a href="https://docs.uipath.com/autopilot/other/latest/user-guide/refactor-coded-automations" target="_blank">Refactor and improve coded automations</a>
+✅ <a href="https://docs.uipath.com/autopilot/other/latest/user-guide/generate-coded-api-automation" target="_blank">Generate coded API automation</a> – coded test cases for an API
+
+✅ <a href="https://docs.uipath.com/autopilot/other/latest/user-guide/refactor-coded-automations" target="_blank">Refactor coded automations</a> – improve existing coded automations
 
 ✅ <a href="https://docs.uipath.com/autopilot/other/latest/user-guide/generate-synthetic-test-data" target="_blank">Generate synthetic test data</a> – select **Generate with Autopilot** when you add test data to a test case
 
@@ -101,7 +103,7 @@ In short: Delegate is an end-user desktop agent; coding agents are developer too
 |---|---|
 | 1 Import and link – project check | Coding agent: Autopilot or Claude Code |
 | 2 Evaluate requirements, 3 Generate test cases | Autopilot actions built into Test Manager |
-| 4 Run manual tests | **Delegate**; Run autonomously and Autonomous Exploration are Autopilot in Test Manager |
+| 4 Run test cases with agents | **Delegate**; Run autonomously and Autonomous Exploration are Autopilot in Test Manager |
 | 5 Studio project and Object Repository | Studio and **Delegate**, or Claude Code |
 | 6 Automate and publish | Coding agent: Autopilot or Claude Code |
 | 7 Add to the smoke test set | Test Manager in the browser, no agent |

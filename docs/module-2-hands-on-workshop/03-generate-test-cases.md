@@ -64,6 +64,6 @@ You've gone from a requirement to reviewed, linked test cases in minutes.
 
 ---
 
-[Next → 4. Run Manual Tests](04-run-manual-tests.md){: .md-button .md-button--primary}
+[Next → 4. Run Test Cases with Agents](04-run-manual-tests.md){: .md-button .md-button--primary}
 
 ---

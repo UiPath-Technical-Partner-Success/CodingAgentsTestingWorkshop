@@ -9,7 +9,7 @@ It's release night, and the release manager wants to know: **can we ship?** Run 
 
 ## Run and triage
 
-A failed test doesn't always mean a broken app: the test itself can be wrong. You made this call by hand in [4. Run Manual Tests](04-run-manual-tests.md#1-run-a-test-case). Now a coding agent runs the set and checks every result against the requirement.
+A failed test doesn't always mean a broken app: the test itself can be wrong. You made this call by hand in [4. Run Test Cases with Agents](04-run-manual-tests.md#1-run-a-test-case). Now a coding agent runs the set and checks every result against the requirement.
 
 This step uses a **coding agent** – Autopilot or Claude Code. Pick yours in the tabs; your choice is remembered on every page.
 

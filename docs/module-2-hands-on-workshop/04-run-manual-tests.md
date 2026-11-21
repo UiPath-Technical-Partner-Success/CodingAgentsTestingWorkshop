@@ -1,8 +1,8 @@
-# 4. Run Manual Tests
+# 4. Run Test Cases with Agents
 
-Run a manual test case with Delegate, and record its results in Test Manager.
+Run a manual test case with Delegate, and record its results in Test Manager. Then see the other ways to run one: yourself, or autonomously with Autopilot.
 
-## Run manual tests with Delegate
+## Run a test case with Delegate
 
 With Delegate, you can run a test case or create a new one from a business document. You review the work and decide what to save in Test Manager.
 

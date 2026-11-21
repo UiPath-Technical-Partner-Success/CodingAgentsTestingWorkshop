@@ -4,7 +4,7 @@
 
 | Symptom | Likely cause / fix |
 |---|---|
-| Delegate isn't in UiPath Assistant's top ribbon | Your Studio version may be too old. Install the latest STS version from [Prerequisites](../module-0-prerequisites/index.md#your-machine), and ask your trainer to confirm your access. On a Mac, Delegate for macOS (Preview) needs Apple silicon and macOS 14 Sonoma or later. No Delegate at all? Use the coding-agent alternatives in [4. Run Manual Tests](../module-2-hands-on-workshop/04-run-manual-tests.md). |
+| Delegate isn't in UiPath Assistant's top ribbon | Your Studio version may be too old. Install the latest STS version from [Prerequisites](../module-0-prerequisites/index.md#your-machine), and ask your trainer to confirm your access. On a Mac, Delegate for macOS (Preview) needs Apple silicon and macOS 14 Sonoma or later. No Delegate at all? Use the coding-agent alternatives in [4. Run Test Cases with Agents](../module-2-hands-on-workshop/04-run-manual-tests.md). |
 | Delegate asks for approval on every step | The approval mode is **Cautious**. Click your user name (bottom left) → **Settings** → **Security**, and switch it to **Adaptive**. Delegate still asks before high-impact actions, such as starting the run in step 8. That's expected. Still asked before every step? See <a href="https://docs.uipath.com/delegate/standalone/latest/user-guide/tasks-and-prompts-troubleshooting" target="_blank">Tasks and prompts troubleshooting</a>. |
 | Delegate can't find your project | Delegate is signed in to the wrong tenant. Ask Delegate *"Run uip login status."* to see which tenant it uses. If it's wrong, ask *"Log me in with uip login."* and sign in to the tenant from your trainer. |
 | `Authentication failed` or `401 Unauthorized` | Your `uip` sign-in has expired. Ask Delegate *"Log me in with uip login."* and sign in with your workshop account in the browser window that opens. |
@@ -16,7 +16,7 @@
 
     | Symptom | Likely cause / fix |
     |---|---|
-    | The **Autopilot** panel isn't in Studio | Your Studio is too old. You need Studio 2026.10 LTS or a current STS (2026.0.199 or later). If the version is right, ask your trainer to check that Autopilot is enabled for your tenant (an Autopilot or AI Trust Layer policy in Automation Ops). See <a href="https://docs.uipath.com/autopilot/other/latest/user-guide/enable-disable-functionality" target="_blank">Enabling/disabling Autopilot</a>. |
+    | The **Autopilot** panel isn't in Studio | Your Studio is too old. You need Studio 2026.10 LTS or a current STS (2026.0.195 or later). If the version is right, ask your trainer to check that Autopilot is enabled for your tenant (an Autopilot or AI Trust Layer policy in Automation Ops). See <a href="https://docs.uipath.com/autopilot/other/latest/user-guide/enable-disable-functionality" target="_blank">Enabling/disabling Autopilot</a>. |
     | On a Mac, there's no Autopilot in Studio | Use the **UiPath Autopilot** extension in VS Code 1.120.0 or later. Open your project folder and trust the workspace when VS Code asks. Still stuck? Use the Claude Code tab. |
     | Autopilot Search counts don't match Test Manager | Autopilot Search can miscount. Check the numbers in **Execution**. |
 

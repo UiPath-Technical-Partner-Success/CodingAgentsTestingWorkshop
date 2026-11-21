@@ -25,7 +25,7 @@ Pick your operating system. Your choice is remembered on every page.
     !!! warning "Install the latest installer, even if you have Studio"
         Delegate comes with the latest **Short Term Support (STS)** installer. Install it even if you already have Studio. In the installer, select **Studio** and **Assistant, Delegate & Cartographer**.
 
-        For Autopilot in Studio, you need Studio 2026.10 LTS or a current STS (2026.0.199 or later).
+        For Autopilot in Studio, you need Studio 2026.10 LTS or a current STS (2026.0.195 or later).
 
     !!! tip "Used Delegate during Preview?"
         Uninstall the Preview build and install the current STS installer. In Delegate, open **Settings → General → About** and check that the version starts with `v26`. See <a href="https://docs.uipath.com/delegate/standalone/latest/user-guide/moving-from-preview-to-ga-installer" target="_blank">Moving from the Preview installer to the GA installer</a>.
@@ -303,7 +303,7 @@ uip login status
 
     === "Windows"
 
-        Autopilot is built into Studio 2026.10 LTS and current STS versions (2026.0.199 or later). Open the **Autopilot** panel in Studio. It installs the UiPath skills and offers to install or update the CLI tools: accept. See <a href="https://docs.uipath.com/autopilot/other/latest/user-guide/autopilot-in-studio-desktop" target="_blank">Autopilot in Studio Desktop</a>.
+        Autopilot is built into Studio 2026.10 LTS and current STS versions (2026.0.195 or later). Open the **Autopilot** panel in Studio. It installs the UiPath skills and offers to install or update the CLI tools: accept. See <a href="https://docs.uipath.com/autopilot/other/latest/user-guide/autopilot-in-studio-desktop" target="_blank">Autopilot in Studio Desktop</a>.
 
     === "macOS"
 

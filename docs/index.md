@@ -37,7 +37,7 @@ You'll walk through the full testing lifecycle in UiPath Test Cloud, with AI at 
     <div class="wf-steps">
       <a class="wf-step" href="module-2-hands-on-workshop/02-evaluate-requirements/"><span class="wf-num">2</span>Evaluate requirements</a>
       <a class="wf-step" href="module-2-hands-on-workshop/03-generate-test-cases/"><span class="wf-num">3</span>Generate test cases</a>
-      <a class="wf-step" href="module-2-hands-on-workshop/04-run-manual-tests/"><span class="wf-num">4</span>Run manual tests</a>
+      <a class="wf-step" href="module-2-hands-on-workshop/04-run-manual-tests/"><span class="wf-num">4</span>Run test cases</a>
     </div>
     <div class="wf-phase-foot"><strong>Autopilot for Testers</strong>, plus <strong>Delegate</strong> for manual runs</div>
   </div>
@@ -75,7 +75,7 @@ By the end of this workshop, you will:
 
 ✅ Use the Autopilot actions in Test Manager to evaluate requirements and generate test cases
 
-✅ Use Delegate, the desktop agent, to run manual tests, build the Object Repository, reproduce a defect, and write a go/no-go release report
+✅ Use Delegate, the desktop agent, to run a manual test case, build the Object Repository, reproduce a defect, and write a go/no-go release report
 
 ✅ Use a coding agent – Autopilot or Claude Code – to turn manual test cases into automations, publish them, run them from Test Manager in **UiBank Smoke Test Set**, and triage failures against the requirement
 

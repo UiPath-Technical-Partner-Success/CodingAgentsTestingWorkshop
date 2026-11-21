@@ -9,29 +9,23 @@ Turn your manual test cases into automations with a coding agent – **Autopilot
 
 This step uses a **coding agent** – Autopilot or Claude Code. Pick yours in the tabs; your choice is remembered on every page.
 
-With Autopilot on Windows, you switch between **two tools** on this page. Each step is labeled with the one it uses:
+With Autopilot on Windows, you work in **Studio Desktop** the whole time:
 
 | Tool | What you do |
 |---|---|
-| <span class="tool-badge tool-badge--studio">Studio Desktop</span> | Work in Studio Desktop yourself, with **Autopilot for Testers** |
-| <span class="tool-badge tool-badge--delegate">Delegate</span> | Paste the prompt in Delegate, then wait and watch it work in Studio |
+| <span class="tool-badge tool-badge--studio">Studio Desktop</span> | Generate each test case with **Autopilot for Testers**, then review it and publish with the **Autopilot** panel |
+| <span class="tool-badge tool-badge--delegate">Delegate</span> | Optional: Delegate can do the review and the publish instead. Look for the **Prefer Delegate?** tips |
 
-With Claude Code, you paste every prompt in Claude Code.
+With Autopilot on a Mac, you use the Autopilot chat in VS Code. With Claude Code, you paste every prompt in Claude Code.
 
 Click a step to jump to it.
 
 <div class="flow">
-  <div class="flow-part flow-part--studio" style="--steps: 1">
+  <div class="flow-part flow-part--studio" style="--steps: 3">
     <span class="flow-part-label">Studio Desktop</span>
     <div class="flow-part-steps">
       <a class="flow-step" href="#automate-the-test-cases">Automate the test cases with Autopilot</a>
-    </div>
-  </div>
-  <span class="flow-arrow"></span>
-  <div class="flow-part flow-part--delegate" style="--steps: 2">
-    <span class="flow-part-label">Delegate</span>
-    <div class="flow-part-steps">
-      <a class="flow-step" href="#automate-the-test-cases">Review each test case</a>
+      <a class="flow-step" href="#automate-the-test-cases">Review each test case with Autopilot</a>
       <a class="flow-step" href="#publish-the-test-cases">Publish the test cases</a>
     </div>
   </div>
@@ -75,21 +69,21 @@ Review and fix the automated test case <TEST_CASE_KEY> in the <YOUR_NAME>_UiBank
 
             Autopilot matches each step's target to an Object Repository element by name, so the names in the manual steps must be the ones captured in [5. Set Up Studio and Build the Object Repository](05-build-object-repository.md#build-the-object-repository). If a step doesn't map, fix the name in the test case and generate again.
 
-        2. <span class="tool-badge tool-badge--delegate">Delegate</span> Review and fix it with Delegate.
+        2. Review and fix it with the **Autopilot** panel.
 
-            !!! warning "Save and close first"
-                **Save** the test case in Studio, then **close its tab**. Until you save, the file doesn't exist, so Delegate can't find it. If the tab stays open, Studio can save over Delegate's changes.
+            **Save** the test case first: until you save, the file doesn't exist. Open the **Autopilot** panel in Studio (2026.10 LTS or a current STS, 2026.0.195 or later) and paste the review prompt above. Autopilot edits the workflow in place. See <a href="https://docs.uipath.com/autopilot/other/latest/user-guide/autopilot-in-studio-desktop" target="_blank">Autopilot in Studio Desktop</a>.
 
-            Paste the review prompt above in Delegate.
+            The Autopilot panel isn't yet rehearsed for this review. If it doesn't work, use Delegate:
 
-            ??? tip "Optional: use the Autopilot coding agent in Studio instead of Delegate"
-                On Studio 2026.10 LTS or a current STS (2026.0.199 or later), open the **Autopilot** panel, ask it to review and fix the same test case, and paste the review prompt above, from "Ensure all UI activities…" to the last line. Autopilot can automate manual test cases from Test Manager and edit them in place. Save the test case first, and read every change before you accept it.
+            ??? tip "Prefer Delegate?"
+                Delegate is the path rehearsed for this workshop.
 
-                Keep Delegate for the Object Repository in step 5 and for publishing below.
+                !!! warning "Save and close first"
+                    **Save** the test case in Studio, then **close its tab**. Until you save, the file doesn't exist, so Delegate can't find it. If the tab stays open, Studio can save over Delegate's changes.
 
-                See <a href="https://docs.uipath.com/autopilot/other/latest/user-guide/autopilot-in-studio-desktop" target="_blank">Autopilot in Studio Desktop</a>.
+                Paste the review prompt above in Delegate. It takes about 3 minutes.
 
-        3. When Delegate finishes, in about 3 minutes, open the test case again and check the changes.
+        3. When Autopilot (or Delegate) finishes, open the test case again and check the changes.
         4. **Run** it locally. It takes under a minute. Don't use your mouse or keyboard until the run finishes. On the robot, in steps 7 and 8, each test case takes seconds.
         5. Repeat steps 1–4 for each of your other chosen test cases.
 
@@ -131,7 +125,7 @@ Review and fix the automated test case <TEST_CASE_KEY> in the <YOUR_NAME>_UiBank
 
 ## Publish the test cases
 
-<span class="tool-badge tool-badge--delegate">Delegate</span>
+<span class="tool-badge tool-badge--studio">Studio Desktop</span>
 
 Replace `<TEST_CASE_NAME_1>`, `<TEST_CASE_NAME_2>`, `<TEST_CASE_NAME_3>` with the names of the test cases you automated (add more if you have them), and `<YOUR_NAME>` with your name:
 
@@ -141,7 +135,12 @@ Set the test cases <TEST_CASE_NAME_1>, <TEST_CASE_NAME_2>, <TEST_CASE_NAME_3> in
 
 === "Autopilot"
 
-    On Windows, paste the prompt in Delegate, as for the review, or do it by hand in Studio (tip below). It takes about 3 minutes. On a Mac, paste it in the Autopilot chat you used above. The publish then runs from the command line and may not link the test cases: check the **Package Name** column below and, if it's empty, link each one in Test Manager (see **Automated, but the Package Name column is empty?** below).
+    On Windows, paste the prompt in the **Autopilot** panel, or do it by hand in Studio (tip below). On a Mac, paste it in the Autopilot chat you used above.
+
+    Autopilot can publish from the command line, and a publish from the command line may not link the test cases: check the **Package Name** column below and, if it's empty, link each one (see **Automated, but the Package Name column is empty?** below). Publishing with the Autopilot panel isn't yet rehearsed for this workshop.
+
+    ??? tip "Prefer Delegate?"
+        On Windows, paste the prompt in Delegate, as for the review. It takes about 3 minutes. This is the path rehearsed for this workshop.
 
 === "Claude Code"
 
