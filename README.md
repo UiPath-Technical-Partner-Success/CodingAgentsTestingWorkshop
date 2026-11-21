@@ -10,7 +10,7 @@ Learners work on a ready-made **UiBank** Test Manager project. In eight hands-on
 |---|---|---|---|
 | **1 · Set up** | Prerequisites, 1 | Configure the Orchestrator folder and robot (trainer-led), import the project, and link it to the folder | Orchestrator, Test Manager |
 | **2 · Plan & test** | 2–4 | Evaluate the requirement, generate test cases, and run one manually | Test Manager, Autopilot for Testers, Delegate |
-| **3 · Build** | 5–6 | Connect Studio, build the Object Repository, automate the test cases, and publish | Studio, Autopilot, Delegate |
+| **3 · Build** | 5–6 | Connect Studio, build the Object Repository, automate the test cases, and publish | Studio, Autopilot or Claude Code, Delegate |
 | **4 · Run & report** | 7–8 | Add test cases to the smoke test set, run it, triage the failure against the requirement, and get a go/no-go PDF with evidence | Test Manager, Delegate |
 
 By the end, learners have:
@@ -21,7 +21,7 @@ By the end, learners have:
 
 ✅ Turned manual test cases into automations with **Autopilot for Testers** in Studio
 
-**Delegate** is the agent throughout.
+**Delegate** is the desktop agent: it runs the manual tests, reproduces the defect and writes the report. **Autopilot** is the default coding agent for building and running the automation; **Claude Code** is the alternative. The guide covers Windows and macOS.
 
 ## Trainer setup
 
@@ -31,7 +31,7 @@ The trainer checklist is in the guide, so trainers who only get the site URL can
 
 | Folder | Section |
 |---|---|
-| [`docs/module-0-prerequisites/`](docs/module-0-prerequisites/) | Accounts, access, and installing Studio and Delegate |
+| [`docs/module-0-prerequisites/`](docs/module-0-prerequisites/) | Accounts, access, and installing Studio, Delegate and the `uip` CLI on Windows or macOS |
 | [`docs/module-1-introduction/`](docs/module-1-introduction/) | A short tour of Test Cloud, Test Manager, and the agents |
 | [`docs/module-2-hands-on-workshop/`](docs/module-2-hands-on-workshop/) | The eight hands-on steps |
 | [`docs/module-3-troubleshooting-and-next-steps/`](docs/module-3-troubleshooting-and-next-steps/) | More prompts to try, and fixes for common problems |
